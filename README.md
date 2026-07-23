@@ -1,0 +1,100 @@
+📁 File Manager – Simple, Fast & Powerful
+
+File Manager is a smart and easy-to-use file management app that helps you browse, organize, view, and manage files on your Android device efficiently.
+
+With built-in viewers for audio, video, images, and text, you can open your files instantly without installing extra apps.
+
+⭐ Key Features
+📂 Complete File Management
+
+Browse internal storage and supported external storage
+
+Create, rename, copy, move, and delete files & folders
+
+Search files quickly by name
+
+View file details such as size and last modified date
+
+🎵 Built-in Audio Player
+
+Play music files directly inside the app
+
+Supports common audio formats
+
+Simple and lightweight playback experience
+
+🎬 Built-in Video Player
+
+Watch videos without leaving the app
+
+Smooth playback for common video formats
+
+Easy full-screen viewing
+
+🖼️ Built-in Image Viewer
+
+View photos and images instantly
+
+Zoom and swipe through images
+
+Clean and distraction-free interface
+
+📄 Built-in Text Viewer
+
+Open and read text files easily
+
+Useful for notes, logs, and configuration files
+
+Supports large text files smoothly
+
+🗂️ Smart Categories
+
+Quickly access files by category:
+
+Images
+
+Videos
+
+Audio
+
+Documents
+
+Downloads
+
+APK files
+
+Compressed files
+
+Other files
+
+No need to search manually — everything is neatly organized.
+
+⚡ Fast, Lightweight & Offline
+
+Optimized for speed and low memory usage
+
+Works completely offline for file management
+
+No account or login required
+
+🔒 Privacy Friendly
+
+Your files stay on your device
+
+No personal data is collected by the app
+
+Only storage permission is used for file access
+
+Ads are shown using Google AdMob (handled by Google)
+
+🎯 Why Choose This File Manager?
+
+Simple and clean design
+
+All-in-one file manager with built-in viewers
+
+No unnecessary features
+
+Perfect for everyday file management
+
+📥 Download now and take full control of your files with ease!
