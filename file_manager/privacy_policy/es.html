@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - File Manager</title>
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --primary-dark: #1557b0;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border: #dadce0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.2rem;
+            color: var(--primary);
+        }
+        .header p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            padding: 2.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .lang-switch a {
+            text-decoration: none;
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background-color: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+        }
+        h2 {
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.4rem;
+            margin-top: 2rem;
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-top: 1.2rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            background-color: var(--card-bg);
+        }
+        a {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Política de Privacidad</h1>
+    <p>File Manager &bull; Fecha de entrada en vigor: 16 de agosto de 2026</p>
+</div>
+
+<div class="container">
+    <div class="lang-switch">
+        <a href="en.html">English</a>
+        <a href="es.html" class="active">Español</a>
+        <a href="pt.html">Português</a>
+        <a href="ru.html">Русский</a>
+        <a href="hi.html">हिन्दी</a>
+        <a href="id.html">Bahasa Indonesia</a>
+    </div>
+
+    <div class="card">
+        <h2>1. Introducción</h2>
+        <p>Esta Política de Privacidad se aplica a la aplicación móvil <strong>File Manager</strong> ("Aplicación", "App", "Servicio"), desarrollada por <strong>Mohan RKS</strong> ("Desarrollador", "Nosotros", "Nuestro"). Respetamos su privacidad y nos comprometemos a protegerla mediante el cumplimiento de esta política. Esta política describe los tipos de información que podemos recopilar de usted o que usted puede proporcionar al descargar, instalar, registrarse, acceder o utilizar la Aplicación, y nuestras prácticas para recopilar, utilizar, mantener, proteger y divulgar dicha información.</p>
+        <p>Lea atentamente esta política para comprender nuestras políticas y prácticas relativas a su información y cómo la trataremos. Si no está de acuerdo con nuestras políticas y prácticas, su opción es no descargar, instalar ni utilizar esta Aplicación. Al descargar, instalar o utilizar esta Aplicación, usted acepta esta Política de Privacidad.</p>
+
+        <h2>2. Arquitectura de Manejo de Datos y Política de Almacenamiento Local</h2>
+        <p>File Manager está diseñado principalmente como una herramienta independiente sin conexión dedicada a la gestión del almacenamiento local, navegación de archivos, archivado, reproducción de medios, edición de documentos y seguridad biométrica de archivos. Las funciones principales de la Aplicación operan localmente en su dispositivo cliente.</p>
+        <ul>
+            <li><strong>Datos de Archivos Locales:</strong> Toda la indexación de archivos, creación de metadatos de directorios, generación de miniaturas, renderizado de medios, manipulación de archivos comprimidos (ZIP, TAR, RAR, 7Z) y edición de código se realizan localmente en su dispositivo. No transferimos, duplicamos ni respaldamos sus archivos personales, fotos, videos, audios o documentos en servidores externos en la nube operados por nosotros.</li>
+            <li><strong>Credenciales Biométricas y Encriptación:</strong> La autenticación de la carpeta segura se basa en las API biométricas del sistema Android (Autenticación Biométrica del Sistema) y primitivas criptográficas locales. Sus datos biométricos (huellas dactilares, métricas faciales) son procesados exclusivamente por el enclave seguro / entorno de ejecución confiable de su dispositivo. Nunca accedemos, almacenamos ni transmitimos sus identificadores biométricos.</li>
+            <li><strong>Base de Datos de la Aplicación:</strong> El estado local de la aplicación, etiquetas, categorización personalizada, favoritos y configuraciones se almacenan localmente en una base de datos SQLite aislada a través del motor Base de Datos Local SQLite en su dispositivo.</li>
+        </ul>
+
+        <h2>3. Permisos del Dispositivo y Desglose de Propósitos</h2>
+        <p>Para proporcionar una funcionalidad completa de navegación y ejecución de archivos, la Aplicación solicita permisos de tiempo de ejecución y del sistema. A continuación se detalla cómo se utiliza cada permiso:</p>
+        <ul>
+            <li><strong>Gestión de Almacenamiento Externo (MANAGE_EXTERNAL_STORAGE) / Lectura de Almacenamiento Externo (READ_EXTERNAL_STORAGE) / Escritura en Almacenamiento Externo (WRITE_EXTERNAL_STORAGE):</strong> Otorgado para permitir operaciones completas de archivos en el almacenamiento compartido del dispositivo, incluyendo crear, renombrar, eliminar, copiar, mover, archivar y editar documentos y archivos multimedia.</li>
+            <li><strong>Lectura de Imágenes (READ_MEDIA_IMAGES) / Lectura de Videos (READ_MEDIA_VIDEO) / Lectura de Audio (READ_MEDIA_AUDIO):</strong> Requerido en Android 13+ para filtrar, organizar, generar miniaturas y reproducir archivos multimedia almacenados en el almacenamiento local de su dispositivo.</li>
+            <li><strong>Cámara (CAMERA):</strong> Utilizado únicamente si utiliza el escáner de documentos o las funciones integradas de captura de cámara dentro de la Aplicación para tomar fotos directamente en carpetas de destino específicas.</li>
+            <li><strong>Uso de Biometría (USE_BIOMETRIC) / Uso de Huella Dactilar (USE_FINGERPRINT):</strong> Requerido para autenticar la identidad del usuario antes de desbloquear carpetas protegidas u ocultas dentro de la Aplicación.</li>
+            <li><strong>Consulta de Paquetes (QUERY_ALL_PACKAGES) / Solicitud de Eliminación de Paquetes (REQUEST_DELETE_PACKAGES) / Estadísticas de Uso de Aplicaciones:</strong> Utilizado para las utilidades del administrador de aplicaciones, lo que le permite ver el uso de almacenamiento de las aplicaciones instaladas, respaldar archivos APK o iniciar la desinstalación de paquetes previa solicitud explícita.</li>
+            <li><strong>Ubicación Precisa (ACCESS_FINE_LOCATION) / Ubicación Aproximada (ACCESS_COARSE_LOCATION) / Dispositivos Wi-Fi Cercanos (NEARBY_WIFI_DEVICES) / Estado de Wi-Fi (ACCESS_WIFI_STATE) / Cambio de Estado de Wi-Fi (CHANGE_WIFI_STATE) / Cambio de Estado de Red (CHANGE_NETWORK_STATE):</strong> Solicitado exclusivamente para permitir transferencias de archivos directas punto a punto de alta velocidad a través de Conexión Wi-Fi Directa o redes de punto de acceso Wi-Fi local. El sistema operativo Android requiere los servicios de ubicación para buscar dispositivos Wi-Fi cercanos. Los datos de ubicación nunca se registran, almacenan ni transmiten a ningún servidor.</li>
+            <li><strong>Envío de Notificaciones (POST_NOTIFICATIONS) / Servicio en Primer Plano (FOREGROUND_SERVICE):</strong> Utilizado para mostrar actualizaciones de estado persistentes durante operaciones en segundo plano, tales como transferencias de archivos en curso, compresión/extracción por lotes o tareas de limpieza de almacenamiento.</li>
+        </ul>
+
+        <h2>4. Publicidad de Terceros y Recopilación de Datos Analíticos</h2>
+        <p>La Aplicación integra <strong>Google AdMob</strong> para mostrar anuncios. Si bien no recopilamos datos personales directamente, Google AdMob puede recopilar y procesar ciertos datos de telemetría automáticamente a través del SDK de Google Mobile Ads para personalización de anuncios, análisis, informes y prevención de fraudes.</p>
+        <h3>Tipos de Datos Recopilados por Google AdMob:</h3>
+        <ul>
+            <li><strong>Identificadores de Dispositivo:</strong> Identificador de publicidad (por ejemplo, Google AAID), dirección IP, modelo de hardware, versión del sistema operativo e idioma del sistema.</li>
+            <li><strong>Datos de Uso y Rendimiento de la Aplicación:</strong> Registros de interacción con anuncios, métricas de impresiones, seguimiento de clics, informes de fallos y diagnósticos de la aplicación.</li>
+            <li><strong>Datos de Ubicación Aproximada:</strong> Ubicación no precisa inferida a partir de la dirección IP para publicidad orientada geográficamente.</li>
+        </ul>
+        <p>Para obtener información más detallada sobre las prácticas de tratamiento de datos de Google, consulte:</p>
+        <ul>
+            <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Cómo utiliza Google la información de sitios web o aplicaciones que utilizan nuestros servicios</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidad y Términos de Google</a></li>
+        </ul>
+
+        <h2>5. Protección de Datos del Usuario y Derechos Regulatorios Globales</h2>
+        <p>Dependiendo de su jurisdicción, usted posee derechos legales específicos sobre su información personal según las leyes globales de privacidad aplicables, incluido el Reglamento General de Protección de Datos de la Unión Europea, la Ley de Privacidad del Consumidor de California, la Ley General de Protección de Datos de Brasil y la Ley de Protección de Datos Personales Digitales de la India:</p>
+        <ul>
+            <li><strong>Derecho de Acceso y Control:</strong> Dado que los datos de sus archivos permanecen exclusivamente en su dispositivo local, usted mantiene el control total del 100% sobre sus datos. Puede inspeccionar, modificar, exportar o eliminar cualquier archivo en cualquier momento directamente a través de la Aplicación o del explorador de archivos del sistema.</li>
+            <li><strong>Derecho a Excluirse de Anuncios Personalizados:</strong> Puede restablecer o desactivar su ID de Publicidad en cualquier momento a través de la configuración de su dispositivo (Vaya a <em>Ajustes &gt; Google &gt; Anuncios &gt; Eliminar ID de publicidad</em> o <em>Inhabilitar Personalización de Anuncios</em>).</li>
+            <li><strong>Retención y Eliminación de Datos:</strong> Al desinstalar la Aplicación, se eliminan de forma permanente todos los registros de la base de datos local aislada, las cachés de la aplicación y los ajustes de configuración almacenados en su dispositivo. Los archivos creados en el almacenamiento compartido general permanecen bajo el control del usuario.</li>
+        </ul>
+
+        <h2>6. Protección de la Privacidad Infantil en Línea</h2>
+        <p>Nuestra Aplicación no está dirigida a niños menores de 13 años (o menores de 16 años en ciertas jurisdicciones europeas). No solicitamos ni recopilamos a sabiendas datos personales de menores. Google AdMob está configurado para cumplir con COPPA y los marcos pertinentes de seguridad infantil. Si tomamos conocimiento de que se han recopilado datos personales de un menor sin el consentimiento verificable de los padres, tomaremos medidas inmediatas para eliminar o restringir dicha información.</p>
+
+        <h2>7. Medidas de Seguridad de los Datos</h2>
+        <p>Aplicamos prácticas de seguridad que cumplen con los estándares de la industria. El almacenamiento de la aplicación local y las conexiones a la base de datos están protegidos mediante el aislamiento de control de acceso estándar de la plataforma. Las acciones confidenciales, como el acceso a bóvedas de almacenamiento protegidas, requieren verificación biométrica respaldada por hardware. Sin embargo, ningún método de almacenamiento electrónico ni de transmisión a través de redes inalámbricas es 100% seguro; instamos a los usuarios a mantener contraseñas seguras y el cifrado activado en sus dispositivos.</p>
+
+        <h2>8. Transferencias Internacionales de Datos</h2>
+        <p>Dado que las funciones principales de la aplicación operan sin conexión, nosotros no transferimos ningún contenido de archivos a través de fronteras. Los datos de telemetría del SDK de AdMob pueden procesarse en servidores ubicados en los Estados Unidos u otros países donde Google opera infraestructura, con sujeción a cláusulas contractuales estándar y rigurosos marcos de privacidad globales.</p>
+
+        <h2>9. Modificaciones y Actualizaciones de la Política</h2>
+        <p>Nos reservamos el derecho de modificar o actualizar esta Política de Privacidad en cualquier momento. Cualquier cambio se publicará directamente en esta página con una "Fecha de entrada en vigor" actualizada. Recomendamos a los usuarios que revisen periódicamente esta política para mantenerse informados sobre cómo protegemos su privacidad.</p>
+
+        <h2>10. Contacto y Consultas Legales</h2>
+        <p>Si tiene alguna pregunta, inquietud o consulta legal formal sobre esta Política de Privacidad o nuestras prácticas de privacidad, comuníquese con nosotros a:</p>
+        <p>
+            <strong>Desarrollador:</strong> Mohan RKS<br>
+            <strong>Correo Electrónico de Soporte Oficial:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
+            <strong>Repositorio de GitHub:</strong> <a href="https://github.com/Mohan2123/Mohan2123.github.io" target="_blank" rel="noopener noreferrer">Mohan2123.github.io</a>
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 Mohan RKS. Todos los derechos reservados. | <a href="../terms_of_service/es.html">Términos de Servicio</a>
+</div>
+
+</body>
+</html>

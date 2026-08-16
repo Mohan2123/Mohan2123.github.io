@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - File Manager</title>
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --primary-dark: #1557b0;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border: #dadce0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.2rem;
+            color: var(--primary);
+        }
+        .header p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            padding: 2.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .lang-switch a {
+            text-decoration: none;
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background-color: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+        }
+        h2 {
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.4rem;
+            margin-top: 2rem;
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-top: 1.2rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            background-color: var(--card-bg);
+        }
+        a {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Privacy Policy</h1>
+    <p>File Manager &bull; Effective Date: August 16, 2026</p>
+</div>
+
+<div class="container">
+    <div class="lang-switch">
+        <a href="en.html" class="active">English</a>
+        <a href="es.html">Español</a>
+        <a href="pt.html">Português (Brasil)</a>
+        <a href="ru.html">Русский</a>
+        <a href="hi.html">हिन्दी</a>
+        <a href="id.html">Bahasa Indonesia</a>
+    </div>
+
+    <div class="card">
+        <h2>1. Introduction</h2>
+        <p>This Privacy Policy applies to the <strong>File Manager</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan RKS</strong> ("Developer", "We", "Us", "Our"). We respect your privacy and are committed to protecting it through compliance with this policy. This policy describes the types of information we may collect from you or that you may provide when you download, install, register with, access, or use the Application, and our practices for collecting, using, maintaining, protecting, and disclosing that information.</p>
+        <p>Please read this policy carefully to understand our policies and practices regarding your information and how we will treat it. If you do not agree with our policies and practices, your choice is not to download, install, or use this Application. By downloading, installing, or using this Application, you agree to this Privacy Policy.</p>
+
+        <h2>2. Data Handling Architecture & Local Storage Policy</h2>
+        <p>File Manager is primarily designed as an offline-first tool dedicated to local storage management, file browsing, archivity, media playback, document editing, and biometric file security. The core features of the Application operate locally on your client device.</p>
+        <ul>
+            <li><strong>Local File Data:</strong> All file indexing, directory metadata creation, thumbnail generation, media rendering, archive manipulation (ZIP, TAR, RAR, 7Z), and code editing occur locally on your device. We do not transfer, mirror, or back up your personal files, photos, videos, audio, or documents to external cloud servers operated by us.</li>
+            <li><strong>Biometric Credentials & Encryption:</strong> Secure folder authentication relies on Android System Biometric APIs (BiometricPrompt / FingerprintManager) and local cryptographic primitives. Your biometric data (fingerprints, facial metrics) is processed exclusively by your device's Secure Enclave / Trusted Execution Environment (TEE). We never access, store, or transmit your biometric identifiers.</li>
+            <li><strong>App Database:</strong> Local app state, tags, custom categorization, favorites, and settings are stored locally in a sandboxed SQLite database via SQLite3 / Drift engine on your device.</li>
+        </ul>
+
+        <h2>3. Device Permissions & Purpose Breakdown</h2>
+        <p>To provide full file navigation and execution functionality, the Application requests runtime and system permissions. Below is a detailed account of how each permission is utilized:</p>
+        <ul>
+            <li><strong>MANAGE_EXTERNAL_STORAGE / READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Granted to allow full file operations across shared device storage, including creating, renaming, deleting, copying, moving, archiving, and editing documents and media files.</li>
+            <li><strong>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO / READ_MEDIA_AUDIO:</strong> Required on Android 13+ to filter, organize, render thumbnails, and play media files stored on your local device storage.</li>
+            <li><strong>CAMERA:</strong> Utilized solely if you use the document scanner or built-in camera capture features within the Application to capture photos directly into specific target folders.</li>
+            <li><strong>USE_BIOMETRIC / USE_FINGERPRINT:</strong> Required to authenticate user identity before unlocking protected or hidden folders within the Application.</li>
+            <li><strong>QUERY_ALL_PACKAGES / REQUEST_DELETE_PACKAGES / PACKAGE_USAGE_STATS:</strong> Used for app manager utilities, allowing you to view installed application storage usage, back up APK files, or trigger package uninstallation upon explicit request.</li>
+            <li><strong>ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION / NEARBY_WIFI_DEVICES / ACCESS_WIFI_STATE / CHANGE_WIFI_STATE / CHANGE_NETWORK_STATE:</strong> Requested exclusively to enable high-speed direct peer-to-peer (P2P) file transfers over Wi-Fi Direct or local Wi-Fi Hotspot networks. Location services are required by the Android operating system to scan for nearby Wi-Fi devices. Location data is never recorded, stored, or transmitted to any server.</li>
+            <li><strong>POST_NOTIFICATIONS / FOREGROUND_SERVICE:</strong> Used to display persistent status updates during background operations, such as ongoing file transfers, batch compression/extraction, or storage cleanup tasks.</li>
+        </ul>
+
+        <h2>4. Third-Party Advertising & Analytical Data Collection</h2>
+        <p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. While we do not collect personal data directly, Google AdMob may collect and process certain telemetry data automatically via Google Mobile Ads SDK for ad personalization, analytics, reporting, and fraud prevention.</p>
+        <h3>Types of Data Collected by Google AdMob:</h3>
+        <ul>
+            <li><strong>Device Identifiers:</strong> Advertising ID (e.g., Google AAID), IP address, hardware model, operating system version, and system language.</li>
+            <li><strong>App Usage & Performance Data:</strong> Ad interaction logs, impression metrics, click tracking, crash reports, and app diagnostics.</li>
+            <li><strong>Approximate Location Data:</strong> Non-precise location inferred from IP address for geo-targeted advertising.</li>
+        </ul>
+        <p>For more detailed information regarding Google's data handling practices, please refer to:</p>
+        <ul>
+            <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy & Terms Policy</a></li>
+        </ul>
+
+        <h2>5. User Data Protection & Global Regulatory Rights</h2>
+        <p>Depending on your jurisdiction, you possess specific statutory rights regarding your personal information under applicable global privacy laws, including the European Union General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA/CPRA), the Brazilian General Data Protection Law (LGPD), and the Indian Digital Personal Data Protection Act (DPDP):</p>
+        <ul>
+            <li><strong>Right of Access & Control:</strong> Because your file data remains exclusively on your local device, you maintain 100% control over your data. You can inspect, modify, export, or delete any file at any time directly through the Application or system file browser.</li>
+            <li><strong>Right to Opt-Out of Personalized Ads:</strong> You can reset or disable your Advertising ID at any time via your device settings (Go to <em>Settings &gt; Google &gt; Ads &gt; Delete Advertising ID</em> or <em>Opt out of Ads Personalization</em>).</li>
+            <li><strong>Data Retention & Deletion:</strong> Uninstalling the Application permanently removes all sandboxed local database records, app caches, and stored configuration settings from your device. Files created in general shared storage remain under user control.</li>
+        </ul>
+
+        <h2>6. Children's Online Privacy Protection (COPPA / GDPR Compliance)</h2>
+        <p>Our Application is not directed toward children under the age of 13 (or under 16 in certain European jurisdictions). We do not knowingly solicit or collect personal data from children. Google AdMob is configured to comply with COPPA and relevant child safety frameworks. If we learn that personal data of a minor has been collected without verifiable parental consent, we will take immediate steps to remove or restrict such information.</p>
+
+        <h2>7. Data Security Safeguards</h2>
+        <p>We enforce industry-standard security practices. Local application storage and database connections are secured using platform-standard access control sandboxing. Sensitive actions, such as access to protected storage vaults, require hardware-backed biometric verification. However, no electronic storage method or transmission over wireless networks is 100% secure; we urge users to maintain strong device passcodes and device encryption.</p>
+
+        <h2>8. International Data Transfers</h2>
+        <p>Since core app functions operate offline, no file content is transferred across borders by us. AdMob SDK telemetry data may be processed on servers located in the United States or other countries where Google operates infrastructure, subject to standard contractual clauses and rigorous global privacy frameworks.</p>
+
+        <h2>9. Amendments & Policy Updates</h2>
+        <p>We reserve the right to modify or update this Privacy Policy at any time. Any changes will be published directly on this page with an updated "Effective Date". We encourage users to review this policy periodically to stay informed about how we safeguard privacy.</p>
+
+        <h2>10. Contact Us & Legal Inquiries</h2>
+        <p>If you have any questions, concerns, or formal legal inquiries regarding this Privacy Policy or our privacy practices, please contact us at:</p>
+        <p>
+            <strong>Developer:</strong> Mohan RKS<br>
+            <strong>Official Support Email:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
+            <strong>GitHub Repository:</strong> <a href="https://github.com/Mohan2123/Mohan2123.github.io" target="_blank" rel="noopener noreferrer">Mohan2123.github.io</a>
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 Mohan RKS. All rights reserved. | <a href="../terms_of_service/en.html">Terms of Service</a>
+</div>
+
+</body>
+</html>
