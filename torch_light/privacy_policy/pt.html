@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Torch Light</title>
+    <style>
+        :root {
+            --primary: #f59e0b;
+            --primary-dark: #d97706;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border: #dadce0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.2rem;
+            color: var(--primary-dark);
+        }
+        .header p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            padding: 2.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .lang-switch a {
+            text-decoration: none;
+            color: var(--primary-dark);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background-color: var(--primary-dark);
+            color: #ffffff;
+            border-color: var(--primary-dark);
+        }
+        h2 {
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.4rem;
+            margin-top: 2rem;
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-top: 1.2rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            background-color: var(--card-bg);
+        }
+        a {
+            color: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Política de Privacidade</h1>
+    <p>Torch Light &bull; Data de Vigência: 17 de Agosto de 2026</p>
+</div>
+
+<div class="container">
+    <div class="lang-switch">
+        <a href="en.html">English</a>
+        <a href="es.html">Español</a>
+        <a href="pt.html" class="active">Português (Brasil)</a>
+        <a href="ru.html">Русский</a>
+        <a href="hi.html">हिन्दी</a>
+        <a href="id.html">Bahasa Indonesia</a>
+    </div>
+
+    <div class="card">
+        <h2>1. Arquitetura Focada em Privacidade</h2>
+        <p>Esta Política de Privacidade aplica-se ao aplicativo móvel <strong>Torch Light</strong> ("Aplicativo", "Serviço"), desenvolvido por <strong>Mohan RKS</strong> ("Desenvolvedor", "Nós"). O Torch Light é desenvolvido com foco total na privacidade. Não coletamos, enviamos ou transmitimos nenhum dado pessoal do seu dispositivo. O acesso à câmera é solicitado estritamente de forma local para acionar o LED da lanterna física via <code>CameraManager.setTorchMode()</code>. NÃO acessa o sensor de imagem nem captura vídeos ou fotos.</p>
+
+        <h2>2. Uso de Dados e Permissões</h2>
+        <p>O Torch Light opera localmente como uma ferramenta offline. Uso detalhado das permissões:</p>
+        <ul>
+            <li><strong>FLASHLIGHT / CAMERA:</strong> Necessário localmente para alternar o LED da lanterna física.</li>
+            <li><strong>FOREGROUND_SERVICE:</strong> Mantém o serviço da lanterna ativo em segundo plano ou com a tela bloqueada.</li>
+            <li><strong>WAKE_LOCK:</strong> Mantém o LED ou tela acesos durante o uso do temporizador ou modo estroboscópico.</li>
+            <li><strong>POST_NOTIFICATIONS:</strong> Exibe notificações de controle rápido para a lanterna.</li>
+            <li><strong>READ_PHONE_STATE:</strong> Solicitado apenas ao ativar "Piscada na Chamada" para acionar o LED em chamadas recebidas. Processado estritamente no dispositivo.</li>
+        </ul>
+
+        <h2>3. Anúncios de Terceiros (Google AdMob)</h2>
+        <p>O aplicativo integra o <strong>Google AdMob</strong> para exibir anúncios banner. O AdMob pode processar dados de telemetria (ID de publicidade, endereço IP, modelo do aparelho) para exibição e prevenção de fraudes.</p>
+        <h3>Tipos de dados processados pelo Google AdMob:</h3>
+        <ul>
+            <li><strong>Identificadores do dispositivo:</strong> ID de publicidade (Google AAID), endereço IP, modelo do hardware, versão do sistema operacional e idioma.</li>
+            <li><strong>Desempenho do aplicativo e diagnósticos de anúncios:</strong> Métricas de impressões de anúncios, cliques e relatórios de erros.</li>
+            <li><strong>Localização aproximada:</strong> Localização não precisa derivada do endereço IP para publicidade regional.</li>
+        </ul>
+        <p>Para informações mais detalhadas sobre como o Google lida com dados, consulte:</p>
+        <ul>
+            <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Como o Google usa dados quando você usa sites ou aplicativos dos nossos parceiros</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidade e Termos do Google</a></li>
+        </ul>
+
+        <h2>4. Direitos do Usuário e Proteção de Dados</h2>
+        <p>Como seus dados pessoais permanecem exclusivamente no seu dispositivo, você mantém controle total sobre seus direitos de privacidade segundo regulamentações globais (LGPD, GDPR, CCPA):</p>
+        <ul>
+            <li><strong>Controle de Anúncios Personalizados:</strong> Você pode redefinir ou desativar anúncios personalizados a qualquer momento nas configurações do seu aparelho (<em>Configurações &gt; Google &gt; Anúncios</em>).</li>
+            <li><strong>Remoção de Dados:</strong> Desinstalar o aplicativo remove completamente todas as configurações locais.</li>
+        </ul>
+
+        <h2>5. Privacidade de Crianças (Conformidade com a COPPA)</h2>
+        <p>O Aplicativo não coleta intencionalmente dados pessoais de crianças menores de 13 anos. O Google AdMob está configurado para cumprir as diretrizes da COPPA para exibição de anúncios.</p>
+
+        <h2>6. Atualizações da Política e Contato</h2>
+        <p>Reservamo-nos o direito de atualizar esta política periodicamente. Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco:</p>
+        <p>
+            <strong>Desenvolvedor:</strong> Mohan RKS<br>
+            <strong>E-mail de Suporte:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
+            <strong>Website:</strong> <a href="https://github.com/Mohan2123/Mohan2123.github.io" target="_blank" rel="noopener noreferrer">Mohan2123.github.io</a>
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 Mohan RKS. Todos os direitos reservados. | <a href="../terms_of_service/pt.html">Termos de Serviço</a>
+</div>
+
+</body>
+</html>

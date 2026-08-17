@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Torch Light</title>
+    <style>
+        :root {
+            --primary: #f59e0b;
+            --primary-dark: #d97706;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border: #dadce0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.2rem;
+            color: var(--primary-dark);
+        }
+        .header p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            padding: 2.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .lang-switch a {
+            text-decoration: none;
+            color: var(--primary-dark);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background-color: var(--primary-dark);
+            color: #ffffff;
+            border-color: var(--primary-dark);
+        }
+        h2 {
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.4rem;
+            margin-top: 2rem;
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-top: 1.2rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            background-color: var(--card-bg);
+        }
+        a {
+            color: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Privacy Policy</h1>
+    <p>Torch Light &bull; Effective Date: August 17, 2026</p>
+</div>
+
+<div class="container">
+    <div class="lang-switch">
+        <a href="en.html" class="active">English</a>
+        <a href="es.html">Español</a>
+        <a href="pt.html">Português (Brasil)</a>
+        <a href="ru.html">Русский</a>
+        <a href="hi.html">हिन्दी</a>
+        <a href="id.html">Bahasa Indonesia</a>
+    </div>
+
+    <div class="card">
+        <h2>1. Privacy First Architecture</h2>
+        <p>This Privacy Policy applies to the <strong>Torch Light</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan RKS</strong> ("Developer", "We", "Us", "Our"). Torch Light is built with privacy in mind. We do not gather, upload, or transmit any personal data from your device storage, camera, or personal sensors. Camera hardware access is strictly requested locally to switch on your physical flash LED using <code>CameraManager.setTorchMode()</code>. It does NOT access the camera sensor, preview, or capture images or video.</p>
+
+        <h2>2. Data Handling & Permissions Policy</h2>
+        <p>Torch Light operates locally on your client device as an offline utility tool. Below is a detailed account of how required system permissions are utilized:</p>
+        <ul>
+            <li><strong>FLASHLIGHT / CAMERA:</strong> Required locally to toggle the hardware flash LED on your device. No photos or video recorded.</li>
+            <li><strong>FOREGROUND_SERVICE:</strong> Used to maintain continuous flashlight operations and notification status when screen is locked or app is running in the background.</li>
+            <li><strong>WAKE_LOCK:</strong> Required to keep the torch or screen backlight active during custom countdown timers or strobe light operation.</li>
+            <li><strong>POST_NOTIFICATIONS:</strong> Used to display status notifications and quick toggle controls while the flashlight is active in the background.</li>
+            <li><strong>READ_PHONE_STATE:</strong> Requested solely if you enable the "Flash on Call" feature, allowing the torch to blink when an incoming call is received. Phone state data is processed strictly locally and never stored or transmitted.</li>
+        </ul>
+
+        <h2>3. Third-Party Advertising & Telemetry Data</h2>
+        <p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve banner advertisements. Google AdMob may collect and process telemetry data automatically via Google Mobile Ads SDK for ad serving, analytics, and fraud prevention.</p>
+        <h3>Types of Data Processed by Google AdMob:</h3>
+        <ul>
+            <li><strong>Device Identifiers:</strong> Advertising ID (e.g., Google AAID), IP address, hardware model, operating system version, and system language.</li>
+            <li><strong>App Performance & Ad Diagnostics:</strong> Ad impression metrics, clicks, crash logs, and performance diagnostics.</li>
+            <li><strong>Approximate Location Data:</strong> Non-precise location inferred from IP address for localized banner advertising.</li>
+        </ul>
+        <p>For more detailed information regarding Google's data handling practices, please refer to:</p>
+        <ul>
+            <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy & Terms Policy</a></li>
+        </ul>
+
+        <h2>4. User Rights & Data Protection</h2>
+        <p>Because your personal data remains exclusively on your device, you maintain full control over your privacy rights under global privacy regulations (GDPR, CCPA, LGPD, DPDP):</p>
+        <ul>
+            <li><strong>Ad Personalization Control:</strong> You can reset or opt out of personalized ads at any time via your device settings (<em>Settings &gt; Google &gt; Ads &gt; Delete Advertising ID</em>).</li>
+            <li><strong>App Storage & Removal:</strong> Uninstalling the Application completely removes all local app settings and cached preferences from your device.</li>
+        </ul>
+
+        <h2>5. Children's Privacy (COPPA Compliance)</h2>
+        <p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines for ad delivery.</p>
+
+        <h2>6. Policy Updates & Contact Information</h2>
+        <p>We reserve the right to update this policy periodically. If you have questions regarding this Privacy Policy, please contact us at:</p>
+        <p>
+            <strong>Developer:</strong> Mohan RKS<br>
+            <strong>Support Email:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
+            <strong>Website:</strong> <a href="https://github.com/Mohan2123/Mohan2123.github.io" target="_blank" rel="noopener noreferrer">Mohan2123.github.io</a>
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 Mohan RKS. All rights reserved. | <a href="../terms_of_service/en.html">Terms of Service</a>
+</div>
+
+</body>
+</html>
