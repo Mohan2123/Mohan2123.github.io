@@ -1,170 +1,732 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Manager</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            line-height: 1.7;
-            color: #333;
-            background: #f8f9fa;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohan Apps Showcase | Clean, Fast & Privacy-First Mobile Apps</title>
+  <meta name="description" content="Explore Mohan's suite of high-performance mobile applications: File Manager, QR Scanner, Music Player, Photos Gallery, eBook Reader, PDF Reader, Notes, Sheets, Video Player, Voice Recorder, and Torch Light.">
+  <style>
 
-        .container {
-            background: #fff;
-            padding: 35px;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0,0,0,.08);
-        }
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --bg-main: #0f172a;
+  --bg-card: #1e293b;
+  --bg-card-hover: #334155;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-color: #334155;
+  --accent: #38bdf8;
+}
 
-        h1 {
-            margin-top: 0;
-            color: #1a73e8;
-        }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-        h2 {
-            margin-top: 30px;
-            color: #444;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 6px;
-        }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-        ul {
-            padding-left: 22px;
-        }
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
 
-        li {
-            margin: 8px 0;
-        }
+a:hover {
+  text-decoration: underline;
+}
 
-        .download {
-            text-align: center;
-            margin-top: 35px;
-        }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
 
-        .button {
-            display: inline-block;
-            background: #1a73e8;
-            color: white;
-            text-decoration: none;
-            padding: 14px 28px;
-            border-radius: 8px;
-            font-weight: bold;
-        }
+/* Header */
+header {
+  border-bottom: 1px solid var(--border-color);
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
 
-        .button:hover {
-            background: #1558b0;
-        }
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
 
-        footer {
-            text-align: center;
-            color: #666;
-            margin-top: 35px;
-            font-size: 14px;
-        }
-    </style>
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+.logo-badge {
+  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.4rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.5);
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background: var(--bg-card);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+  background: var(--bg-card-hover);
+  border-color: #475569;
+  text-decoration: none;
+}
+
+.btn-sm {
+  padding: 0.5rem 0.9rem;
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  border-top: 1px solid var(--border-color);
+  padding: 3rem 0;
+  background: #090d16;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* Hero Section */
+.hero {
+  padding: 5rem 0 3.5rem;
+  text-align: center;
+  background: radial-gradient(circle at 50% 20%, rgba(37, 99, 235, 0.15), transparent 70%);
+}
+
+.hero-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 1rem;
+  border-radius: 9999px;
+  background: rgba(37, 99, 235, 0.15);
+  border: 1px solid rgba(37, 99, 235, 0.3);
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+  background: linear-gradient(135deg, #ffffff 40%, #94a3b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  max-width: 680px;
+  margin: 0 auto 2.5rem;
+}
+
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Filter Tabs */
+.filter-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 2.5rem 0 3rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.25rem;
+  border-radius: 9999px;
+  background: var(--bg-card);
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* App Grid */
+.apps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.75rem;
+  margin-bottom: 5rem;
+}
+
+.app-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.app-card:hover {
+  transform: translateY(-4px);
+  border-color: #475569;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.app-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.app-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.category-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+
+.app-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.app-desc {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+.app-meta {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-bottom: 1.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.app-card-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+  </style>
 </head>
-
 <body>
 
-<div class="container">
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-badge">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+        </div>
+        <span>Mohan Apps</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#catalogue">Applications</a>
+        <a href="https://github.com/Mohan2123" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
 
-<h1>📁 File Manager</h1>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-pill">
+          <span>✨ Designed for Speed, Simplicity & Privacy</span>
+        </div>
+        <h1>Modern Native Android Apps</h1>
+        <p>A comprehensive ecosystem of productivity, multimedia, and daily utility apps built with zero bloatware and total respect for your personal privacy.</p>
+        
+        <div class="stats-bar">
+          <div class="stat-item">
+            <span class="stat-number">11</span>
+            <span class="stat-label">Core Apps</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Offline & Private</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">21</span>
+            <span class="stat-label">Languages Supported</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<p>
-<strong>Simple, Fast & Powerful.</strong><br><br>
+    <section id="catalogue" class="container">
+      <div class="filter-nav">
+        <button class="filter-btn active" data-filter="all">All Applications (11)</button>
+        <button class="filter-btn" data-filter="utility">Utilities & Tools (4)</button>
+        <button class="filter-btn" data-filter="productivity">Productivity & Docs (4)</button>
+        <button class="filter-btn" data-filter="media">Media & Audio (3)</button>
+      </div>
 
-File Manager helps you browse, organize, view, and manage files on your Android device with ease.
-It includes built-in viewers for audio, video, images, and text, allowing you to open files instantly without installing additional apps.
-</p>
+      <div class="apps-grid">
 
-<h2>📂 File Management</h2>
-<ul>
-<li>Browse internal and supported external storage</li>
-<li>Create, rename, copy, move, and delete files & folders</li>
-<li>Search files quickly</li>
-<li>View file size and last modified date</li>
-</ul>
+      <article class="app-card" data-category="utility">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #2563eb, #3b82f6);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path></svg>
+          </div>
+          <div>
+            <span class="category-badge">Utilities & Tools</span>
+            <h3 class="app-title">File Manager</h3>
+          </div>
+        </div>
+        <p class="app-desc">A full-featured file manager with multi-tab browsing, fast search, archive compression/extraction (ZIP, 7z, RAR), encrypted safe vault, and built-in media players.</p>
+        <div class="app-meta">
+          <span>Version v1.2.0</span>
+          <span>•</span>
+          <span>24 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="file_manager/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.filemanager" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-<h2>🎵 Built-in Audio Player</h2>
-<ul>
-<li>Play music directly inside the app</li>
-<li>Supports common audio formats</li>
-<li>Simple and lightweight playback</li>
-</ul>
+      <article class="app-card" data-category="utility">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #059669, #10b981);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="5" height="5" x="3" y="3" rx="1"></rect><rect width="5" height="5" x="16" y="3" rx="1"></rect><rect width="5" height="5" x="3" y="16" rx="1"></rect><path d="M21 16h-3a2 2 0 0 0-2 2v3"></path><path d="M21 21v.01"></path><path d="M12 7v3a2 2 0 0 1-2 2H7"></path><path d="M3 12h.01"></path><path d="M12 3h.01"></path><path d="M12 16v.01"></path><path d="M16 12h1"></path><path d="M21 12v.01"></path><path d="M12 21v-1"></path></svg>
+          </div>
+          <div>
+            <span class="category-badge">Utilities & Tools</span>
+            <h3 class="app-title">QR & Barcode Scanner</h3>
+          </div>
+        </div>
+        <p class="app-desc">Scan all 1D and 2D barcode formats instantly with smart contextual actions (Wi-Fi connect, contact save, link preview) and create personalized styled QR codes.</p>
+        <div class="app-meta">
+          <span>Version v1.1.4</span>
+          <span>•</span>
+          <span>18 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="qr_scanner/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.qrscanner" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-<h2>🎬 Built-in Video Player</h2>
-<ul>
-<li>Watch videos without leaving the app</li>
-<li>Smooth playback for common formats</li>
-<li>Easy full-screen viewing</li>
-</ul>
+      <article class="app-card" data-category="media">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #7c3aed, #8b5cf6);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+          </div>
+          <div>
+            <span class="category-badge">Media & Audio</span>
+            <h3 class="app-title">Hi-Fi Music Player</h3>
+          </div>
+        </div>
+        <p class="app-desc">Crisp, lossless audio playback supporting FLAC, MP3, AAC, OGG, WAV with 10-band graphic EQ, synchronized karaoke-style lyrics, tag editor, and gapless playback.</p>
+        <div class="app-meta">
+          <span>Version v2.0.1</span>
+          <span>•</span>
+          <span>28 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="music_player/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.musicplayer" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-<h2>🖼️ Built-in Image Viewer</h2>
-<ul>
-<li>View photos instantly</li>
-<li>Zoom and swipe between images</li>
-<li>Clean, distraction-free interface</li>
-</ul>
+      <article class="app-card" data-category="media">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #ea580c, #f97316);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect><circle cx="9" cy="9" r="2"></circle><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path></svg>
+          </div>
+          <div>
+            <span class="category-badge">Media & Audio</span>
+            <h3 class="app-title">Photos Gallery</h3>
+          </div>
+        </div>
+        <p class="app-desc">Lightweight, privacy-first photo gallery with album management, EXIF metadata viewer, biometric hidden vault, and built-in pro image editor and collage maker.</p>
+        <div class="app-meta">
+          <span>Version v1.3.2</span>
+          <span>•</span>
+          <span>26 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="photos/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.photos" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-<h2>📄 Built-in Text Viewer</h2>
-<ul>
-<li>Open and read text files</li>
-<li>Ideal for notes, logs, and configuration files</li>
-<li>Handles large text files efficiently</li>
-</ul>
+      <article class="app-card" data-category="productivity">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #0284c7, #38bdf8);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-0-5H20"></path></svg>
+          </div>
+          <div>
+            <span class="category-badge">Productivity & Docs</span>
+            <h3 class="app-title">eBook Reader</h3>
+          </div>
+        </div>
+        <p class="app-desc">Read EPUB, PDF, MOBI, CBZ, and TXT with customized typography, night mode, bookmarking, dictionary lookup, and natural Text-to-Speech narration.</p>
+        <div class="app-meta">
+          <span>Version v1.2.0</span>
+          <span>•</span>
+          <span>22 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="ebook_reader/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.ebookreader" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-<h2>🗂️ Smart Categories</h2>
-<ul>
-<li>Images</li>
-<li>Videos</li>
-<li>Audio</li>
-<li>Documents</li>
-<li>Downloads</li>
-<li>APK Files</li>
-<li>Compressed Files</li>
-<li>Other Files</li>
-</ul>
+      <article class="app-card" data-category="productivity">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #dc2626, #ef4444);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          </div>
+          <div>
+            <span class="category-badge">Productivity & Docs</span>
+            <h3 class="app-title">PDF Reader & Studio</h3>
+          </div>
+        </div>
+        <p class="app-desc">High-speed PDF viewer with sharp vector rendering, full-text search, sticky notes, freehand drawing, electronic signatures, page reordering, and PDF merging.</p>
+        <div class="app-meta">
+          <span>Version v1.4.1</span>
+          <span>•</span>
+          <span>21 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="pdf_reader/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.pdfreader" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-<h2>⚡ Fast & Lightweight</h2>
-<ul>
-<li>Optimized for speed and low memory usage</li>
-<li>Works completely offline</li>
-<li>No account or login required</li>
-</ul>
+      <article class="app-card" data-category="productivity">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #d97706, #f59e0b);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+          </div>
+          <div>
+            <span class="category-badge">Productivity & Docs</span>
+            <h3 class="app-title">Notes & Tasks</h3>
+          </div>
+        </div>
+        <p class="app-desc">Capture thoughts, organize projects with nested tags, create rich checklists, format with full Markdown support, and lock sensitive notes with biometrics.</p>
+        <div class="app-meta">
+          <span>Version v1.1.0</span>
+          <span>•</span>
+          <span>19 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="notes/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.notes" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-<h2>🔒 Privacy</h2>
-<ul>
-<li>Your files stay on your device</li>
-<li>No personal data is collected</li>
-<li>Only storage permission is required</li>
-<li>Ads are served by Google AdMob</li>
-</ul>
+      <article class="app-card" data-category="productivity">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #0d9488, #14b8a6);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="3" y1="15" x2="21" y2="15"></line><line x1="9" y1="3" x2="9" y2="21"></line><line x1="15" y1="3" x2="15" y2="21"></line></svg>
+          </div>
+          <div>
+            <span class="category-badge">Productivity & Docs</span>
+            <h3 class="app-title">Sheets & Calculations</h3>
+          </div>
+        </div>
+        <p class="app-desc">Create, edit, and analyze spreadsheets on the go. Compatible with CSV and XLSX formats, featuring 100+ mathematical formulas, cell formatting, and interactive charts.</p>
+        <div class="app-meta">
+          <span>Version v1.0.8</span>
+          <span>•</span>
+          <span>25 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="sheets/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.sheets" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-<h2>🎯 Why Choose File Manager?</h2>
-<ul>
-<li>Clean and modern interface</li>
-<li>Complete file management solution</li>
-<li>Built-in media and text viewers</li>
-<li>Fast, lightweight, and easy to use</li>
-</ul>
+      <article class="app-card" data-category="media">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #c026d3, #e879f9);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="15" x="2" y="4.5" rx="2"></rect><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+          </div>
+          <div>
+            <span class="category-badge">Media & Audio</span>
+            <h3 class="app-title">Ultra Video Player</h3>
+          </div>
+        </div>
+        <p class="app-desc">High-performance video player supporting 4K, MKV, MP4, AVI, WebM with hardware acceleration, subtitle sync, audio booster, background play, and floating PiP mode.</p>
+        <div class="app-meta">
+          <span>Version v1.2.5</span>
+          <span>•</span>
+          <span>30 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="video_player/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.videoplayer" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-<div class="download">
-    <a class="button" href="https://play.google.com/store/apps/details?id=com.mohan.filemanager">
-        📥 Download on Google Play
-    </a>
-</div>
+      <article class="app-card" data-category="utility">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #e11d48, #f43f5e);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="22"></line></svg>
+          </div>
+          <div>
+            <span class="category-badge">Utilities & Tools</span>
+            <h3 class="app-title">Voice Recorder Pro</h3>
+          </div>
+        </div>
+        <p class="app-desc">Record interviews, lectures, meetings, and voice memos in high fidelity (WAV, MP3, M4A, AAC) with live waveform visualization, silence skipper, and audio trimmer.</p>
+        <div class="app-meta">
+          <span>Version v1.1.2</span>
+          <span>•</span>
+          <span>17 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="voice_recorder/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.voicerecorder" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-<footer>
-    © 2026 File Manager
-</footer>
+      <article class="app-card" data-category="utility">
+        <div class="app-card-header">
+          <div class="app-icon" style="background: linear-gradient(135deg, #ca8a04, #eab308);">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <div>
+            <span class="category-badge">Utilities & Tools</span>
+            <h3 class="app-title">Super Torch & Strobe</h3>
+          </div>
+        </div>
+        <p class="app-desc">Ultra-bright LED flashlight with instant launch widget, adjustable frequency strobe light, Morse code SOS emergency beacon, and customizable color screen light.</p>
+        <div class="app-meta">
+          <span>Version v1.0.5</span>
+          <span>•</span>
+          <span>12 MB</span>
+        </div>
+        <div class="app-card-actions">
+          <a href="torch_light/index.html" class="btn btn-secondary btn-sm" style="flex: 1;">View Details</a>
+          <a href="https://play.google.com/store/apps/details?id=com.mohan.torchlight" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1.2;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a2.036 2.036 0 0 1-.22-.387A2.08 2.08 0 0 1 3.25 21V3c0-.288.048-.564.139-.8A2.037 2.037 0 0 1 3.61 1.814zm11.238 11.241l2.082 2.082-9.756 5.633 7.674-7.715zm0-2.11L7.173 3.23l9.756 5.633-2.082 2.082zm1.48 1.48l3.414 1.972c.983.568.983 1.492 0 2.06l-3.414 1.972-2.188-2.188 2.188-1.816z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </article>
 
-</div>
+      </div>
+    </section>
+  </main>
 
+  <footer>
+    <div class="container footer-content">
+      <div class="logo">
+        <div class="logo-badge" style="width: 32px; height: 32px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+        </div>
+        <span style="font-size: 1.1rem;">Mohan Apps Ecosystem</span>
+      </div>
+      <p>© 2026 Mohan Apps. Crafted with dedication for clean and private mobile experiences.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Mohan2123" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+        <a href="index.html">All Apps</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.filter-btn');
+      const cards = document.querySelectorAll('.app-card');
+
+      buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          buttons.forEach(btn => btn.classList.remove('active'));
+          button.classList.add('active');
+
+          const filter = button.getAttribute('data-filter');
+
+          cards.forEach(card => {
+            if (filter === 'all' || card.getAttribute('data-category') === filter) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
 </body>
 </html>
