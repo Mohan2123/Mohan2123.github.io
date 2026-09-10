@@ -6,8 +6,8 @@
     <title>Политика конфиденциальности - Torch Light</title>
     <style>
         :root {
-            --primary: #f59e0b;
-            --primary-dark: #d97706;
+            --primary: #eab308;
+            --primary-dark: #ca8a04;
             --text: #202124;
             --text-secondary: #5f6368;
             --bg: #f8f9fa;
@@ -114,63 +114,59 @@
 <div class="container">
     <div class="lang-switch">
         <a href="en.html">English</a>
+        <a href="en_us.html">English (US)</a>
+        <a href="en_gb.html">English (UK)</a>
+        <a href="en_au.html">English (AU)</a>
+        <a href="fr.html">Français</a>
+        <a href="de.html">Deutsch</a>
+        <a href="vi.html">Tiếng Việt</a>
         <a href="es.html">Español</a>
-        <a href="pt.html">Português (Brasil)</a>
+        <a href="pt.html">Português</a>
         <a href="ru.html" class="active">Русский</a>
         <a href="hi.html">हिन्दी</a>
+        <a href="mr.html">मराठी</a>
+        <a href="bn.html">বাংলা</a>
+        <a href="te.html">తెలుగు</a>
+        <a href="ta.html">தமிழ்</a>
+        <a href="tr.html">Türkçe</a>
+        <a href="ja.html">日本語</a>
+        <a href="zh.html">简体中文</a>
+        <a href="sw.html">Kiswahili</a>
+        <a href="ha.html">Hausa</a>
         <a href="id.html">Bahasa Indonesia</a>
     </div>
 
     <div class="card">
-        <h2>1. Принципы конфиденциальности</h2>
-        <p>Настоящая Политика конфиденциальности относится к мобильному приложению <strong>Torch Light</strong> ("Приложение"), разработанному <strong>Mohan RKS</strong> ("Разработчик"). Приложение создано с приоритетом защиты данных. Мы не собираем и не передаем личные данные. Доступ к камере запрашивается исключительно локально для управления вспышкой через <code>CameraManager.setTorchMode()</code>. Приложение НЕ использует сенсор камеры для фото или видеосъемки.</p>
+        <h2>1. Архитектура с приоритетом конфиденциальности</h2>
+        <p>Настоящая Политика конфиденциальности применяется к мобильному приложению <strong>Torch Light</strong> ("Приложение", "Сервис"), разработанному <strong>Mohan MRKS</strong> ("Разработчик").</p>
 
-        <h2>2. Разрешения и обработка данных</h2>
-        <p>Torch Light работает локально на вашем устройстве в автономном режиме. Использование разрешений:</p>
+        <h2>2. Политика обработки данных и разрешений</h2>
+        <p>Torch Light работает локально на вашем устройстве в автономном режиме. Сведения о разрешениях:</p>
         <ul>
-            <li><strong>FLASHLIGHT / CAMERA:</strong> Необходимы локально для включения/выключения вспышки.</li>
-            <li><strong>FOREGROUND_SERVICE:</strong> Используется для непрерывной работы фонарика в фоновом режиме.</li>
-            <li><strong>WAKE_LOCK:</strong> Удерживает вспышку или экран включенными во время таймера или режима стробоскопа.</li>
-            <li><strong>POST_NOTIFICATIONS:</strong> Отображает уведомление состояния с быстрыми переключателями.</li>
-            <li><strong>READ_PHONE_STATE:</strong> Запрашивается только при включении функции "Вспышка при звонке" для мигания при входящих вызовах. Обрабатывается исключительно локально.</li>
+            <li><strong>CAMERA / FLASHLIGHT:</strong> Предоставляется для управления вспышкой камеры.</li>
         </ul>
 
-        <h2>3. Сторонняя реклама (Google AdMob)</h2>
-        <p>В Приложение интегрирован сервис <strong>Google AdMob</strong> для показа баннеров. AdMob может автоматически обрабатывать технические идентификаторы (Advertising ID, IP-адрес, модель устройства) для подбора рекламы и аналитики.</p>
-        <h3>Типы данных, обрабатываемых Google AdMob:</h3>
-        <ul>
-            <li><strong>Идентификаторы устройств:</strong> Рекламный ID (Google AAID), IP-адрес, модель устройства, версия ОС и язык.</li>
-            <li><strong>Производительность приложения и диагностика:</strong> Метрики показов рекламы, клики и отчеты о сбоях.</li>
-            <li><strong>Приблизительное местоположение:</strong> Непрецизионное местоположение на основе IP-адреса для региональной рекламы.</li>
-        </ul>
-        <p>Для получения подробной информации об обработке данных Google ознакомьтесь с:</p>
-        <ul>
-            <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Как Google использует данные при использовании сайтов или приложений наших партнеров</a></li>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Политика конфиденциальности и Условия использования Google</a></li>
-        </ul>
+        <h2>3. Гарантия автономной и локальной работы</h2>
+        <p>Все основные операции и обработка данных Torch Light выполняются на 100% локально на оборудовании клиента.</p>
 
-        <h2>4. Права пользователей и защита данных</h2>
-        <p>Поскольку личные данные остаются исключительно на вашем устройстве, вы сохраняете полный контроль в соответствии с международными правилами (GDPR, CCPA):</p>
-        <ul>
-            <li><strong>Управление персональной рекламой:</strong> Вы можете сбросить или отключить персонализированную рекламу в настройках (<em>Настройки &gt; Google &gt; Реклама</em>).</li>
-            <li><strong>Удаление данных:</strong> Удаление приложения полностью удаляет все локальные настройки.</li>
-        </ul>
+        <h2>4. Сторонняя реклама и телеметрические данные</h2>
+        <p>Приложение интегрирует <strong>Google AdMob</strong> (предоставляется Google LLC) для показа рекламы. Google AdMob может обрабатывать идентификаторы устройств для доставки рекламы и предотвращения мошенничества.</p>
 
-        <h2>5. Защита конфиденциальности детей (COPPA)</h2>
-        <p>Приложение намеренно не собирает персональные данные детей в возрасте до 13 лет. AdMob настроен в соответствии с руководствами COPPA.</p>
+        <h2>5. Конфиденциальность детей (соответствие COPPA)</h2>
+        <p>Приложение сознательно не собирает персональные данные детей младше 13 лет. Google AdMob настроен в соответствии с требованиями COPPA.</p>
 
-        <h2>6. Обновления политики и контакты</h2>
-        <p>Мы оставляем за собой право периодически обновлять политику. По всем вопросам обращайтесь:</p>
+        <h2>6. Обновления политики и контактная информация</h2>
+        <p>Мы оставляем за собой право периодически обновлять эту политику. Если у вас есть вопросы, свяжитесь с нами:</p>
         <p>
-            <strong>Разработчик:</strong> Mohan RKS<br>
-            <strong>Эл. почта:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
-            <strong>Сайт:</strong> <a href="https://github.com/Mohan2123/Mohan2123.github.io" target="_blank" rel="noopener noreferrer">Mohan2123.github.io</a>
+            <strong>Разработчик:</strong> Mohan MRKS<br>
+            <strong>Электронная почта поддержки:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
+            <strong>Веб-сайт:</strong> <a href="https://mohan2123.github.io" target="_blank" rel="noopener noreferrer">mohan2123.github.io</a>
         </p>
     </div>
 </div>
 
 <div class="footer">
-    &copy; 2026 Mohan RKS. Все права защищены. | <a href="../terms_of_service/ru.html">Условия использования</a>
+    &copy; 2026 Mohan MRKS. Все права защищены. | <a href="../terms_of_service/ru.html">Условия использования</a>
 </div>
 
 </body>

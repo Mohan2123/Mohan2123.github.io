@@ -6,8 +6,8 @@
     <title>Política de Privacidad - Torch Light</title>
     <style>
         :root {
-            --primary: #f59e0b;
-            --primary-dark: #d97706;
+            --primary: #eab308;
+            --primary-dark: #ca8a04;
             --text: #202124;
             --text-secondary: #5f6368;
             --bg: #f8f9fa;
@@ -114,63 +114,59 @@
 <div class="container">
     <div class="lang-switch">
         <a href="en.html">English</a>
+        <a href="en_us.html">English (US)</a>
+        <a href="en_gb.html">English (UK)</a>
+        <a href="en_au.html">English (AU)</a>
+        <a href="fr.html">Français</a>
+        <a href="de.html">Deutsch</a>
+        <a href="vi.html">Tiếng Việt</a>
         <a href="es.html" class="active">Español</a>
-        <a href="pt.html">Português (Brasil)</a>
+        <a href="pt.html">Português</a>
         <a href="ru.html">Русский</a>
         <a href="hi.html">हिन्दी</a>
+        <a href="mr.html">मराठी</a>
+        <a href="bn.html">বাংলা</a>
+        <a href="te.html">తెలుగు</a>
+        <a href="ta.html">தமிழ்</a>
+        <a href="tr.html">Türkçe</a>
+        <a href="ja.html">日本語</a>
+        <a href="zh.html">简体中文</a>
+        <a href="sw.html">Kiswahili</a>
+        <a href="ha.html">Hausa</a>
         <a href="id.html">Bahasa Indonesia</a>
     </div>
 
     <div class="card">
-        <h2>1. Arquitectura centrada en la privacidad</h2>
-        <p>Esta Política de Privacidad se aplica a la aplicación móvil <strong>Torch Light</strong> ("Aplicación", "Servicio"), desarrollada por <strong>Mohan RKS</strong> ("Desarrollador", "Nosotros"). Torch Light está construida con la privacidad en mente. No recopilamos, subimos ni transmitimos ningún dato personal del almacenamiento de tu dispositivo, cámara o sensores. El acceso a la cámara se solicita estrictamente de forma local para encender el LED de flash físico mediante <code>CameraManager.setTorchMode()</code>. NO accede al sensor de la cámara ni graba imágenes o video.</p>
+        <h2>1. Arquitectura de privacidad ante todo</h2>
+        <p>Esta Política de Privacidad se aplica a la aplicación móvil <strong>Torch Light</strong> ("Aplicación", "Servicio"), desarrollada por <strong>Mohan MRKS</strong> ("Desarrollador"). Torch Light está diseñada con un enfoque de "Privacidad ante todo".</p>
 
-        <h2>2. Manejo de datos y política de permisos</h2>
-        <p>Torch Light opera localmente en tu dispositivo como una herramienta fuera de línea. A continuación se detalla el uso de los permisos solicitados:</p>
+        <h2>2. Política de manejo de datos y permisos</h2>
+        <p>Torch Light funciona localmente en su dispositivo como una utilidad sin conexión. Detalles de permisos:</p>
         <ul>
-            <li><strong>FLASHLIGHT / CAMERA:</strong> Requerido localmente para alternar el LED de flash. No se capturan fotos ni videos.</li>
-            <li><strong>FOREGROUND_SERVICE:</strong> Utilizado para mantener la operación continua de la linterna y las notificaciones de estado en segundo plano o pantalla bloqueada.</li>
-            <li><strong>WAKE_LOCK:</strong> Requerido para mantener la linterna o luz de pantalla activa durante temporizadores o modo estroboscópico.</li>
-            <li><strong>POST_NOTIFICATIONS:</strong> Muestra notificaciones de estado y controles rápidos mientras la linterna está activa.</li>
-            <li><strong>READ_PHONE_STATE:</strong> Solicitado únicamente si activas la función "Flash en llamada", permitiendo parpadear al recibir una llamada. Procesado estrictamente de forma local.</li>
+            <li><strong>CAMERA / FLASHLIGHT:</strong> Otorgado para controlar el flash LED de la cámara.</li>
         </ul>
 
-        <h2>3. Publicidad de terceros y datos de telemetría</h2>
-        <p>La Aplicación integra <strong>Google AdMob</strong> (proporcionado por Google LLC) para mostrar anuncios en banner. Google AdMob puede recopilar datos de telemetría automáticamente a través del SDK de Google Mobile Ads para personalización, analítica y prevención de fraudes.</p>
-        <h3>Tipos de datos procesados por Google AdMob:</h3>
-        <ul>
-            <li><strong>Identificadores de dispositivo:</strong> ID de publicidad (Google AAID), dirección IP, modelo de hardware, versión del sistema operativo e idioma.</li>
-            <li><strong>Rendimiento de la app y diagnóstico:</strong> Impresiones de anuncios, clics y registros de fallos.</li>
-            <li><strong>Ubicación aproximada:</strong> Ubicación no precisa derivada de la dirección IP para publicidad relevante.</li>
-        </ul>
-        <p>Para obtener información más detallada sobre las prácticas de procesamiento de datos de Google, consulta:</p>
-        <ul>
-            <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Cómo utiliza Google la información de sitios web o aplicaciones que utilizan nuestros servicios</a></li>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidad y Términos de Google</a></li>
-        </ul>
+        <h2>3. Garantía de operación local y sin conexión</h2>
+        <p>Todas las operaciones y procesamiento principal de Torch Light se ejecutan 100% localmente en el hardware del cliente.</p>
 
-        <h2>4. Derechos del usuario y protección de datos</h2>
-        <p>Como tus datos permanecen exclusivamente en tu dispositivo, mantienes el control total sobre tus derechos de privacidad bajo regulaciones globales (GDPR, CCPA, LGPD, DPDP):</p>
-        <ul>
-            <li><strong>Control de anuncios personalizados:</strong> Puedes restablecer o desactivar los anuncios personalizados en los ajustes de tu dispositivo (<em>Ajustes &gt; Google &gt; Anuncios</em>).</li>
-            <li><strong>Eliminación de datos:</strong> Desinstalar la aplicación elimina por completo todos los ajustes locales.</li>
-        </ul>
+        <h2>4. Publicidad de terceros y datos de telemetría</h2>
+        <p>La Aplicación integra <strong>Google AdMob</strong> (proporcionado por Google LLC) para mostrar anuncios. Google AdMob puede procesar identificadores de dispositivos para la entrega de anuncios y prevención de fraudes.</p>
 
         <h2>5. Privacidad infantil (Cumplimiento de COPPA)</h2>
-        <p>La Aplicación no recopila a sabiendas datos personales de niños menores de 13 años. Google AdMob está configurado para cumplir con las directrices de COPPA para la entrega de anuncios.</p>
+        <p>La Aplicación no recopila a sabiendas datos personales de niños menores de 13 años. Google AdMob está configurado para cumplir con las directrices de COPPA.</p>
 
-        <h2>6. Actualizaciones de la política y contacto</h2>
-        <p>Nos reservamos el derecho de actualizar esta política periódicamente. Si tienes preguntas sobre esta Política de Privacidad, contáctanos en:</p>
+        <h2>6. Actualizaciones de la política e información de contacto</h2>
+        <p>Nos reservamos el derecho de actualizar esta política periódicamente. Si tiene preguntas, contáctenos en:</p>
         <p>
-            <strong>Desarrollador:</strong> Mohan RKS<br>
+            <strong>Desarrollador:</strong> Mohan MRKS<br>
             <strong>Correo de soporte:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
-            <strong>Sitio web:</strong> <a href="https://github.com/Mohan2123/Mohan2123.github.io" target="_blank" rel="noopener noreferrer">Mohan2123.github.io</a>
+            <strong>Sitio web:</strong> <a href="https://mohan2123.github.io" target="_blank" rel="noopener noreferrer">mohan2123.github.io</a>
         </p>
     </div>
 </div>
 
 <div class="footer">
-    &copy; 2026 Mohan RKS. Todos los derechos reservados. | <a href="../terms_of_service/es.html">Términos de servicio</a>
+    &copy; 2026 Mohan MRKS. Todos los derechos reservados. | <a href="../terms_of_service/es.html">Términos de Servicio</a>
 </div>
 
 </body>

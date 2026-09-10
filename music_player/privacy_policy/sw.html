@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sera ya Faragha - Music Player</title>
+    <style>
+        :root {
+            --primary: #10b981;
+            --primary-dark: #059669;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border: #dadce0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.2rem;
+            color: var(--primary-dark);
+        }
+        .header p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            padding: 2.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .lang-switch a {
+            text-decoration: none;
+            color: var(--primary-dark);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background-color: var(--primary-dark);
+            color: #ffffff;
+            border-color: var(--primary-dark);
+        }
+        h2 {
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.4rem;
+            margin-top: 2rem;
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-top: 1.2rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            background-color: var(--card-bg);
+        }
+        a {
+            color: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Sera ya Faragha</h1>
+    <p>Music Player &bull; Tarehe ya Kuanza: 17 Agosti 2026</p>
+</div>
+
+<div class="container">
+    <div class="lang-switch">
+        <a href="en.html">English</a>
+        <a href="en_us.html">English (US)</a>
+        <a href="en_gb.html">English (UK)</a>
+        <a href="en_au.html">English (AU)</a>
+        <a href="fr.html">Français</a>
+        <a href="de.html">Deutsch</a>
+        <a href="vi.html">Tiếng Việt</a>
+        <a href="es.html">Español</a>
+        <a href="pt.html">Português</a>
+        <a href="ru.html">Русский</a>
+        <a href="hi.html">हिन्दी</a>
+        <a href="mr.html">मराठी</a>
+        <a href="bn.html">বাংলা</a>
+        <a href="te.html">తెలుగు</a>
+        <a href="ta.html">தமிழ்</a>
+        <a href="tr.html">Türkçe</a>
+        <a href="ja.html">日本語</a>
+        <a href="zh.html">简体中文</a>
+        <a href="sw.html" class="active">Kiswahili</a>
+        <a href="ha.html">Hausa</a>
+        <a href="id.html">Bahasa Indonesia</a>
+    </div>
+
+    <div class="card">
+        <h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+        <p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>Music Player</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Music Player imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+
+        <h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+        <p>Music Player inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+        <ul>
+            <li><strong>READ_MEDIA_AUDIO / READ_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+            <li><strong>POST_NOTIFICATIONS:</strong> Hutolewa ili kuonyesha vidhibiti vya uchezaji au hali ya uendeshaji chinichini.</li>
+        </ul>
+
+        <h2>3. Dhamana ya Uchakataji wa Sauti Ndani</h2>
+        <p>Uchakataji na shughuli zote za Music Player hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+
+        <h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+        <p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+
+        <h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+        <p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+
+        <h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+        <p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+        <p>
+            <strong>Msanidi Programu:</strong> Mohan MRKS<br>
+            <strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
+            <strong>Tovuti:</strong> <a href="https://mohan2123.github.io" target="_blank" rel="noopener noreferrer">mohan2123.github.io</a>
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 Mohan MRKS. Haki zote zimehifadhiwa. | <a href="../terms_of_service/sw.html">Masharti ya Huduma</a>
+</div>
+
+</body>
+</html>
