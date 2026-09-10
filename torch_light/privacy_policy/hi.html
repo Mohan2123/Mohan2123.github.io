@@ -6,8 +6,8 @@
     <title>गोपनीयता नीति - Torch Light</title>
     <style>
         :root {
-            --primary: #f59e0b;
-            --primary-dark: #d97706;
+            --primary: #eab308;
+            --primary-dark: #ca8a04;
             --text: #202124;
             --text-secondary: #5f6368;
             --bg: #f8f9fa;
@@ -114,63 +114,59 @@
 <div class="container">
     <div class="lang-switch">
         <a href="en.html">English</a>
+        <a href="en_us.html">English (US)</a>
+        <a href="en_gb.html">English (UK)</a>
+        <a href="en_au.html">English (AU)</a>
+        <a href="fr.html">Français</a>
+        <a href="de.html">Deutsch</a>
+        <a href="vi.html">Tiếng Việt</a>
         <a href="es.html">Español</a>
-        <a href="pt.html">Português (Brasil)</a>
+        <a href="pt.html">Português</a>
         <a href="ru.html">Русский</a>
         <a href="hi.html" class="active">हिन्दी</a>
+        <a href="mr.html">मराठी</a>
+        <a href="bn.html">বাংলা</a>
+        <a href="te.html">తెలుగు</a>
+        <a href="ta.html">தமிழ்</a>
+        <a href="tr.html">Türkçe</a>
+        <a href="ja.html">日本語</a>
+        <a href="zh.html">简体中文</a>
+        <a href="sw.html">Kiswahili</a>
+        <a href="ha.html">Hausa</a>
         <a href="id.html">Bahasa Indonesia</a>
     </div>
 
     <div class="card">
         <h2>1. गोपनीयता प्रथम डिज़ाइन</h2>
-        <p>यह गोपनीयता नीति <strong>Torch Light</strong> मोबाइल एप्लिकेशन ("ऐप", "सेवा") पर लागू होती है, जिसे <strong>Mohan RKS</strong> ("डेवलपर") द्वारा विकसित किया गया है। Torch Light पूरी तरह से गोपनीयता को ध्यान में रखकर बनाया गया है। हम आपके डिवाइस से कोई भी व्यक्तिगत डेटा एकत्र या स्थानांतरित नहीं करते हैं। कैमरा एक्सेस केवल आपके फ्लैश LED को ऑन करने के लिए स्थानीय रूप से <code>CameraManager.setTorchMode()</code> के माध्यम से लिया जाता है। यह कैमरा सेंसर या फोटो/वीडियो रिकॉर्डिंग तक नहीं पहुंचता है।</p>
+        <p>यह गोपनीयता नीति <strong>Mohan MRKS</strong> ("डेवलपर") द्वारा विकसित <strong>Torch Light</strong> मोबाइल एप्लिकेशन पर लागू होती है। Torch Light "गोपनीयता प्रथम" दृष्टिकोण के साथ बनाया गया है।</p>
 
-        <h2>2. अनुमति एवं डेटा उपयोग</h2>
-        <p>Torch Light एक ऑफ़लाइन टूल के रूप में कार्य करता है। अनुमतियों का उपयोग:</p>
+        <h2>2. डेटा हैंडलिंग एवं अनुमति नीति</h2>
+        <p>Torch Light आपके डिवाइस पर एक ऑफ़लाइन उपयोगिता के रूप में स्थानीय रूप से संचालित होता है। अनुमति विवरण:</p>
         <ul>
-            <li><strong>FLASHLIGHT / CAMERA:</strong> फ्लैश LED चालू/बंद करने के लिए आवश्यक।</li>
-            <li><strong>FOREGROUND_SERVICE:</strong> बैकग्राउंड या स्क्रीन लॉक होने पर भी टॉर्च चालू रखने के लिए।</li>
-            <li><strong>WAKE_LOCK:</strong> टाइमर या स्ट्रॉब लाइट मोड के दौरान स्क्रीन या टॉर्च ऑन रखने के लिए।</li>
-            <li><strong>POST_NOTIFICATIONS:</strong> टॉर्च स्टेटस और क्विक कंट्रोल दिखाने के लिए।</li>
-            <li><strong>READ_PHONE_STATE:</strong> केवल "कॉल पर फ्लैश" विकल्प चालू करने पर इनकमिंग कॉल डिटेक्ट करने के लिए उपयोग किया जाता है।</li>
+            <li><strong>CAMERA / FLASHLIGHT:</strong> टॉर्च की रोशनी के लिए कैमरा एलईडी को नियंत्रित करने हेतु दिया गया है।</li>
         </ul>
 
-        <h2>3. विज्ञापन (Google AdMob)</h2>
-        <p>ऐप में बैनर विज्ञापन दिखाने के लिए <strong>Google AdMob</strong> का उपयोग किया जाता है। AdMob द्वारा तकनीकी जानकारी (विज्ञापन आईडी, IP पता) विज्ञापन सुरक्षा और विश्लेषण के लिए संसाधित की जा सकती है।</p>
-        <h3>AdMob द्वारा संसाधित डेटा के प्रकार:</h3>
-        <ul>
-            <li><strong>डिवाइस पहचानकर्ता:</strong> विज्ञापन आईडी (Google AAID), IP पता, हार्डवेयर मॉडल, OS संस्करण।</li>
-            <li><strong>ऐप प्रदर्शन और डायग्नोस्टिक्स:</strong> विज्ञापन दृश्य, क्लिक और क्रैश रिपोर्ट।</li>
-            <li><strong>अनुमानित स्थान:</strong> क्षेत्रीय विज्ञापनों के लिए IP पते से अनुमानित स्थान।</li>
-        </ul>
-        <p>अधिक जानकारी के लिए देखें:</p>
-        <ul>
-            <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">गूगल हमारे भागीदारों की साइटों या ऐप्स से जानकारी का उपयोग कैसे करता है</a></li>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">गूगल गोपनीयता और शर्तें</a></li>
-        </ul>
+        <h2>3. ऑफ़लाइन एवं स्थानीय संचालन गारंटी</h2>
+        <p>Torch Light की सभी मुख्य प्रसंस्करण और संचालन प्रक्रियाएं 100% स्थानीय रूप से क्लाइंट हार्डवेयर पर निष्पादित होती हैं।</p>
 
-        <h2>4. उपयोगकर्ता अधिकार और डेटा सुरक्षा</h2>
-        <p>आपका डेटा केवल आपके डिवाइस पर रहता है, जिससे आपको पूर्ण नियंत्रण मिलता है:</p>
-        <ul>
-            <li><strong>विज्ञापन नियंत्रण:</strong> आप अपनी डिवाइस सेटिंग्स (<em>Settings &gt; Google &gt; Ads</em>) से व्यक्तिगत विज्ञापनों को रीसेट या बंद कर सकते हैं।</li>
-            <li><strong>डेटा हटाना:</strong> ऐप को अनइंस्टॉल करने से सभी स्थानीय सेटिंग्स हटा दी जाती हैं।</li>
-        </ul>
+        <h2>4. तृतीय-पक्ष विज्ञापन एवं टेलीमेट्री डेटा</h2>
+        <p>यह एप्लिकेशन विज्ञापन दिखाने के लिए <strong>Google AdMob</strong> (Google LLC द्वारा प्रदत्त) को एकीकृत करता है। Google AdMob विज्ञापन वितरण और सुरक्षा के लिए डिवाइस पहचानकर्ताओं को प्रोसेस कर सकता है।</p>
 
         <h2>5. बच्चों की गोपनीयता (COPPA अनुपालन)</h2>
-        <p>यह ऐप 13 वर्ष से कम उम्र के बच्चों का व्यक्तिगत डेटा नहीं एकत्र करता है। Google AdMob COPPA दिशानिर्देशों के अनुरूप है।</p>
+        <p>यह एप्लिकेशन 13 वर्ष से कम आयु के बच्चों से जानबूझकर व्यक्तिगत जानकारी एकत्र नहीं करता है। Google AdMob बच्चों की सुरक्षा नीतियों के अनुरूप कॉन्फ़िगर किया गया है।</p>
 
-        <h2>6. नीति अपडेट और संपर्क</h2>
-        <p>हम समय-समय पर इस नीति को अपडेट करने का अधिकार सुरक्षित रखते हैं। किसी भी प्रश्न के लिए संपर्क करें:</p>
+        <h2>6. नीति अपडेट और संपर्क जानकारी</h2>
+        <p>हम समय-समय पर इस नीति को अपडेट करने का अधिकार सुरक्षित रखते हैं। यदि आपके कोई प्रश्न हैं, तो कृपया हमसे संपर्क करें:</p>
         <p>
-            <strong>डेवलपर:</strong> Mohan RKS<br>
+            <strong>डेवलपर:</strong> Mohan MRKS<br>
             <strong>सपोर्ट ईमेल:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
-            <strong>वेबसाइट:</strong> <a href="https://github.com/Mohan2123/Mohan2123.github.io" target="_blank" rel="noopener noreferrer">Mohan2123.github.io</a>
+            <strong>वेबसाइट:</strong> <a href="https://mohan2123.github.io" target="_blank" rel="noopener noreferrer">mohan2123.github.io</a>
         </p>
     </div>
 </div>
 
 <div class="footer">
-    &copy; 2026 Mohan RKS. सर्वाधिकार सुरक्षित। | <a href="../terms_of_service/hi.html">सेवा की शर्तें</a>
+    &copy; 2026 Mohan MRKS. सर्वाधिकार सुरक्षित। | <a href="../terms_of_service/hi.html">सेवा की शर्तें</a>
 </div>
 
 </body>

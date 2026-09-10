@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>தனியுரிமைக் கொள்கை - File Manager</title>
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --primary-dark: #1557b0;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border: #dadce0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.2rem;
+            color: var(--primary-dark);
+        }
+        .header p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            padding: 2.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .lang-switch a {
+            text-decoration: none;
+            color: var(--primary-dark);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background-color: var(--primary-dark);
+            color: #ffffff;
+            border-color: var(--primary-dark);
+        }
+        h2 {
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.4rem;
+            margin-top: 2rem;
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-top: 1.2rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            background-color: var(--card-bg);
+        }
+        a {
+            color: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>தனியுரிமைக் கொள்கை</h1>
+    <p>File Manager &bull; நடைமுறைக்கு வரும் தேதி: 17 ஆகஸ்ட் 2026</p>
+</div>
+
+<div class="container">
+    <div class="lang-switch">
+        <a href="en.html">English</a>
+        <a href="en_us.html">English (US)</a>
+        <a href="en_gb.html">English (UK)</a>
+        <a href="en_au.html">English (AU)</a>
+        <a href="fr.html">Français</a>
+        <a href="de.html">Deutsch</a>
+        <a href="vi.html">Tiếng Việt</a>
+        <a href="es.html">Español</a>
+        <a href="pt.html">Português</a>
+        <a href="ru.html">Русский</a>
+        <a href="hi.html">हिन्दी</a>
+        <a href="mr.html">मराठी</a>
+        <a href="bn.html">বাংলা</a>
+        <a href="te.html">తెలుగు</a>
+        <a href="ta.html" class="active">தமிழ்</a>
+        <a href="tr.html">Türkçe</a>
+        <a href="ja.html">日本語</a>
+        <a href="zh.html">简体中文</a>
+        <a href="sw.html">Kiswahili</a>
+        <a href="ha.html">Hausa</a>
+        <a href="id.html">Bahasa Indonesia</a>
+    </div>
+
+    <div class="card">
+        <h2>1. தனியுரிமை முதன்மை கட்டமைப்பு</h2>
+        <p>இந்த தனியுரிமைக் கொள்கை <strong>Mohan MRKS</strong> ("டெவலப்பர்") உருவாக்கிய <strong>File Manager</strong> மொபைல் பயன்பாட்டிற்கு பொருந்தும். File Manager "தனியுரிமை முதன்மை" அணுகுமுறையுடன் உருவாக்கப்பட்டுள்ளது.</p>
+
+        <h2>2. தரவு கையாளுதல் மற்றும் அனுமதிகள் கொள்கை</h2>
+        <p>File Manager உங்கள் சாதனத்தில் ஆஃப்லைன் பயன்பாடாக உள்ளூரில் செயல்படுகிறது. அனுமதி விவரங்கள்:</p>
+        <ul>
+            <li><strong>MANAGE_EXTERNAL_STORAGE / READ_EXTERNAL_STORAGE:</strong> கோப்புகளைத் திறக்க, படிக்க, திருத்த மற்றும் சேமிக்க உங்கள் சாதனத்தில் உள்ளூரில் வழங்கப்படுகிறது. உங்கள் தனிப்பட்ட கோப்புகள் வெளிப்புற சேவையகங்களில் பதிவேற்றப்படுவதில்லை.</li>
+            <li><strong>CAMERA:</strong> புகைப்படங்களை எடுக்க அல்லது குறியீடுகளை ஸ்கேன் செய்ய உள்ளூரில் வழங்கப்படுகிறது. கேமரா பிரேம்கள் நினைவகத்தில் மட்டுமே செயலாக்கப்படுகின்றன.</li>
+            <li><strong>POST_NOTIFICATIONS:</strong> பிளேபேக் கட்டுப்பாடுகள் அல்லது பின்னணி செயல்பாட்டு நிலையை காட்ட வழங்கப்படுகிறது.</li>
+        </ul>
+
+        <h2>3. ஆஃப்லைன் மற்றும் உள்ளூர் செயலாக்க உத்தரவாதம்</h2>
+        <p>File Manager இன் அனைத்து முக்கிய செயலாக்கங்களும் 100% உள்ளூரில் உங்கள் சாதனத்திலேயே செய்யப்படுகின்றன.</p>
+
+        <h2>4. மூன்றாம் தரப்பு விளம்பரம் மற்றும் டெலிமெட்ரி தரவு</h2>
+        <p>இந்த பயன்பாடு விளம்பரங்களை வழங்க <strong>Google AdMob</strong> (Google LLC வழங்கியது) ஐ ஒருங்கிணைக்கிறது. விளம்பர விநியோகத்திற்கு Google AdMob சாதன அடையாளங்காட்டிகளை செயலாக்கலாம்.</p>
+
+        <h2>5. குழந்தைகளின் தனியுரிமை (COPPA இணக்கம்)</h2>
+        <p>இந்த பயன்பாடு 13 வயதிற்குட்பட்ட குழந்தைகளிடமிருந்து தனிப்பட்ட தகவல்களை சேகரிப்பதில்லை. Google AdMob குழந்தைகள் பாதுகாப்பு வழிகாட்டுதல்களுக்கு இணங்க கட்டமைக்கப்பட்டுள்ளது.</p>
+
+        <h2>6. கொள்கை புதுப்பிப்புகள் மற்றும் தொடர்பு தகவல்</h2>
+        <p>இந்தக் கொள்கையை அவ்வப்போது புதுப்பிக்கும் உரிமையை நாங்கள் கொண்டுள்ளோம். உங்களுக்கு ஏதேனும் கேள்விகள் இருந்தால், தயவுசெய்து எங்களை தொடர்பு கொள்ளவும்:</p>
+        <p>
+            <strong>டெவலப்பர்:</strong> Mohan MRKS<br>
+            <strong>ஆதரவு மின்னஞ்சல்:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
+            <strong>வலைத்தளம்:</strong> <a href="https://mohan2123.github.io" target="_blank" rel="noopener noreferrer">mohan2123.github.io</a>
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 Mohan MRKS. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. | <a href="../terms_of_service/ta.html">சேவை விதிமுறைகள்</a>
+</div>
+
+</body>
+</html>

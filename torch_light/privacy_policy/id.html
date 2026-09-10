@@ -6,8 +6,8 @@
     <title>Kebijakan Privasi - Torch Light</title>
     <style>
         :root {
-            --primary: #f59e0b;
-            --primary-dark: #d97706;
+            --primary: #eab308;
+            --primary-dark: #ca8a04;
             --text: #202124;
             --text-secondary: #5f6368;
             --bg: #f8f9fa;
@@ -114,63 +114,59 @@
 <div class="container">
     <div class="lang-switch">
         <a href="en.html">English</a>
+        <a href="en_us.html">English (US)</a>
+        <a href="en_gb.html">English (UK)</a>
+        <a href="en_au.html">English (AU)</a>
+        <a href="fr.html">Français</a>
+        <a href="de.html">Deutsch</a>
+        <a href="vi.html">Tiếng Việt</a>
         <a href="es.html">Español</a>
-        <a href="pt.html">Português (Brasil)</a>
+        <a href="pt.html">Português</a>
         <a href="ru.html">Русский</a>
         <a href="hi.html">हिन्दी</a>
+        <a href="mr.html">मराठी</a>
+        <a href="bn.html">বাংলা</a>
+        <a href="te.html">తెలుగు</a>
+        <a href="ta.html">தமிழ்</a>
+        <a href="tr.html">Türkçe</a>
+        <a href="ja.html">日本語</a>
+        <a href="zh.html">简体中文</a>
+        <a href="sw.html">Kiswahili</a>
+        <a href="ha.html">Hausa</a>
         <a href="id.html" class="active">Bahasa Indonesia</a>
     </div>
 
     <div class="card">
-        <h2>1. Desain Mengutamakan Privasi</h2>
-        <p>Kebijakan Privasi ini berlaku untuk aplikasi seluler <strong>Torch Light</strong> ("Aplikasi", "Layanan"), yang dikembangkan oleh <strong>Mohan RKS</strong> ("Pengembang", "Kami"). Torch Light dibangun dengan mengutamakan privasi. Kami tidak mengumpulkan, mengunggah, atau mentransmisikan data pribadi apa pun dari perangkat Anda. Akses kamera diminta hanya secara lokal untuk menyalakan lampu LED fisik menggunakan <code>CameraManager.setTorchMode()</code>. Aplikasi TIDAK mengakses sensor kamera atau mengambil foto/video.</p>
+        <h2>1. Arsitektur Privasi Utama</h2>
+        <p>Kebijakan Privasi ini berlaku untuk aplikasi seluler <strong>Torch Light</strong> ("Aplikasi", "Layanan"), yang dikembangkan oleh <strong>Mohan MRKS</strong> ("Pengembang"). Torch Light dibangun dengan pendekatan "Privasi Utama".</p>
 
-        <h2>2. Penggunaan Izin dan Data</h2>
-        <p>Torch Light beroperasi secara lokal di perangkat Anda sebagai alat offline. Penggunaan izin:</p>
+        <h2>2. Kebijakan Penanganan Data & Izin</h2>
+        <p>Torch Light beroperasi secara lokal di perangkat Anda sebagai utilitas offline. Rincian izin:</p>
         <ul>
-            <li><strong>FLASHLIGHT / CAMERA:</strong> Diperlukan secara lokal untuk menyalakan/mematikan LED senter.</li>
-            <li><strong>FOREGROUND_SERVICE:</strong> Digunakan untuk menjaga senter tetap menyala di latar belakang atau saat layar terkunci.</li>
-            <li><strong>WAKE_LOCK:</strong> Menjaga senter atau layar tetap aktif selama penghitung waktu atau mode stroboskop.</li>
-            <li><strong>POST_NOTIFICATIONS:</strong> Menampilkan pemberitahuan status dan kontrol cepat senter.</li>
-            <li><strong>READ_PHONE_STATE:</strong> Diminta hanya jika Anda mengaktifkan fitur "Flash saat Panggilan" untuk mengedipkan LED saat ada panggilan masuk.</li>
+            <li><strong>CAMERA / FLASHLIGHT:</strong> Diberikan untuk mengontrol lampu kilat LED kamera.</li>
         </ul>
 
-        <h2>3. Iklan Pihak Ketiga (Google AdMob)</h2>
-        <p>Aplikasi mengintegrasikan <strong>Google AdMob</strong> untuk menampilkan iklan banner. AdMob dapat memproses data telemetri (ID Iklan, alamat IP, model perangkat) untuk penayangan iklan dan pencegahan penipuan.</p>
-        <h3>Jenis Data yang Diproses oleh Google AdMob:</h3>
-        <ul>
-            <li><strong>Pengenal Perangkat:</strong> ID Iklan (Google AAID), alamat IP, model perangkat keras, versi sistem operasi, dan bahasa.</li>
-            <li><strong>Kinerja Aplikasi & Diagnostik Iklan:</strong> Metrik impresi iklan, klik, dan laporan kerusakan.</li>
-            <li><strong>Lokasi Perkiraan:</strong> Lokasi tidak presisi yang diturunkan dari alamat IP untuk iklan regional.</li>
-        </ul>
-        <p>Untuk informasi lebih terperinci tentang praktik penanganan data Google, silakan lihat:</p>
-        <ul>
-            <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Cara Google menggunakan informasi dari situs atau aplikasi yang menggunakan layanan kami</a></li>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Kebijakan Privasi & Persyaratan Google</a></li>
-        </ul>
+        <h2>3. Jaminan Operasi Offline & Lokal</h2>
+        <p>Semua pemrosesan inti dan operasi Torch Light dilakukan 100% secara lokal pada perangkat keras Anda.</p>
 
-        <h2>4. Hak Pengguna & Perlindungan Data</h2>
-        <p>Karena data pribadi Anda tetap ada di perangkat Anda, Anda mempertahankan kontrol penuh atas hak privasi Anda:</p>
-        <ul>
-            <li><strong>Kontrol Iklan Dipersonalisasi:</strong> Anda dapat mereset atau menonaktifkan iklan dipersonalisasi kapan saja melalui pengaturan perangkat Anda (<em>Pengaturan &gt; Google &gt; Iklan</em>).</li>
-            <li><strong>Penghapusan Data:</strong> Meng-uninstall aplikasi akan menghapus seluruh pengaturan lokal secara permanen.</li>
-        </ul>
+        <h2>4. Iklan Pihak Ketiga & Data Telemetri</h2>
+        <p>Aplikasi ini mengintegrasikan <strong>Google AdMob</strong> (disediakan oleh Google LLC) untuk menampilkan iklan. Google AdMob dapat memproses pengidentifikasi perangkat untuk penayangan iklan dan pencegahan penipuan.</p>
 
-        <h2>5. Privasi Anak-Anak (Kepatuhan COPPA)</h2>
-        <p>Aplikasi ini tidak secara sengaja mengumpulkan data pribadi dari anak-anak di bawah usia 13 tahun. Google AdMob dikonfigurasi untuk mematuhi pedoman COPPA.</p>
+        <h2>5. Privasi Anak-anak (Kepatuhan COPPA)</h2>
+        <p>Aplikasi tidak secara sengaja mengumpulkan informasi identitas pribadi dari anak-anak di bawah 13 tahun. Google AdMob dikonfigurasi untuk mematuhi aturan COPPA.</p>
 
         <h2>6. Pembaruan Kebijakan & Informasi Kontak</h2>
-        <p>Kami berhak memperbarui kebijakan ini secara berkala. Jika Anda memiliki pertanyaan, hubungi kami di:</p>
+        <p>Kami berhak memperbarui kebijakan ini secara berkala. Jika Anda memiliki pertanyaan, silakan hubungi kami di:</p>
         <p>
-            <strong>Pengembang:</strong> Mohan RKS<br>
+            <strong>Pengembang:</strong> Mohan MRKS<br>
             <strong>Email Dukungan:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
-            <strong>Situs Web:</strong> <a href="https://github.com/Mohan2123/Mohan2123.github.io" target="_blank" rel="noopener noreferrer">Mohan2123.github.io</a>
+            <strong>Situs Web:</strong> <a href="https://mohan2123.github.io" target="_blank" rel="noopener noreferrer">mohan2123.github.io</a>
         </p>
     </div>
 </div>
 
 <div class="footer">
-    &copy; 2026 Mohan RKS. Hak cipta dilindungi undang-undang. | <a href="../terms_of_service/id.html">Ketentuan Layanan</a>
+    &copy; 2026 Mohan MRKS. Hak cipta dilindungi undang-undang. | <a href="../terms_of_service/id.html">Ketentuan Layanan</a>
 </div>
 
 </body>

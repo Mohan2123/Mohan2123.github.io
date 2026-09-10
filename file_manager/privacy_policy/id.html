@@ -31,7 +31,7 @@
         .header h1 {
             margin: 0 0 0.5rem 0;
             font-size: 2.2rem;
-            color: var(--primary);
+            color: var(--primary-dark);
         }
         .header p {
             margin: 0;
@@ -59,7 +59,7 @@
         }
         .lang-switch a {
             text-decoration: none;
-            color: var(--primary);
+            color: var(--primary-dark);
             padding: 6px 14px;
             border-radius: 20px;
             border: 1px solid var(--border);
@@ -68,9 +68,9 @@
             transition: all 0.2s ease;
         }
         .lang-switch a:hover, .lang-switch a.active {
-            background-color: var(--primary);
+            background-color: var(--primary-dark);
             color: #ffffff;
-            border-color: var(--primary);
+            border-color: var(--primary-dark);
         }
         h2 {
             color: var(--text);
@@ -100,7 +100,7 @@
             background-color: var(--card-bg);
         }
         a {
-            color: var(--primary);
+            color: var(--primary-dark);
         }
     </style>
 </head>
@@ -108,90 +108,67 @@
 
 <div class="header">
     <h1>Kebijakan Privasi</h1>
-    <p>File Manager &bull; Tanggal Berlaku: 16 Agustus 2026</p>
+    <p>File Manager &bull; Tanggal Berlaku: 17 Agustus 2026</p>
 </div>
 
 <div class="container">
     <div class="lang-switch">
         <a href="en.html">English</a>
+        <a href="en_us.html">English (US)</a>
+        <a href="en_gb.html">English (UK)</a>
+        <a href="en_au.html">English (AU)</a>
+        <a href="fr.html">Français</a>
+        <a href="de.html">Deutsch</a>
+        <a href="vi.html">Tiếng Việt</a>
         <a href="es.html">Español</a>
         <a href="pt.html">Português</a>
         <a href="ru.html">Русский</a>
         <a href="hi.html">हिन्दी</a>
+        <a href="mr.html">मराठी</a>
+        <a href="bn.html">বাংলা</a>
+        <a href="te.html">తెలుగు</a>
+        <a href="ta.html">தமிழ்</a>
+        <a href="tr.html">Türkçe</a>
+        <a href="ja.html">日本語</a>
+        <a href="zh.html">简体中文</a>
+        <a href="sw.html">Kiswahili</a>
+        <a href="ha.html">Hausa</a>
         <a href="id.html" class="active">Bahasa Indonesia</a>
     </div>
 
     <div class="card">
-        <h2>1. Pendahuluan</h2>
-        <p>Kebijakan Privasi ini berlaku untuk aplikasi seluler <strong>File Manager</strong> ("Aplikasi", "App", "Layanan"), yang dikembangkan oleh <strong>Mohan RKS</strong> ("Pengembang", "Kami"). Kami menghormati privasi Anda dan berkomitmen untuk melindunginya melalui kepatuhan terhadap kebijakan ini. Kebijakan ini menjelaskan jenis informasi yang dapat kami kumpulkan dari Anda atau yang Anda berikan saat mengunduh, memasang, mendaftar, mengakses, atau menggunakan Aplikasi, serta praktik kami dalam mengumpulkan, menggunakan, memelihara, melindungi, dan mengungkapkan informasi tersebut.</p>
-        <p>Harap baca kebijakan ini dengan saksama untuk memahami kebijakan dan praktik kami terkait informasi Anda dan bagaimana kami akan memperlakukannya. Jika Anda tidak menyetujui kebijakan dan praktik kami, pilihan Anda adalah tidak mengunduh, memasang, atau menggunakan Aplikasi ini. Dengan mengunduh, memasang, atau menggunakan Aplikasi ini, Anda menyetujui Kebijakan Privasi ini.</p>
+        <h2>1. Arsitektur Privasi Utama</h2>
+        <p>Kebijakan Privasi ini berlaku untuk aplikasi seluler <strong>File Manager</strong> ("Aplikasi", "Layanan"), yang dikembangkan oleh <strong>Mohan MRKS</strong> ("Pengembang"). File Manager dibangun dengan pendekatan "Privasi Utama".</p>
 
-        <h2>2. Arsitektur Penanganan Data & Kebijakan Penyimpanan Lokal</h2>
-        <p>File Manager dirancang terutama sebagai alat mandiri luring yang didedikasikan untuk manajemen penyimpanan lokal, penjelajahan file, pengarsipan, pemutaran media, pengeditan dokumen, dan keamanan file biometrik. Fitur inti dari Aplikasi beroperasi secara lokal di perangkat klien Anda.</p>
+        <h2>2. Kebijakan Penanganan Data & Izin</h2>
+        <p>File Manager beroperasi secara lokal di perangkat Anda sebagai utilitas offline. Rincian izin:</p>
         <ul>
-            <li><strong>Data File Lokal:</strong> Semua pengindeksan file, pembuatan metadata direktori, pembuatan gambar mini, rendering media, manipulasi arsip (ZIP, TAR, RAR, 7Z), dan pengeditan kode terjadi secara lokal di perangkat Anda. Kami tidak mentransfer, mencerminkan, atau mencadangkan file pribadi, foto, video, audio, atau dokumen Anda ke server cloud eksternal yang kami operasikan.</li>
-            <li><strong>Kredensial Biometrik & Enkripsi:</strong> Autentikasi folder aman bergantung pada API Biometrik Sistem Android dan primitif kriptografi lokal. Data biometrik Anda (sidik jari, metrik wajah) diproses secara eksklusif oleh Secure Enclave / Trusted Execution Environment perangkat Anda. Kami tidak pernah mengakses, menyimpan, atau mengirimkan pengidentifikasi biometrik Anda.</li>
-            <li><strong>Basis Data Aplikasi:</strong> Status aplikasi lokal, tag, kategorisasi khusus, favorit, dan pengaturan disimpan secara lokal di basis data SQLite terisolasi melalui mesin Basis Data Lokal SQLite di perangkat Anda.</li>
+            <li><strong>MANAGE_EXTERNAL_STORAGE / READ_EXTERNAL_STORAGE:</strong> Diberikan secara lokal pada perangkat Anda untuk membuka, membaca, mengedit, dan menyimpan berkas. Berkas pribadi Anda tidak pernah diunggah ke server eksternal mana pun.</li>
+            <li><strong>CAMERA:</strong> Diberikan secara lokal untuk mengambil foto atau memindai kode. Bingkai kamera diproses dalam memori.</li>
+            <li><strong>POST_NOTIFICATIONS:</strong> Diberikan untuk menampilkan kontrol pemutaran atau pembaruan status operasi latar belakang.</li>
         </ul>
 
-        <h2>3. Izin Perangkat & Rincian Tujuan</h2>
-        <p>Untuk menyediakan fungsionalitas navigasi dan eksekusi file yang lengkap, Aplikasi meminta izin runtime dan sistem. Berikut adalah rincian tentang bagaimana setiap izin digunakan:</p>
-        <ul>
-            <li><strong>Pengelolaan Penyimpanan Eksternal (MANAGE_EXTERNAL_STORAGE) / Membaca Penyimpanan Eksternal (READ_EXTERNAL_STORAGE) / Menulis Penyimpanan Eksternal (WRITE_EXTERNAL_STORAGE):</strong> Diberikan untuk memungkinkan operasi file penuh di seluruh penyimpanan perangkat bersama, termasuk membuat, mengganti nama, menghapus, menyalin, memindahkan, mengarsipkan, dan mengedit dokumen serta file media.</li>
-            <li><strong>Membaca Gambar (READ_MEDIA_IMAGES) / Membaca Video (READ_MEDIA_VIDEO) / Membaca Audio (READ_MEDIA_AUDIO):</strong> Diperlukan di Android 13+ untuk memfilter, mengatur, menampilkan thumbnail, dan memutar file media yang disimpan di penyimpanan lokal perangkat Anda.</li>
-            <li><strong>Kamera (CAMERA):</strong> Digunakan semata-mata jika Anda menggunakan pemindai dokumen atau fitur pengambilan kamera bawaan dalam Aplikasi untuk mengambil foto langsung ke folder tujuan tertentu.</li>
-            <li><strong>Penggunaan Biometrik (USE_BIOMETRIC) / Penggunaan Sidik Jari (USE_FINGERPRINT):</strong> Diperlukan untuk mengautentikasi identitas pengguna sebelum membuka kunci folder yang dilindungi atau disembunyikan di dalam Aplikasi.</li>
-            <li><strong>Kueri Semua Paket (QUERY_ALL_PACKAGES) / Permintaan Hapus Paket (REQUEST_DELETE_PACKAGES) / Statistik Penggunaan Paket:</strong> Digunakan untuk utilitas pengelola aplikasi, memungkinkan Anda melihat penggunaan penyimpanan aplikasi yang terpasang, mencadangkan file APK, atau memicu pencopotan pemasangan paket atas permintaan eksplisit.</li>
-            <li><strong>Lokasi Presisi (ACCESS_FINE_LOCATION) / Lokasi Perkiraan (ACCESS_COARSE_LOCATION) / Perangkat Wi-Fi Sekitar (NEARBY_WIFI_DEVICES) / Status Wi-Fi (ACCESS_WIFI_STATE) / Ubah Status Wi-Fi (CHANGE_WIFI_STATE) / Ubah Status Jaringan (CHANGE_NETWORK_STATE):</strong> Diminta secara eksklusif untuk mengaktifkan transfer file peer-to-peer langsung berkecepatan tinggi melalui Koneksi Wi-Fi Langsung atau jaringan Hotspot Wi-Fi lokal. Layanan lokasi diperlukan oleh sistem operasi Android untuk memindai perangkat Wi-Fi terdekat. Data lokasi tidak pernah direkam, disimpan, atau dikirimkan ke server mana pun.</li>
-            <li><strong>Kirim Notifikasi (POST_NOTIFICATIONS) / Layanan Latar Depan (FOREGROUND_SERVICE):</strong> Digunakan untuk menampilkan pembaruan status persisten selama operasi di latar belakang, seperti transfer file yang sedang berlangsung, kompresi/ekstraksi batch, atau tugas pembersihan penyimpanan.</li>
-        </ul>
+        <h2>3. Jaminan Pemrosesan Offline & Lokal</h2>
+        <p>Semua pemrosesan inti dan operasi File Manager dilakukan 100% secara lokal pada perangkat keras Anda.</p>
 
-        <h2>4. Iklan Pihak Ketiga & Pengumpulan Data Analitik</h2>
-        <p>Aplikasi mengintegrasikan <strong>Google AdMob</strong> untuk menayangkan iklan. Meskipun kami tidak mengumpulkan data pribadi secara langsung, Google AdMob dapat mengumpulkan dan memproses data telemetri tertentu secara otomatis melalui Google Mobile Ads SDK untuk personalisasi iklan, analitik, pelaporan, dan pencegahan penipuan.</p>
-        <h3>Jenis Data yang Dikumpulkan oleh Google AdMob:</h3>
-        <ul>
-            <li><strong>Pengenal Perangkat:</strong> ID Iklan (misalnya, Google AAID), alamat IP, model perangkat keras, versi sistem operasi, dan bahasa sistem.</li>
-            <li><strong>Data Penggunaan & Kinerja Aplikasi:</strong> Log interaksi iklan, metrik tayangan, pelacakan klik, laporan kerusakan, dan diagnostik aplikasi.</li>
-            <li><strong>Data Lokasi Perkiraan:</strong> Lokasi tidak presisi yang disimpulkan dari alamat IP untuk penargetan iklan berbasis wilayah geografis.</li>
-        </ul>
-        <p>Untuk informasi lebih rinci mengenai praktik penanganan data Google, silakan merujuk ke:</p>
-        <ul>
-            <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Cara Google menggunakan informasi dari situs atau aplikasi yang menggunakan layanan kami</a></li>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Kebijakan Privasi & Persyaratan Google</a></li>
-        </ul>
+        <h2>4. Iklan Pihak Ketiga & Data Telemetri</h2>
+        <p>Aplikasi ini mengintegrasikan <strong>Google AdMob</strong> (disediakan oleh Google LLC) untuk menampilkan iklan. Google AdMob dapat memproses pengidentifikasi perangkat untuk penayangan iklan dan pencegahan penipuan.</p>
 
-        <h2>5. Perlindungan Data Pengguna & Hak Peraturan Global</h2>
-        <p>Tergantung pada yurisdiksi Anda, Anda memiliki hak hukum khusus mengenai informasi pribadi Anda berdasarkan undang-undang privasi global yang berlaku, termasuk Peraturan Perlindungan Data Umum Uni Eropa, Undang-Undang Privasi Konsumen California, Undang-Undang Perlindungan Data Umum Brasil, dan Undang-Undang Perlindungan Data Pribadi Digital India:</p>
-        <ul>
-            <li><strong>Hak Akses & Kontrol:</strong> Karena data file Anda tetap berada secara eksklusif di perangkat lokal Anda, Anda memegang kendali 100% atas data Anda. Anda dapat memeriksa, memodifikasi, mengekspor, atau menghapus file apa pun kapan saja secara langsung melalui Aplikasi atau pengelola file sistem.</li>
-            <li><strong>Hak untuk Menolak Iklan yang Dipersonalisasi:</strong> Anda dapat mengatur ulang atau menonaktifkan ID Iklan Anda kapan saja melalui pengaturan perangkat Anda (Buka <em>Pengaturan &gt; Google &gt; Iklan &gt; Hapus ID Iklan</em> atau <em>Pilih tidak ikut Personalisasi Iklan</em>).</li>
-            <li><strong>Retensi & Penghapusan Data:</strong> Mencopot pemasangan Aplikasi akan menghapus secara permanen semua catatan basis data lokal terisolasi, cache aplikasi, dan pengaturan konfigurasi yang tersimpan dari perangkat Anda. File yang dibuat di penyimpanan bersama umum tetap berada di bawah kendali pengguna.</li>
-        </ul>
+        <h2>5. Privasi Anak-anak (Kepatuhan COPPA)</h2>
+        <p>Aplikasi tidak secara sengaja mengumpulkan informasi identitas pribadi dari anak-anak di bawah 13 tahun. Google AdMob dikonfigurasi untuk mematuhi aturan COPPA.</p>
 
-        <h2>6. Perlindungan Privasi Daring Anak-anak</h2>
-        <p>Aplikasi kami tidak ditujukan untuk anak-anak di bawah usia 13 tahun. Kami tidak secara sengaja meminta atau mengumpulkan data pribadi dari anak-anak. Google AdMob dikonfigurasikan untuk mematuhi COPPA dan kerangka kerja keselamatan anak yang relevan. Jika kami mengetahui bahwa data pribadi anak di bawah umur telah dikumpulkan tanpa persetujuan orang tua yang dapat diverifikasi, kami akan segera mengambil langkah untuk menghapus atau membatasi informasi tersebut.</p>
-
-        <h2>7. Perlindungan Keamanan Data</h2>
-        <p>Kami menerapkan praktik keamanan standar industri. Penyimpanan aplikasi lokal dan koneksi basis data diamankan menggunakan kontrol akses isolasi standar platform. Tindakan sensitif, seperti akses ke brankas penyimpanan yang dilindungi, memerlukan verifikasi biometrik yang didukung perangkat keras. Namun, tidak ada metode penyimpanan elektronik atau transmisi melalui jaringan nirkabel yang 100% aman; kami mengimbau pengguna untuk menjaga kode sandi perangkat yang kuat dan enkripsi perangkat tetap aktif.</p>
-
-        <h2>8. Transfer Data Internasional</h2>
-        <p>Karena fungsi inti aplikasi beroperasi secara offline, tidak ada konten file yang ditransfer melintasi batas negara oleh kami. Data telemetri AdMob SDK dapat diproses di server yang berlokasi di Amerika Serikat atau negara lain tempat Google mengoperasikan infrastruktur, tunduk pada klausul kontrak standar dan kerangka kerja privasi global yang ketat.</p>
-
-        <h2>9. Amandemen & Pembaruan Kebijakan</h2>
-        <p>Kami berhak untuk mengubah atau memperbarui Kebijakan Privasi ini kapan saja. Setiap perubahan akan dipublikasikan langsung di halaman ini dengan "Tanggal Berlaku" yang diperbarui. Kami menganjurkan pengguna untuk meninjau kebijakan ini secara berkala agar tetap mendapatkan informasi tentang bagaimana kami menjaga privasi Anda.</p>
-
-        <h2>10. Hubungi Kami & Pertanyaan Hukum</h2>
-        <p>Jika Anda memiliki pertanyaan, kekhawatiran, atau pertanyaan hukum formal mengenai Kebijakan Privasi ini atau praktik privasi kami, silakan hubungi kami di:</p>
+        <h2>6. Pembaruan Kebijakan & Informasi Kontak</h2>
+        <p>Kami berhak memperbarui kebijakan ini secara berkala. Jika Anda memiliki pertanyaan, silakan hubungi kami di:</p>
         <p>
-            <strong>Pengembang:</strong> Mohan RKS<br>
-            <strong>Email Dukungan Resmi:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
-            <strong>Repositori GitHub:</strong> <a href="https://github.com/Mohan2123/Mohan2123.github.io" target="_blank" rel="noopener noreferrer">Mohan2123.github.io</a>
+            <strong>Pengembang:</strong> Mohan MRKS<br>
+            <strong>Email Dukungan:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
+            <strong>Situs Web:</strong> <a href="https://mohan2123.github.io" target="_blank" rel="noopener noreferrer">mohan2123.github.io</a>
         </p>
     </div>
 </div>
 
 <div class="footer">
-    &copy; 2026 Mohan RKS. Hak cipta dilindungi undang-undang. | <a href="../terms_of_service/id.html">Syarat Layanan</a>
+    &copy; 2026 Mohan MRKS. Hak cipta dilindungi undang-undang. | <a href="../terms_of_service/id.html">Ketentuan Layanan</a>
 </div>
 
 </body>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>గోప్యతా విధానం - Photos App</title>
+    <style>
+        :root {
+            --primary: #8b5cf6;
+            --primary-dark: #7c3aed;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border: #dadce0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.2rem;
+            color: var(--primary-dark);
+        }
+        .header p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            padding: 2.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .lang-switch a {
+            text-decoration: none;
+            color: var(--primary-dark);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background-color: var(--primary-dark);
+            color: #ffffff;
+            border-color: var(--primary-dark);
+        }
+        h2 {
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.4rem;
+            margin-top: 2rem;
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-top: 1.2rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            background-color: var(--card-bg);
+        }
+        a {
+            color: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>గోప్యతా విధానం</h1>
+    <p>Photos App &bull; అమల్లోకి వచ్చిన తేదీ: 17 ఆగస్టు 2026</p>
+</div>
+
+<div class="container">
+    <div class="lang-switch">
+        <a href="en.html">English</a>
+        <a href="en_us.html">English (US)</a>
+        <a href="en_gb.html">English (UK)</a>
+        <a href="en_au.html">English (AU)</a>
+        <a href="fr.html">Français</a>
+        <a href="de.html">Deutsch</a>
+        <a href="vi.html">Tiếng Việt</a>
+        <a href="es.html">Español</a>
+        <a href="pt.html">Português</a>
+        <a href="ru.html">Русский</a>
+        <a href="hi.html">हिन्दी</a>
+        <a href="mr.html">मराठी</a>
+        <a href="bn.html">বাংলা</a>
+        <a href="te.html" class="active">తెలుగు</a>
+        <a href="ta.html">தமிழ்</a>
+        <a href="tr.html">Türkçe</a>
+        <a href="ja.html">日本語</a>
+        <a href="zh.html">简体中文</a>
+        <a href="sw.html">Kiswahili</a>
+        <a href="ha.html">Hausa</a>
+        <a href="id.html">Bahasa Indonesia</a>
+    </div>
+
+    <div class="card">
+        <h2>1. గోప్యత ప్రథమ ఆర్కిటెక్చర్</h2>
+        <p>ఈ గోప్యతా విధానం <strong>Mohan MRKS</strong> ("డెవలపర్") అభివృద్ధి చేసిన <strong>Photos App</strong> మొబైల్ అప్లికేషన్‌కు వర్తిస్తుంది. Photos App "గోప్యత మొదటిది" విధానంతో రూపొందించబడింది.</p>
+
+        <h2>2. డేటా హ్యాండ్లింగ్ మరియు అనుమతుల విధానం</h2>
+        <p>Photos App మీ పరికరంలో ఆఫ్‌లైన్ యుటిలిటీగా స్థానికంగా పనిచేస్తుంది. అనుమతుల వివరాలు:</p>
+        <ul>
+            <li><strong>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> ఫైల్‌లను తెరవడానికి, చదవడానికి, సవరించడానికి మరియు సేవ్ చేయడానికి మీ పరికరంలో స్థానికంగా ఇవ్వబడింది. మీ వ్యక్తిగత ఫైల్‌లు బాహ్య సర్వర్‌లకు ఎప్పటికీ అప్‌లోడ్ చేయబడవు.</li>
+        </ul>
+
+        <h2>3. స్థానిక మీడియా ప్రాసెసింగ్ హామీ</h2>
+        <p>Photos App యొక్క అన్ని ప్రధాన ప్రాసెసింగ్ మరియు కార్యకలాపాలు 100% స్థానికంగా మీ పరికరంలోనే జరుగుతాయి.</p>
+
+        <h2>4. మూడవ పక్ష ప్రకటనలు మరియు టెలిమెట్రీ డేటా</h2>
+        <p>ఈ అప్లికేషన్ ప్రకటనలను ప్రదర్శించడానికి <strong>Google AdMob</strong> (Google LLC అందించినది) ని అనుసంధానిస్తుంది. ప్రకటనల డెలివరీ కోసం Google AdMob పరికర గుర్తింపుదారులను ప్రాసెస్ చేయవచ్చు.</p>
+
+        <h2>5. పిల్లల గోప్యత (COPPA వర్తింపు)</h2>
+        <p>ఈ అప్లికేషన్ 13 సంవత్సరాల కంటే తక్కువ వయస్సు ఉన్న పిల్లల నుండి వ్యక్తిగత డేటాను సేకరించదు. Google AdMob పిల్లల భద్రతా నిబంధనలకు అనుగుణంగా కాన్ఫిగర్ చేయబడింది.</p>
+
+        <h2>6. విధాన నవీకరణలు మరియు సంప్రదింపు సమాచారం</h2>
+        <p>మేము ఈ విధానాన్ని క్రమానుగతంగా నవీకరించే హక్కును కలిగి ఉన్నాము. మీకు ఏవైనా ప్రశ్నలు ఉంటే, దయచేసి మమ్మల్ని సంప్రదించండి:</p>
+        <p>
+            <strong>డెవలపర్:</strong> Mohan MRKS<br>
+            <strong>మద్దతు ఇమెయిల్:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
+            <strong>వెబ్‌సైట్:</strong> <a href="https://mohan2123.github.io" target="_blank" rel="noopener noreferrer">mohan2123.github.io</a>
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 Mohan MRKS. అన్ని హక్కులూ ప్రత్యేకించబడ్డాయి. | <a href="../terms_of_service/te.html">సేవా నిబంధనలు</a>
+</div>
+
+</body>
+</html>

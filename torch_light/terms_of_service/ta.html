@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>சேவை விதிமுறைகள் - Torch Light</title>
+    <style>
+        :root {
+            --primary: #f59e0b;
+            --primary-dark: #d97706;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border: #dadce0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.2rem;
+            color: var(--primary-dark);
+        }
+        .header p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            padding: 2.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .lang-switch a {
+            text-decoration: none;
+            color: var(--primary-dark);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background-color: var(--primary-dark);
+            color: #ffffff;
+            border-color: var(--primary-dark);
+        }
+        h2 {
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.4rem;
+            margin-top: 2rem;
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-top: 1.2rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 3rem;
+            background-color: var(--card-bg);
+        }
+        a {
+            color: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>சேவை விதிமுறைகள்</h1>
+    <p>Torch Light &bull; செயல்பாட்டு தேதி: ஆகஸ்ட் 17, 2026</p>
+</div>
+
+<div class="container">
+        <div class="lang-switch">
+        <a href="en.html">English</a>
+        <a href="en_us.html">English (US)</a>
+        <a href="en_gb.html">English (UK)</a>
+        <a href="en_au.html">English (AU)</a>
+        <a href="fr.html">Français</a>
+        <a href="de.html">Deutsch</a>
+        <a href="vi.html">Tiếng Việt</a>
+        <a href="es.html">Español</a>
+        <a href="pt.html">Português</a>
+        <a href="ru.html">Русский</a>
+        <a href="hi.html">हिन्दी</a>
+        <a href="mr.html">मराठी</a>
+        <a href="bn.html">বাংলা</a>
+        <a href="te.html">తెలుగు</a>
+        <a href="ta.html" class="active">தமிழ்</a>
+        <a href="tr.html">Türkçe</a>
+        <a href="ja.html">日本語</a>
+        <a href="zh.html">简体中文</a>
+        <a href="sw.html">Kiswahili</a>
+        <a href="ha.html">Hausa</a>
+        <a href="id.html">Bahasa Indonesia</a>
+    </div>
+
+    <div class="card">
+        <h2>1. விதிமுறைகளை ஏற்றுக்கொள்வது</h2>
+
+        <p>இந்தச் சேவை விதிமுறைகள் ("விதிமுறைகள்") உங்களுக்கும் ("பயனர்", "நீங்கள்") மற்றும் <strong>மோகன் MRKS</strong> ("டெவலப்பர்", "நாங்கள்", "நாங்கள்", "எங்கள்") இடையே சட்டப்பூர்வமாக பிணைக்கப்பட்ட உடன்படிக்கையை உருவாக்குகிறது. பயன்பாட்டைப் பதிவிறக்குதல், நிறுவுதல் அல்லது பயன்படுத்துவதன் மூலம், இந்த விதிமுறைகளுக்குக் கட்டுப்படுவதை நீங்கள் படித்து, புரிந்துகொண்டு, ஒப்புக்கொண்டீர்கள் என்பதை ஒப்புக்கொள்கிறீர்கள். இந்த விதிமுறைகளை நீங்கள் ஏற்கவில்லை என்றால், பயன்பாட்டை நிறுவவோ பயன்படுத்தவோ வேண்டாம்.</p>
+
+        <h2>2. உரிமத்தின் நோக்கம் &amp; அனுமதிக்கப்பட்ட பயன்பாடு</h2>
+
+        <p>இந்த விதிமுறைகளுடன் நீங்கள் இணங்குவதற்கு உட்பட்டு, உங்களுக்குச் சொந்தமான அல்லது உங்களுக்குச் சொந்தமான அல்லது கட்டுப்படுத்தப்படும் மொபைல் சாதனங்களில் உங்கள் தனிப்பட்ட, வணிகரீதியான பயன்பாட்டிற்கான விண்ணப்பத்தைப் பதிவிறக்க, நிறுவ மற்றும் செயல்படுத்த, வரையறுக்கப்பட்ட, பிரத்தியேகமற்ற, மாற்ற முடியாத, திரும்பப்பெறக்கூடிய உரிமத்தை நாங்கள் வழங்குகிறோம்.</p>
+
+        <h3>கட்டுப்படுத்தப்பட்ட செயல்கள்:</h3>
+
+        <ul>
+            <li>நீங்கள் ரிவர்ஸ் இன்ஜினியர் செய்யவோ, சிதைக்கவோ, பிரித்தெடுக்கவோ அல்லது விண்ணப்பத்தின் மூலக் குறியீட்டைப் பெற முயற்சிக்கவோ கூடாது.</li>
+            <li>விண்ணப்பத்தின் அடிப்படையில் நீங்கள் மாற்றியமைக்கவோ, மாற்றியமைக்கவோ, மொழிபெயர்க்கவோ அல்லது வழித்தோன்றல் படைப்புகளை உருவாக்கவோ கூடாது.</li>
+            <li>நீங்கள் விண்ணப்பத்தை வாடகைக்கு விடவோ, குத்தகைக்கு விடவோ, கடன் கொடுக்கவோ, விற்கவோ, மறுபகிர்வு செய்யவோ அல்லது துணை உரிமம் பெறவோ கூடாது.</li>
+            <li>சட்டவிரோதமான செயல்களில் ஈடுபட அல்லது சாதன பாதுகாப்பு நடவடிக்கைகளை புறக்கணிக்க நீங்கள் விண்ணப்பத்தைப் பயன்படுத்தக்கூடாது.</li>
+        </ul>
+
+        <h2>3. சாதன வன்பொருள் &amp; பயன்பாட்டு மறுப்பு</h2>
+
+        <p>டார்ச் லைட் ஒரு இலவச விளக்கு மற்றும் பயன்பாட்டு கருவியாக வழங்கப்படுகிறது. பயன்பாட்டைப் பயன்படுத்துவதன் மூலம், அதை பொறுப்புடன் பயன்படுத்த ஒப்புக்கொள்கிறீர்கள்:</p>
+
+        <ul>
+            <li><strong>பேட்டரி &amp; வெப்பப் பயன்பாடு:</strong> வன்பொருள் LED ஃபிளாஷ் அல்லது தொடர்ச்சியான உயர்-பிரகாசம் கொண்ட திரை விளக்குகளின் நீடித்த செயல்பாடு பேட்டரி நுகர்வு மற்றும் சாதனத்தின் வெப்பத்தை அதிகரிக்கும். உங்கள் சாதனத்தின் நிலையைக் கண்காணிப்பதற்கு நீங்கள் பொறுப்பு.</li>
+            <li><strong>திரை ஒளிரும் விளக்கு &amp; ஹார்டுவேர் பர்ன்-இன்:</strong> நிலையான பிரகாசமான வண்ணங்களின் நீண்ட காலக் காட்சியானது திரைப் படத்தைத் தக்கவைக்க அல்லது சில திரை தொழில்நுட்பங்களில் தேய்மானத்திற்கு பங்களிக்கலாம். பயனர்கள் தங்கள் விருப்பப்படி அதிகபட்ச ஒளிர்வுத் திரைப் பயன்முறைகளை செயல்படுத்துகின்றனர்.</li>
+            <li><strong>"உள்ளது" சேவை உத்தரவாதம்:</strong> தடையற்ற, குறைபாடுகள் இல்லாத செயல்பாட்டிற்கான உத்தரவாதங்கள் இல்லாமல் விண்ணப்பமானது "உள்ளது" மற்றும் "கிடைக்கக்கூடியது" அடிப்படையில் வழங்கப்படுகிறது.</li>
+        </ul>
+
+        <h2>4. ஸ்ட்ரோப் லைட் & ஆம்ப்; புகைப்பட உணர்திறன் எச்சரிக்கை</h2>
+
+        <p>பயன்பாடு உயர் அதிர்வெண் ஸ்ட்ரோப் மற்றும் SOS அவசர சிக்னல் ஒளிரும் முறைகளை உள்ளடக்கியது. ஒளிச்சேர்க்கை கால்-கை வலிப்பு அல்லது தொடர்புடைய நரம்பியல் நிலைமைகள் உள்ள நபர்களுக்கு ஒளிரும் விளக்குகள் அசௌகரியம், திசைதிருப்பல் அல்லது வலிப்புத்தாக்கங்களைத் தூண்டலாம். பயனர்கள் ஸ்ட்ரோப் அம்சங்களை தானாக முன்வந்து செயல்படுத்தி முழுப் பொறுப்பையும் ஏற்றுக்கொள்கிறார்கள்.</p>
+
+        <h2>5. பொறுப்பு வரம்பு</h2>
+
+        <p>பொருந்தக்கூடிய சட்டத்தால் அனுமதிக்கப்படும் அதிகபட்ச அளவிற்கு, டெவலப்பர் அல்லது துணை நிறுவனங்கள் எந்தவொரு நேரடி, மறைமுக, தற்செயலான, சிறப்பு, பின்விளைவு அல்லது தண்டனைக்குரிய சேதங்களுக்கு (வன்பொருள் சிதைவு, பேட்டரி வடிகால் அல்லது தரவு இழப்பு உட்பட) உங்கள் அணுகல் அல்லது பயன்பாட்டுடன் அல்லது தொடர்புடையதாக இருக்கும்.</p>
+
+        <h2>6. கொள்கை புதுப்பிப்புகள் &amp; தொடர்புத் தகவல்</h2>
+
+        <p>இந்த விதிமுறைகளை எந்த நேரத்திலும் மாற்றுவதற்கு அல்லது மாற்றுவதற்கு எங்களுக்கு உரிமை உள்ளது. இந்த விதிமுறைகள் தொடர்பாக உங்களுக்கு ஏதேனும் கேள்விகள் இருந்தால், எங்களை இங்கே தொடர்பு கொள்ளவும்:</p>
+
+        <p>
+            <strong>டெவலப்பர்:</strong> Mohan MRKS<br>
+            <strong>ஆதரவு மின்னஞ்சல்:</strong> <a href="mailto:Mohanrks26@gmail.com">Mohanrks26@gmail.com</a><br>
+            <strong>வலைத்தளம்:</strong> <a href="https://mohan2123.github.io" target="_blank" rel="noopener noreferrer">mohan2123.github.io</a>
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 Mohan MRKS. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. | <a href="../privacy_policy/ta.html">தனியுரிமைக் கொள்கை</a>
+</div>
+
+</body>
+</html>
