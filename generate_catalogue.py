@@ -179,6 +179,22 @@ APPS = [
             {"title": "Color Screen Light", "desc": "Full-screen ambient illumination with customizable RGB colors and brightness."},
             {"title": "Auto-Off Battery Saver", "desc": "Configurable timer to automatically turn off flashlight and prevent battery drain."}
         ]
+    },
+    {
+        "id": "messages",
+        "package_id": "com.mohan.messages",
+        "name": "Messages",
+        "tagline": "Private SMS & MMS Messenger with Smart Organization",
+        "category": "utility",
+        "category_label": "Utilities & Tools",
+        "summary": "A clean, private SMS and MMS app for sending, scheduling, and organizing messages with dual-SIM support, pinned chats, starred messages, spam blocking, and offline database storage.",
+        "features": [
+            {"title": "Clean SMS & MMS Messaging", "desc": "Effortlessly send, receive, and search texts, attachments, contacts, and media with responsive delivery status."},
+            {"title": "Smart Chat Organization", "desc": "Pin essential conversations, archive completed threads, mute noisy alerts, and configure quick swipe actions."},
+            {"title": "Scheduled Messages", "desc": "Compose messages in advance and schedule them for automatic delivery at specified dates and times."},
+            {"title": "Spam & Number Blocking", "desc": "Easily block unwanted phone numbers and manage your private blacklist to prevent spam disruptions."},
+            {"title": "Privacy-First Local Storage", "desc": "All chats and messages are stored locally in a high-performance SQLite/Drift database without cloud tracking."}
+        ]
     }
 ]
 
@@ -394,7 +410,7 @@ def generate_catalogue_html():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mohan Apps Showcase | Fast, Clean & Multi-Platform Applications</title>
-  <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications: File Manager, QR Scanner, Music Player, Photos Gallery, eBook Reader, PDF Reader, Notes, Sheets, Video Player, Voice Recorder, and Torch Light.">
+  <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications: File Manager, QR Scanner, Music Player, Photos Gallery, eBook Reader, PDF Reader, Notes, Sheets, Video Player, Voice Recorder, Torch Light, and Messages.">
   <style>
 {get_shared_css()}
 
@@ -602,7 +618,7 @@ def generate_catalogue_html():
         
         <div class="stats-bar">
           <div class="stat-item">
-            <span class="stat-number">11</span>
+            <span class="stat-number">{len(APPS)}</span>
             <span class="stat-label">Core Applications</span>
           </div>
           <div class="stat-item">
@@ -620,9 +636,9 @@ def generate_catalogue_html():
     <section id="catalogue" class="container">
       <div class="filter-nav">
         <button class="filter-btn active" data-filter="all">All Applications ({len(APPS)})</button>
-        <button class="filter-btn" data-filter="utility">Utilities & Tools (4)</button>
-        <button class="filter-btn" data-filter="productivity">Productivity & Docs (4)</button>
-        <button class="filter-btn" data-filter="media">Media & Audio (3)</button>
+        <button class="filter-btn" data-filter="utility">Utilities & Tools ({len([a for a in APPS if a['category'] == 'utility'])})</button>
+        <button class="filter-btn" data-filter="productivity">Productivity & Docs ({len([a for a in APPS if a['category'] == 'productivity'])})</button>
+        <button class="filter-btn" data-filter="media">Media & Audio ({len([a for a in APPS if a['category'] == 'media'])})</button>
       </div>
 
       <div class="apps-grid">
