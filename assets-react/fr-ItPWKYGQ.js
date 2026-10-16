@@ -1,0 +1,457 @@
+const e={"ebook_reader/privacy_policy/fr":{appId:"ebook_reader",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"eBook Reader",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>eBook Reader</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). eBook Reader est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>eBook Reader fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE:</strong> Accordée localement sur votre appareil pour ouvrir, lire, modifier et enregistrer des fichiers. Vos fichiers ne sont jamais téléchargés sur des serveurs externes.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Accordée pour afficher les commandes de lecture ou l’état des opérations en arrière-plan.</li>
+</ul>
+<h2>3. Garantie de traitement hors ligne et local</h2>
+<p>Toutes les opérations et traitements principaux de eBook Reader sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"ebook_reader/terms_of_service/fr":{appId:"ebook_reader",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"eBook Reader",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>eBook Reader</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>eBook Reader</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de eBook Reader</h2>
+<p>Les fonctionnalités de eBook Reader sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"video_player/privacy_policy/fr":{appId:"video_player",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"Video Player",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>Video Player</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). Video Player est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>Video Player fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> Accordée localement sur votre appareil pour ouvrir, lire, modifier et enregistrer des fichiers. Vos fichiers ne sont jamais téléchargés sur des serveurs externes.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Accordée pour afficher les commandes de lecture ou l’état des opérations en arrière-plan.</li>
+</ul>
+<h2>3. Garantie de décodage vidéo local</h2>
+<p>Toutes les opérations et traitements principaux de Video Player sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"video_player/terms_of_service/fr":{appId:"video_player",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"Video Player",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>Video Player</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>Video Player</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de Video Player</h2>
+<p>Les fonctionnalités de Video Player sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"photos/privacy_policy/fr":{appId:"photos",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"Photos App",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>Photos App</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). Photos App est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>Photos App fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> Accordée localement sur votre appareil pour ouvrir, lire, modifier et enregistrer des fichiers. Vos fichiers ne sont jamais téléchargés sur des serveurs externes.</li>
+</ul>
+<h2>3. Garantie de traitement local des médias</h2>
+<p>Toutes les opérations et traitements principaux de Photos App sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"photos/terms_of_service/fr":{appId:"photos",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"Photos App",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>Photos App</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>Photos App</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de Photos App</h2>
+<p>Les fonctionnalités de Photos App sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"sheets/privacy_policy/fr":{appId:"sheets",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"Sheets App",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>Sheets App</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). Sheets App est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>Sheets App fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Accordée localement sur votre appareil pour ouvrir, lire, modifier et enregistrer des fichiers. Vos fichiers ne sont jamais téléchargés sur des serveurs externes.</li>
+</ul>
+<h2>3. Garantie de calcul et de formules locales</h2>
+<p>Toutes les opérations et traitements principaux de Sheets App sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"sheets/terms_of_service/fr":{appId:"sheets",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"Sheets App",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>Sheets App</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>Sheets App</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de Sheets App</h2>
+<p>Les fonctionnalités de Sheets App sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"messages/privacy_policy/fr":{appId:"messages",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"Messages",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>Messages</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). Messages est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>Messages fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>READ_SMS / SEND_SMS / RECEIVE_SMS:</strong> Accordée localement sur votre appareil pour lire, rédiger, envoyer et recevoir des messages SMS. Vos messages sont stockés localement et ne sont jamais transmis à des serveurs externes.</li>
+<li><strong>READ_CONTACTS:</strong> Accordée pour faire correspondre les noms et photos de vos contacts avec vos conversations. Vos contacts ne quittent jamais votre appareil.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Accordée pour vous alerter en direct de l’arrivée de nouveaux messages SMS.</li>
+</ul>
+<h2>3. Garantie de stockage et traitement local des messages</h2>
+<p>Toutes les opérations de base de données, indexations de discussions et messages programmés sont exécutées à 100 % localement sur votre appareil sans recours au cloud.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"messages/terms_of_service/fr":{appId:"messages",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"Messages",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>Messages</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>Messages</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de Messages</h2>
+<p>Les fonctionnalités de Messages sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"torch_light/privacy_policy/fr":{appId:"torch_light",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"Torch Light",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>Torch Light</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). Torch Light est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>Torch Light fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>CAMERA / FLASHLIGHT:</strong> Accordée localement pour contrôler la LED du flash.</li>
+</ul>
+<h2>3. Garantie de fonctionnement hors ligne et local</h2>
+<p>Toutes les opérations et traitements principaux de Torch Light sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"torch_light/terms_of_service/fr":{appId:"torch_light",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"Torch Light",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>Torch Light</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>Torch Light</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de Torch Light</h2>
+<p>Les fonctionnalités de Torch Light sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"pdf_reader/privacy_policy/fr":{appId:"pdf_reader",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"PDF Reader",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>PDF Reader</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). PDF Reader est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>PDF Reader fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE:</strong> Accordée localement sur votre appareil pour ouvrir, lire, modifier et enregistrer des fichiers. Vos fichiers ne sont jamais téléchargés sur des serveurs externes.</li>
+</ul>
+<h2>3. Garantie de rendu local</h2>
+<p>Toutes les opérations et traitements principaux de PDF Reader sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"pdf_reader/terms_of_service/fr":{appId:"pdf_reader",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"PDF Reader",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>PDF Reader</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>PDF Reader</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de PDF Reader</h2>
+<p>Les fonctionnalités de PDF Reader sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"music_player/privacy_policy/fr":{appId:"music_player",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"Music Player",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>Music Player</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). Music Player est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>Music Player fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>READ_MEDIA_AUDIO / READ_EXTERNAL_STORAGE:</strong> Accordée localement sur votre appareil pour ouvrir, lire, modifier et enregistrer des fichiers. Vos fichiers ne sont jamais téléchargés sur des serveurs externes.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Accordée pour afficher les commandes de lecture ou l’état des opérations en arrière-plan.</li>
+</ul>
+<h2>3. Garantie de traitement audio local</h2>
+<p>Toutes les opérations et traitements principaux de Music Player sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"music_player/terms_of_service/fr":{appId:"music_player",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"Music Player",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>Music Player</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>Music Player</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de Music Player</h2>
+<p>Les fonctionnalités de Music Player sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"file_manager/privacy_policy/fr":{appId:"file_manager",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"File Manager",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>File Manager</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). File Manager est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>File Manager fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>MANAGE_EXTERNAL_STORAGE / READ_EXTERNAL_STORAGE:</strong> Accordée localement sur votre appareil pour ouvrir, lire, modifier et enregistrer des fichiers. Vos fichiers ne sont jamais téléchargés sur des serveurs externes.</li>
+<li><strong>CAMERA:</strong> Accordée localement sur votre appareil pour capturer des photos ou scanner des codes. Les images sont traitées en mémoire.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Accordée pour afficher les commandes de lecture ou l’état des opérations en arrière-plan.</li>
+</ul>
+<h2>3. Garantie de traitement hors ligne et local</h2>
+<p>Toutes les opérations et traitements principaux de File Manager sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"file_manager/terms_of_service/fr":{appId:"file_manager",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"File Manager",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>File Manager</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>File Manager</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de File Manager</h2>
+<p>Les fonctionnalités de File Manager sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"qr_scanner/privacy_policy/fr":{appId:"qr_scanner",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"QR Scanner",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>QR Scanner</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). QR Scanner est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>QR Scanner fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>CAMERA:</strong> Accordée localement sur votre appareil pour capturer des photos ou scanner des codes. Les images sont traitées en mémoire.</li>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Accordée localement sur votre appareil pour ouvrir, lire, modifier et enregistrer des fichiers. Vos fichiers ne sont jamais téléchargés sur des serveurs externes.</li>
+</ul>
+<h2>3. Garantie de traitement local des codes</h2>
+<p>Toutes les opérations et traitements principaux de QR Scanner sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"qr_scanner/terms_of_service/fr":{appId:"qr_scanner",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"QR Scanner",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>QR Scanner</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>QR Scanner</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de QR Scanner</h2>
+<p>Les fonctionnalités de QR Scanner sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"voice_recorder/privacy_policy/fr":{appId:"voice_recorder",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"Voice Recorder",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>Voice Recorder</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). Voice Recorder est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>Voice Recorder fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>RECORD_AUDIO:</strong> Accordée localement pour capturer des enregistrements audio. Les flux audio sont enregistrés directement sur votre appareil.</li>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Accordée localement sur votre appareil pour ouvrir, lire, modifier et enregistrer des fichiers. Vos fichiers ne sont jamais téléchargés sur des serveurs externes.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Accordée pour afficher les commandes de lecture ou l’état des opérations en arrière-plan.</li>
+</ul>
+<h2>3. Garantie d’encodage audio local</h2>
+<p>Toutes les opérations et traitements principaux de Voice Recorder sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"voice_recorder/terms_of_service/fr":{appId:"voice_recorder",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"Voice Recorder",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>Voice Recorder</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>Voice Recorder</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de Voice Recorder</h2>
+<p>Les fonctionnalités de Voice Recorder sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"notes/privacy_policy/fr":{appId:"notes",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"Notes App",content:`<h2>1. Architecture axée sur la confidentialité</h2>
+<p>Cette Politique de Confidentialité s’applique à l’application mobile <strong>Notes App</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). Notes App est conçue selon une approche "La confidentialité avant tout". Nous croyons que vos données et fichiers vous appartiennent exclusivement.</p>
+<h2>2. Politique de gestion des données et des autorisations</h2>
+<p>Notes App fonctionne localement sur votre appareil en tant qu’outil hors ligne. Détails des autorisations :</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Accordée localement sur votre appareil pour ouvrir, lire, modifier et enregistrer des fichiers. Vos fichiers ne sont jamais téléchargés sur des serveurs externes.</li>
+</ul>
+<h2>3. Garantie de stockage local et de sécurité</h2>
+<p>Toutes les opérations et traitements principaux de Notes App sont exécutés à 100 % localement sur le matériel du client.</p>
+<h2>4. Publicité tierce et données de télémétrie</h2>
+<p>L’Application intègre <strong>Google AdMob</strong> (fourni par Google LLC) pour diffuser des publicités. Google AdMob peut traiter des identifiants d’appareil (ID publicitaire, adresse IP) pour la diffusion des annonces et la prévention des fraudes.</p>
+<h2>5. Confidentialité des enfants (conformité COPPA)</h2>
+<p>L’Application ne collecte pas sciemment de données personnelles auprès d’enfants de moins de 13 ans. Google AdMob est configuré pour respecter les directives COPPA.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"notes/terms_of_service/fr":{appId:"notes",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"Notes App",content:`<h2>1. Acceptation des conditions</h2>
+<p>Ces Conditions d’Utilisation ("Conditions") régissent votre accès et votre utilisation de l’application mobile <strong>Notes App</strong> ("Application", "Service"), développée par <strong>Mohan MRKS</strong> ("Développeur"). En téléchargeant ou en utilisant l’Application, vous acceptez d’être lié par ces Conditions.</p>
+<h2>2. Portée de la licence et utilisation autorisée</h2>
+<p>Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger et utiliser <strong>Notes App</strong> sur vos appareils personnels.</p>
+<h2>3. Contenu local et responsabilités de l’utilisateur</h2>
+<p>Vous êtes seul responsable de tous les fichiers, documents et contenus stockés sur votre appareil.</p>
+<h2>4. Avertissement concernant le moteur de Notes App</h2>
+<p>Les fonctionnalités de Notes App sont fournies "en l’état" sans garantie d’aucune sorte.</p>
+<h2>5. Limitation de responsabilité</h2>
+<p>Dans toute la mesure permise par la loi applicable, le Développeur ne saurait être tenu responsable des dommages indirects ou consécutifs résultant de votre utilisation de l’Application.</p>
+<h2>6. Mises à jour de la politique et coordonnées</h2>
+<p>Nous nous réservons le droit de mettre à jour cette politique périodiquement. Si vous avez des questions, veuillez nous contacter à l’adresse :</p>
+<p>
+<strong>Développeur:</strong> Mohan MRKS<br/>
+<strong>E-mail d’assistance:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Site Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"docs/privacy_policy/fr":{appId:"docs",docType:"privacy_policy",lang:"fr",title:"Politique de Confidentialité",subtitle:"Docs",content:`<h2>1. À propos de cette politique</h2>
+<p>La présente politique décrit en détail la manière dont l'application Docs (« Docs » ou l'« Application »), développée par Mohan MRKS, traite et protège vos informations lorsque vous l'utilisez. Docs est spécialement conçue pour gérer et modifier les documents stockés localement sur votre appareil. L'Application ne propose aucun compte utilisateur géré par le développeur ni aucun service de synchronisation de documents sur le cloud.</p>
+<h2>2. Documents et indexation locale</h2>
+<p>Vos documents sont lus, modifiés et enregistrés directement sur votre appareil ou aux emplacements de stockage que vous sélectionnez. Docs n'envoie en aucun cas le contenu de vos documents vers un serveur Docs. Afin de lister, rechercher et organiser vos fichiers de façon fluide, l'Application conserve une base de données locale contenant les chemins d'accès aux fichiers, leurs noms, extensions, tailles, dates de modification, statuts favoris et protégés, ainsi que des aperçus textuels extraits pour la recherche rapide. Cette base de données et ces aperçus demeurent exclusivement sur l'appareil et sont supprimés lorsque les données de l'Application sont effacées ou lors de sa désinstallation ; les fichiers enregistrés en dehors de l'espace de stockage privé de l'Application restent préservés sur votre appareil.<br><br>Sur Android, Docs peut solliciter l'accès au stockage (notamment l'accès à tous les fichiers sur les versions Android compatibles) afin de localiser et gérer vos documents. Sur les autres systèmes d'exploitation, l'accès est accordé via les mécanismes natifs de sélection de fichiers et de stockage du système.</p>
+<h2>3. Documents protégés par mot de passe</h2>
+<p>Lorsque vous optez pour la fonction « Protéger et Enregistrer », Docs chiffre le document exporté à l'aide de l'algorithme robuste AES-256-GCM et d'une clé de chiffrement dérivée de votre mot de passe via PBKDF2-HMAC-SHA-256. Ce mot de passe n'est jamais transmis ni stocké sur les serveurs du développeur. Veillez à le conserver en lieu sûr : aucun mot de passe oublié ne peut être récupéré par le développeur, et son oubli rendra le fichier protégé définitivement inaccessible.</p>
+<h2>4. Diagnostics et rapports d'erreur</h2>
+<p>À des fins de dépannage et d'amélioration technique, Docs enregistre les détails des erreurs d'application (tels que les messages d'erreur et les traces de pile) dans un fichier journal de diagnostic situé dans l'espace de stockage local privé de l'Application. Ces rapports ne sont jamais transmis automatiquement par Docs sur le réseau. Le fichier fait l'objet d'une rotation locale au fur et à mesure qu'il grandit. Les détails d'erreur pouvant contenir des éléments de contexte, évitez de partager ces fichiers de diagnostic à moins de les avoir préalablement examinés.</p>
+<h2>5. Réseau et services tiers</h2>
+<p>Certaines actions que vous initiez de manière délibérée peuvent interagir avec des services externes à Docs, notamment le téléchargement d'un fichier depuis une URL, l'ouverture d'un site web dans le navigateur intégré, le partage d'un fichier via les fonctionnalités du système d'exploitation, ou la prise de contact par e-mail avec l'assistance. Ces services externes peuvent recevoir des informations techniques telles que votre adresse IP, l'URL demandée ou le contenu que vous choisissez de partager. Leurs propres politiques de confidentialité s'appliquent alors pleinement. Docs n'exerce aucun contrôle sur ces services tiers.</p>
+<h2>6. Vos choix sur les données et contact</h2>
+<p>Vous pouvez à tout moment gérer, modifier ou supprimer vos documents à l'aide de Docs et des outils de gestion de fichiers de votre appareil. L'effacement des données de l'Application supprime l'index local et les journaux de diagnostic, mais ne supprime pas nécessairement les documents stockés dans les autres dossiers de votre appareil. Pour toute question ou préoccupation relative à la confidentialité, vous pouvez nous écrire à l'adresse suivante : <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>
+<h2>7. Modifications de la politique</h2>
+<p>La présente politique peut faire l'objet de mises à jour au fur et à mesure que Docs évolue et intègre de nouvelles fonctionnalités. Cette politique peut être révisée périodiquement.</p>`},"docs/terms_of_service/fr":{appId:"docs",docType:"terms_of_service",lang:"fr",title:"Conditions d'Utilisation",subtitle:"Docs",content:`<h2>1. Acceptation des conditions</h2>
+<p>Les présentes conditions d'utilisation régissent votre accès et votre utilisation de Docs, un éditeur de documents développé par Mohan MRKS. En installant ou en utilisant l'Application, vous acceptez d'être légalement lié par ces conditions. Si vous n'acceptez pas ces conditions, veuillez ne pas installer ni utiliser l'Application.</p>
+<h2>2. Utilisation de l'Application</h2>
+<p>Vous êtes autorisé à utiliser Docs pour créer, consulter, modifier, organiser et exporter des documents à des fins licites et conformes aux lois en vigueur. Vous êtes seul responsable des contenus que vous créez, ouvrez ou consultez, et vous devez vous assurer de détenir tous les droits et autorisations légitimes nécessaires pour les utiliser.</p>
+<h2>3. Vos fichiers et sauvegardes</h2>
+<p>Docs a pour vocation de fonctionner avec des documents stockés localement sur votre appareil ou aux emplacements que vous déterminez. Il vous incombe de sélectionner les fichiers appropriés, de vérifier les résultats des exportations et de maintenir des sauvegardes complètes et régulières de tous vos contenus importants. Conservez toujours une copie distincte avant d'effectuer des opérations sur les fichiers susceptibles d'écraser, de déplacer ou de supprimer des données. Le développeur ne peut en aucun cas restaurer des fichiers perdus ou supprimés de votre appareil.</p>
+<h2>4. Fichiers protégés et gestion des mots de passe</h2>
+<p>Vous êtes seul responsable de la protection et de la conservation des mots de passe utilisés avec la fonctionnalité de protection de documents de l'Application. Le développeur ne peut aucunement récupérer un mot de passe oublié ni déchiffrer un fichier protégé sans celui-ci. Le chiffrement réduit le risque d'accès non autorisé mais ne remplace pas une gestion prudente de votre appareil ni des sauvegardes régulières.</p>
+<h2>5. Services et logiciels tiers</h2>
+<p>Certaines fonctionnalités peuvent ouvrir des sites web, télécharger des fichiers ou partager des contenus via des services tiers et des applications du système d'exploitation. Ces services sont régis par leurs propres conditions et politiques. Docs intègre également des logiciels libres tiers (open source), qui demeurent soumis aux licences applicables indiquées dans l'Application.</p>
+<h2>6. Disponibilité et exclusion de garantie</h2>
+<p>Docs est fourni « en l'état » (AS IS) et « selon disponibilité » (AS AVAILABLE), sans aucune garantie expresse ou implicite d'aucune sorte. Le développeur ne garantit pas que l'Application fonctionnera de manière ininterrompue, exempte d'erreurs ou parfaitement adaptée à un usage particulier. Dans toute la mesure permise par la loi applicable, le développeur décline toute garantie implicite et ne saurait être tenu responsable des dommages indirects ou consécutifs (y compris toute perte de données) résultant de l'utilisation de l'Application. Rien dans ces conditions n'exclut les droits légaux des consommateurs auxquels la loi interdit de déroger.</p>
+<h2>7. Modifications et contact</h2>
+<p>Ces conditions peuvent être mises à jour en fonction de l'évolution de l'Application. La poursuite de l'utilisation de Docs après une mise à jour vaut acceptation des conditions révisées. Pour toute question, vous pouvez nous contacter à : <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>`}};export{e as default};
