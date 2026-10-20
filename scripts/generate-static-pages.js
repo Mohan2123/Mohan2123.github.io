@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { APPS, LANGUAGES } from '../src/data/appsData.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -20,31 +21,53 @@ if (!jsFile || !cssFile) {
 
 console.log(`Found built bundle: JS=${jsFile}, CSS=${cssFile}`);
 
-// Copy assets-react to root dist and project root
+// Copy only changed bundles to the project root.
 const destAssetsReact = path.join(rootDir, 'assets-react');
-fs.cpSync(assetsDir, destAssetsReact, { recursive: true });
-console.log(`Copied assets-react to ${destAssetsReact}`);
-
-// Helper to calculate relative path to root from a given file path
-function getRelPrefix(filePath) {
-  const rel = path.relative(path.dirname(filePath), rootDir);
-  return rel === '' ? './' : rel + '/';
+fs.mkdirSync(destAssetsReact, { recursive: true });
+for (const file of files) {
+  const sourcePath = path.join(assetsDir, file);
+  const destinationPath = path.join(destAssetsReact, file);
+  const source = fs.readFileSync(sourcePath);
+  if (!fs.existsSync(destinationPath) || !fs.readFileSync(destinationPath).equals(source)) {
+    fs.copyFileSync(sourcePath, destinationPath);
+  }
 }
 
-function generateHtml(title, description, targetFilePath) {
-  const prefix = getRelPrefix(targetFilePath);
-  const jsPath = `${prefix}assets-react/${jsFile}`;
-  const cssPath = `${prefix}assets-react/${cssFile}`;
+function writeFileIfChanged(filePath, contents) {
+  if (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf-8') === contents) {
+    return;
+  }
+  fs.writeFileSync(filePath, contents, 'utf-8');
+}
 
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, character => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+  })[character]);
+}
+
+const routeLoaderPath = path.join(destAssetsReact, 'route-loader.js');
+const routeLoader = `const stylesheet = document.createElement('link');
+stylesheet.rel = 'stylesheet';
+stylesheet.href = new URL('./${cssFile}', import.meta.url).href;
+document.head.appendChild(stylesheet);
+import('./${jsFile}');
+`;
+writeFileIfChanged(routeLoaderPath, routeLoader);
+
+function generateHtml(title, description, lang = 'en') {
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="${escapeHtml(lang)}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>${title}</title>
-    <meta name="description" content="${description}" />
-    <script type="module" crossorigin src="${jsPath}"></script>
-    <link rel="stylesheet" crossorigin href="${cssPath}">
+    <title>${escapeHtml(title)}</title>
+    <meta name="description" content="${escapeHtml(description)}" />
+    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
   </head>
   <body>
     <div id="root"></div>
@@ -56,53 +79,42 @@ function generateHtml(title, description, targetFilePath) {
 // 1. Root index.html
 const rootIndexPath = path.join(rootDir, 'index.html');
 const rootTitle = "Mohan Apps Showcase | Fast, Clean & Multi-Platform Applications";
-const rootDesc = "Explore Mohan's ecosystem of multiple OS supported applications: File Manager, QR Scanner, Music Player, Photos Gallery, eBook Reader, PDF Reader, Notes, Sheets, Video Player, Voice Recorder, Torch Light, and Messages.";
-fs.writeFileSync(rootIndexPath, generateHtml(rootTitle, rootDesc, rootIndexPath), 'utf-8');
+const rootDesc = "Explore Mohan's ecosystem of multiple OS supported applications, including File Manager, QR Scanner, Music Player, Photos Gallery, eBook Reader, PDF Reader, Notes, Sheets, Video Player, Voice Recorder, Torch Light, Messages, Ludo Bear, Knife Strike, and Block Blast.";
+writeFileIfChanged(rootIndexPath, generateHtml(rootTitle, rootDesc));
 console.log(`Generated root ${rootIndexPath}`);
 
 // 2. 404.html (for client-side routing fallback on GitHub Pages)
 const notFoundPath = path.join(rootDir, '404.html');
-fs.writeFileSync(notFoundPath, generateHtml(rootTitle, rootDesc, notFoundPath), 'utf-8');
+writeFileIfChanged(notFoundPath, generateHtml(rootTitle, rootDesc));
 console.log(`Generated 404 fallback ${notFoundPath}`);
 
-// 3. Scan all HTML files that existed and replace their shell
-function walkDir(dir, callback) {
-  fs.readdirSync(dir).forEach(f => {
-    let dirPath = path.join(dir, f);
-    let isDirectory = fs.statSync(dirPath).isDirectory();
-    if (isDirectory) {
-      if (f !== '.git' && f !== 'node_modules' && f !== 'dist' && f !== 'assets' && f !== 'assets-react') {
-        walkDir(dirPath, callback);
-      }
-    } else {
-      callback(path.join(dir, f));
+// GitHub Pages needs a file at each route to serve deep links with HTTP 200.
+let routeCount = 0;
+
+for (const app of APPS) {
+  const appDir = path.join(rootDir, app.id);
+  fs.mkdirSync(appDir, { recursive: true });
+  const appIndexPath = path.join(appDir, 'index.html');
+  writeFileIfChanged(
+    appIndexPath,
+    generateHtml(`${app.name} | Mohan Apps`, app.summary)
+  );
+  routeCount++;
+
+  for (const { code } of LANGUAGES) {
+    for (const docType of ['privacy_policy', 'terms_of_service']) {
+      const docDir = path.join(appDir, docType);
+      fs.mkdirSync(docDir, { recursive: true });
+      const docTitle = docType === 'privacy_policy' ? 'Privacy Policy' : 'Terms of Service';
+      const docPath = path.join(docDir, `${code}.html`);
+      const lang = code.replace(/_([a-z]+)/, (_, region) => `-${region.toUpperCase()}`);
+      writeFileIfChanged(
+        docPath,
+        generateHtml(`${docTitle} - ${app.name}`, `${docTitle} for ${app.name}.`, lang)
+      );
+      routeCount++;
     }
-  });
+  }
 }
 
-let count = 0;
-walkDir(rootDir, (filePath) => {
-  if (filePath.endsWith('.html') && !filePath.endsWith('index.dev.html') && filePath !== rootIndexPath && filePath !== notFoundPath) {
-    const rel = path.relative(rootDir, filePath);
-    const parts = rel.split(path.sep);
-
-    let pageTitle = "Mohan Apps Ecosystem";
-    let pageDesc = "Clean, fast multi-platform application";
-
-    if (parts.length === 2 && parts[1] === 'index.html') {
-      const appId = parts[0];
-      pageTitle = `${appId.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())} | Mohan Apps`;
-      pageDesc = `Explore ${appId} details and legal documentation.`;
-    } else if (parts.length === 3) {
-      const appId = parts[0];
-      const docType = parts[1] === 'privacy_policy' ? 'Privacy Policy' : 'Terms of Service';
-      pageTitle = `${docType} - ${appId.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}`;
-      pageDesc = `Legal agreement and ${docType.toLowerCase()} documentation.`;
-    }
-
-    fs.writeFileSync(filePath, generateHtml(pageTitle, pageDesc, filePath), 'utf-8');
-    count++;
-  }
-});
-
-console.log(`Updated ${count} existing route entrypoints to React web app.`);
+console.log(`Generated ${routeCount} app-specific route entrypoints.`);

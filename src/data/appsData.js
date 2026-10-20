@@ -455,8 +455,78 @@ export const APPS = [
     }
   },
   {
+    "id": "ludo",
+    "package_id": "com.mohan.ludo",
+    "name": "Ludo Bear",
+    "tagline": "Classic & 6-Player Hexagon Ludo with Cute 3D Bears, Offline AI & Friends",
+    "category": "game",
+    "category_label": "Games & Entertainment",
+    "summary": "Play classic four-player Ludo or the six-player hexagon board against offline AI or friends in pass-and-play mode. Collect dice themes, track match history, and enjoy a fully offline game.",
+    "features": [
+      {
+        "title": "Classic & Hexagon Boards",
+        "desc": "Choose the traditional four-player board or a six-player hexagon with a 78-cell track."
+      },
+      {
+        "title": "Offline AI & Pass-and-Play",
+        "desc": "Play against computer opponents or share one device for local multiplayer with friends and family."
+      },
+      {
+        "title": "Quick Play Sprint",
+        "desc": "Start a shorter match where the first player to guide a bear to the goal wins."
+      },
+      {
+        "title": "Dice Themes & Haptics",
+        "desc": "Collect seven dice styles with animated rolls and optional haptic feedback."
+      },
+      {
+        "title": "Match History & Career Stats",
+        "desc": "Review completed matches, captures, turns, wins, and player statistics."
+      }
+    ],
+    "colors": {
+      "primary": "#ff2a55",
+      "primaryDark": "#d81b45"
+    }
+  },
+  {
+    "id": "knife_strike",
+    "package_id": "com.mohan.knife_strike",
+    "name": "Knife Strike",
+    "tagline": "Throw Knives, Hit Spinning Targets, Slice Fruit & Defeat 100 Boss Stages",
+    "category": "game",
+    "category_label": "Games & Entertainment",
+    "summary": "Test your aim in an offline arcade game with 100 handcrafted stages, spinning targets, fruit slicing, boss battles, and an armory of collectible blades.",
+    "features": [
+      {
+        "title": "100 Challenging Levels",
+        "desc": "Master changing target speeds, direction reversals, oscillating motion, and obstacles."
+      },
+      {
+        "title": "Epic Boss Battles",
+        "desc": "Face a new boss every five levels, each with unique movement and rewards."
+      },
+      {
+        "title": "30+ Collectible Blades",
+        "desc": "Unlock knives, daggers, Damascus blades, and throwing axes with in-game rewards."
+      },
+      {
+        "title": "Custom Indicators & Typography",
+        "desc": "Personalize knife indicators and unlock international and Cyrillic font styles."
+      },
+      {
+        "title": "Offline Play & Haptics",
+        "desc": "Play without an internet connection and use optional tactile feedback."
+      }
+    ],
+    "colors": {
+      "primary": "#ffd54f",
+      "primaryDark": "#ffb300"
+    }
+  },
+  {
     "id": "block_blast",
-    "package_id": "com.mohan.blockblast",
+    "package_id": "com.mohan.block_blast",
     "name": "Block Blast",
     "tagline": "Addictive Block Puzzle with 100 Levels & Procedural Synthesized Audio",
     "category": "game",
@@ -624,5 +694,17 @@ export const APP_COLORS = {
   "docs": {
     "primary": "#176b5b",
     "primaryDark": "#104f42"
+  },
+  "ludo": {
+    "primary": "#ff2a55",
+    "primaryDark": "#d81b45"
+  },
+  "knife_strike": {
+    "primary": "#ffd54f",
+    "primaryDark": "#ffb300"
+  },
+  "block_blast": {
+    "primary": "#00e5ff",
+    "primaryDark": "#00b0ff"
   }
 };

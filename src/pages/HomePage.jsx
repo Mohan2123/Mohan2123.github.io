@@ -15,6 +15,7 @@ export function HomePage() {
   const utilityCount = APPS.filter(a => a.category === 'utility').length;
   const productivityCount = APPS.filter(a => a.category === 'productivity').length;
   const mediaCount = APPS.filter(a => a.category === 'media').length;
+  const gameCount = APPS.filter(a => a.category === 'game').length;
 
   return (
     <>
@@ -27,7 +28,7 @@ export function HomePage() {
             </div>
             <h1>Modern Multiple OS Supported Apps</h1>
             <p>
-              A comprehensive ecosystem of productivity, multimedia, and daily utility applications engineered for high performance across Android, Linux, Windows, macOS, and iOS.
+              A comprehensive ecosystem of productivity, multimedia, gaming, and daily utility applications engineered for high performance across Android, Linux, Windows, macOS, and iOS.
             </p>
 
             <div className="stats-bar">
@@ -72,6 +73,12 @@ export function HomePage() {
               onClick={() => setFilter('media')}
             >
               Media & Audio ({mediaCount})
+            </button>
+            <button 
+              className={`filter-btn ${filter === 'game' ? 'active' : ''}`}
+              onClick={() => setFilter('game')}
+            >
+              Games & Entertainment ({gameCount})
             </button>
           </div>
 

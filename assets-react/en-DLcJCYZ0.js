@@ -1,0 +1,504 @@
+const e={"docs/privacy_policy/en":{appId:"docs",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Docs",content:`<h2>1. About this policy</h2>
+<p>This policy describes how the Docs application ("Docs" or the "App"), developed by Mohan MRKS, handles information when you use it. Docs is designed to manage and edit documents stored on your device. The App does not provide a developer-operated account or document-sync service.</p>
+<h2>2. Documents and local index</h2>
+<p>Your documents are read, edited, and saved on your device or at locations you select. Docs does not send document contents to a Docs server. To list, search, and organize files, the App keeps a local database containing file paths, names, extensions, sizes, modification times, favorite and protected status, and text previews extracted for search. This database and its previews remain on the device and are removed when the App's data is cleared or the App is uninstalled; files saved outside the App's private storage may remain.<br><br>On Android, Docs may request storage access, including all-files access on supported Android versions, to find and manage documents. On other platforms, access is provided through the platform's file selection and storage mechanisms.</p>
+<h2>3. Protected documents</h2>
+<p>When you choose Protect & Save, Docs encrypts the exported document using AES-256-GCM and a key derived from your password with PBKDF2-HMAC-SHA-256. The password is not uploaded to the developer. Keep it safe: a forgotten password cannot be recovered by the developer, and may make that protected file inaccessible.</p>
+<h2>4. Diagnostics</h2>
+<p>For troubleshooting, Docs writes application error details, such as error messages and stack traces, to a diagnostics file in the App's private local storage. These reports are not automatically transmitted by Docs. The file is rotated locally as it grows. Error details can include information present in the error or diagnostic context, so avoid sharing diagnostic files unless you have reviewed them.</p>
+<h2>5. Network and third-party services</h2>
+<p>Some actions you initiate can communicate with services outside Docs, including downloading a file from a URL, opening a website in the in-app browser, sharing a file through your operating system, or contacting support by email. Those services may receive information such as your IP address, the requested URL, or the content you choose to share. Their own privacy policies apply. Docs does not control those services.</p>
+<h2>6. Data choices and contact</h2>
+<p>You can manage or delete documents using Docs and your device's file tools. Clearing the App's data removes its local index and diagnostics; it does not necessarily delete documents stored elsewhere on your device. For privacy questions, contact <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>
+<h2>7. Changes</h2>
+<p>This policy may be updated as Docs changes. This policy may be updated periodically.</p>`},"docs/terms_of_service/en":{appId:"docs",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"Docs",content:`<h2>1. Agreement</h2>
+<p>These terms apply to your use of Docs, a document editor developed by Mohan MRKS. By installing or using the App, you agree to these terms. If you do not agree, do not use the App.</p>
+<h2>2. Use of the App</h2>
+<p>You may use Docs to create, view, edit, organize, and export documents for lawful purposes. You are responsible for the content you create or access and for ensuring that you have the rights and permissions needed to use it.</p>
+<h2>3. Your files and backups</h2>
+<p>Docs is intended to work with documents stored locally or at locations you choose. You are responsible for selecting appropriate files, verifying exports, and maintaining backups of important content. Keep a separate copy before performing file operations that could overwrite, move, or delete data. The developer cannot restore files that are lost from your device.</p>
+<h2>4. Protected files and passwords</h2>
+<p>You are responsible for protecting passwords used with the App's protected-document feature. The developer cannot recover a forgotten password or decrypt a file without it. Encryption reduces access to protected file contents but does not replace secure device practices or backups.</p>
+<h2>5. Third-party services and software</h2>
+<p>Some features may open websites, download files, or share content through third-party services and platform applications. Those services are governed by their own terms and policies. Docs also includes third-party open-source software, which remains subject to its applicable license notices shown in the App.</p>
+<h2>6. Availability and warranty</h2>
+<p>Docs is provided on an "as is" and "as available" basis. The developer makes no promise that the App will be uninterrupted, error-free, or suitable for every workflow. To the extent permitted by law, the developer disclaims implied warranties and is not responsible for indirect or consequential loss arising from use of the App, including loss of data. Nothing in these terms excludes rights that cannot legally be excluded.</p>
+<h2>7. Changes and contact</h2>
+<p>These terms may be updated as the App changes. Continued use after an update means you accept the revised terms. Questions can be sent to <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>`},"ebook_reader/privacy_policy/en":{appId:"ebook_reader",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"eBook Reader",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>eBook Reader</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). eBook Reader is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>eBook Reader operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE:</strong> Granted locally on your device to open, read, edit, and save files. Your personal files are never uploaded to any external server.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Granted locally to display playback controls, recording status, or background operation updates.</li>
+</ul>
+<h2>3. Offline &amp; Local Processing Guarantee</h2>
+<p>Core rendering engines—including EPUB parsing, PDF vector rendering, bookmark saving, and text-to-speech audio queuing—are executed 100% locally on client hardware.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"ebook_reader/terms_of_service/en":{appId:"ebook_reader",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"eBook Reader",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>eBook Reader</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>eBook Reader</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for all eBook documents, EPUB/PDF files, and annotations stored or opened within your device.</p>
+<h2>4. Reading Engine &amp; TTS Disclaimer</h2>
+<p>eBook rendering, typography parsing, and Text-to-Speech (TTS) features are provided "as is". Accuracy depends on source file formatting.</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"video_player/privacy_policy/en":{appId:"video_player",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Video Player",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Video Player</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Video Player is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>Video Player operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> Granted locally on your device to open, read, edit, and save files. Your personal files are never uploaded to any external server.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Granted locally to display playback controls, recording status, or background operation updates.</li>
+</ul>
+<h2>3. Local Video Decoding Guarantee</h2>
+<p>Video decoding, subtitle parsing (SRT, VTT, ASS), gesture controls, audio track selection, and hardware acceleration occur 100% locally on client hardware.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"video_player/terms_of_service/en":{appId:"video_player",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"Video Player",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>Video Player</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>Video Player</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for all video files, movies, and subtitles stored or played on your device.</p>
+<h2>4. Playback Engine Disclaimer</h2>
+<p>Video decoding, subtitle synchronization, and hardware playback features are provided "as is".</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"photos/privacy_policy/en":{appId:"photos",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Photos App",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Photos App</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Photos App is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>Photos App operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> Granted locally on your device to open, read, edit, and save files. Your personal files are never uploaded to any external server.</li>
+</ul>
+<h2>3. Local Media Processing Guarantee</h2>
+<p>Image decoding, album organization, thumbnail caching, EXIF metadata viewing, and collage generation occur 100% locally on your device.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"photos/terms_of_service/en":{appId:"photos",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"Photos App",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>Photos App</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>Photos App</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for all photos, albums, edits, and media content stored on your device.</p>
+<h2>4. Media Engine &amp; Collage Disclaimer</h2>
+<p>Image viewer, album sorting, and collage creation features are provided "as is".</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"sheets/privacy_policy/en":{appId:"sheets",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Sheets App",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Sheets App</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Sheets App is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>Sheets App operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Granted locally on your device to open, read, edit, and save files. Your personal files are never uploaded to any external server.</li>
+</ul>
+<h2>3. Local Formula &amp; Calculation Guarantee</h2>
+<p>Spreadsheet calculation, mathematical formulas, CSV/XLSX file parsing, chart rendering, and data grid editing occur 100% locally on your device.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"sheets/terms_of_service/en":{appId:"sheets",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"Sheets App",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>Sheets App</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>Sheets App</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for all spreadsheet data, numerical entries, and formulas created or edited on your device.</p>
+<h2>4. Calculation Engine Disclaimer</h2>
+<p>Formula computation, spreadsheet editing, and table exports are provided "as is".</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"messages/privacy_policy/en":{appId:"messages",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Messages",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Messages</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Messages is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>Messages operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>READ_SMS / SEND_SMS / RECEIVE_SMS:</strong> Granted locally on your device to read, compose, send, and receive SMS messages. All SMS data is stored locally in your device database and is never uploaded to any external server.</li>
+<li><strong>READ_CONTACTS:</strong> Granted locally to display contact names, avatars, and numbers for seamless conversation matching. Your contacts never leave your device.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Granted locally to notify you immediately of incoming text messages and message delivery status.</li>
+</ul>
+<h2>3. Local Message Processing &amp; Storage Guarantee</h2>
+<p>All message databases, thread indexing, scheduled message triggers, search queries, and spam blocks occur 100% locally on client hardware via an embedded Drift/SQLite database.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"messages/terms_of_service/en":{appId:"messages",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"Messages",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>Messages</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>Messages</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for all photos, albums, edits, and media content stored on your device.</p>
+<h2>4. Messaging Engine &amp; Delivery Disclaimer</h2>
+<p>SMS and MMS transmission, scheduled dispatching, and message storage are provided "as is". Delivery of SMS messages depends on your mobile carrier network and device signal.</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"torch_light/privacy_policy/en":{appId:"torch_light",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Torch Light",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Torch Light</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Torch Light is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>Torch Light operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>CAMERA / FLASHLIGHT:</strong> Granted locally to control the hardware camera LED flash for illumination.</li>
+</ul>
+<h2>3. Offline &amp; Local Operation Guarantee</h2>
+<p>Flashlight activation, strobe frequency modulation, Morse code flashing, and screen light controls occur 100% locally on client hardware.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"torch_light/terms_of_service/en":{appId:"torch_light",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"Torch Light",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>Torch Light</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>Torch Light</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for the safe and appropriate use of the device hardware flashlight.</p>
+<h2>4. Hardware &amp; Strobe Light Disclaimer</h2>
+<p>Flashlight and strobe features are provided "as is". Warning: Strobe lighting may trigger discomfort or photosensitive reactions in sensitive individuals.</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"pdf_reader/privacy_policy/en":{appId:"pdf_reader",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"PDF Reader",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>PDF Reader</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). PDF Reader is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>PDF Reader operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE:</strong> Granted locally on your device to open, read, edit, and save files. Your personal files are never uploaded to any external server.</li>
+</ul>
+<h2>3. Local Rendering Guarantee</h2>
+<p>PDF vector page decoding, document annotation, search indexing, and page bookmarking occur 100% locally on client hardware.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"pdf_reader/terms_of_service/en":{appId:"pdf_reader",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"PDF Reader",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>PDF Reader</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>PDF Reader</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for all PDF documents, forms, annotations, and signatures stored on your device.</p>
+<h2>4. PDF Rendering Engine Disclaimer</h2>
+<p>PDF rendering, form filling, and export features are provided "as is". Presentation fidelity depends on document structure.</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"music_player/privacy_policy/en":{appId:"music_player",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Music Player",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Music Player</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Music Player is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>Music Player operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>READ_MEDIA_AUDIO / READ_EXTERNAL_STORAGE:</strong> Granted locally on your device to open, read, edit, and save files. Your personal files are never uploaded to any external server.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Granted locally to display playback controls, recording status, or background operation updates.</li>
+</ul>
+<h2>3. Local Audio Processing Guarantee</h2>
+<p>Audio playback, equalization, ID3 tag reading, playlist creation, and sleep timer scheduling occur 100% locally on client hardware.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"music_player/terms_of_service/en":{appId:"music_player",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"Music Player",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>Music Player</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>Music Player</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for all music tracks, audio files, and playlists stored or played on your device.</p>
+<h2>4. Equalizer &amp; Audio Engine Disclaimer</h2>
+<p>Audio decoding, equalization presets, and playback features are provided "as is". Sound quality depends on source audio bitrate.</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"file_manager/privacy_policy/en":{appId:"file_manager",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"File Manager",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>File Manager</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). File Manager is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>File Manager operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>MANAGE_EXTERNAL_STORAGE / READ_EXTERNAL_STORAGE:</strong> Granted locally on your device to open, read, edit, and save files. Your personal files are never uploaded to any external server.</li>
+<li><strong>CAMERA:</strong> Granted locally on your device to capture photos, scan codes, or record video directly within the app. Camera frames are processed in-memory.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Granted locally to display playback controls, recording status, or background operation updates.</li>
+</ul>
+<h2>3. Offline &amp; Local Processing Guarantee</h2>
+<p>File indexing, thumbnail rendering, ZIP/TAR archive extraction, code editing, and secure vault encryption occur 100% locally on your device.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"file_manager/terms_of_service/en":{appId:"file_manager",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"File Manager",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>File Manager</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>File Manager</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You maintain complete responsibility for all files, directories, archives, and sensitive media stored on your device.</p>
+<h2>4. File Operations &amp; Archive Engine Disclaimer</h2>
+<p>File manipulation, batch compression, extraction, and encryption utilities are provided "as is".</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"qr_scanner/privacy_policy/en":{appId:"qr_scanner",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"QR Scanner",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>QR Scanner</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). QR Scanner is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>QR Scanner operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>CAMERA:</strong> Granted locally on your device to capture photos, scan codes, or record video directly within the app. Camera frames are processed in-memory.</li>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Granted locally on your device to open, read, edit, and save files. Your personal files are never uploaded to any external server.</li>
+</ul>
+<h2>3. Local Code Processing Guarantee</h2>
+<p>QR and barcode decoding, pattern recognition, link parsing, code generation, and history storage occur 100% locally on client hardware.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"qr_scanner/terms_of_service/en":{appId:"qr_scanner",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"QR Scanner",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>QR Scanner</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>QR Scanner</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for all scanned URL visits, generated QR codes, and scan history stored on your device.</p>
+<h2>4. Camera &amp; Scanner Engine Disclaimer</h2>
+<p>Scanning features and code recognition are provided "as is". Accuracy depends on camera quality and code print condition.</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"voice_recorder/privacy_policy/en":{appId:"voice_recorder",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Voice Recorder",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Voice Recorder</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Voice Recorder is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>Voice Recorder operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>RECORD_AUDIO:</strong> Granted locally on your device to capture live audio recordings. Audio streams are encoded and saved directly to your device storage.</li>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Granted locally on your device to open, read, edit, and save files. Your personal files are never uploaded to any external server.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Granted locally to display playback controls, recording status, or background operation updates.</li>
+</ul>
+<h2>3. Local Audio Encoding Guarantee</h2>
+<p>Microphone audio capture, acoustic noise suppression, waveform rendering, and MP3/M4A/WAV encoding occur 100% locally on your device.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"voice_recorder/terms_of_service/en":{appId:"voice_recorder",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"Voice Recorder",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>Voice Recorder</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>Voice Recorder</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for all voice recordings and compliance with applicable recording consent laws.</p>
+<h2>4. Audio Recording Engine Disclaimer</h2>
+<p>Audio recording and encoding features are provided "as is". Audio fidelity depends on device microphone hardware.</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"notes/privacy_policy/en":{appId:"notes",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Notes App",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Notes App</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Notes App is built with a "Privacy First" approach. We believe your personal data, media, and files belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Permissions Policy</h2>
+<p>Notes App operates locally on your client device as an offline utility. Permission details:</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Granted locally on your device to open, read, edit, and save files. Your personal files are never uploaded to any external server.</li>
+</ul>
+<h2>3. Local Storage &amp; Security Guarantee</h2>
+<p>Note editing, rich text styling, checklist tracking, database storage, and biometric lock verification are performed 100% locally on device hardware.</p>
+<h2>4. Third-Party Advertising &amp; Telemetry Data</h2>
+<p>The Application integrates <strong>Google AdMob</strong> (provided by Google LLC) to serve advertisements. Google AdMob may process device identifiers (Advertising ID, IP address) for ad delivery and fraud prevention.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>The Application does not knowingly collect personal data from children under 13 years of age. Google AdMob is configured to comply with COPPA guidelines.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"notes/terms_of_service/en":{appId:"notes",docType:"terms_of_service",lang:"en",title:"Terms of Service",subtitle:"Notes App",content:`<h2>1. Acceptance of Terms</h2>
+<p>These Terms of Service ("Terms") govern your access to and use of the <strong>Notes App</strong> mobile application ("Application", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). By downloading, installing, or using the Application, you agree to be bound by these Terms.</p>
+<h2>2. Scope of License &amp; Allowed Usage</h2>
+<p>We grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute <strong>Notes App</strong> on mobile devices you own or control.</p>
+<h2>3. Local Content &amp; User Responsibilities</h2>
+<p>You are solely responsible for all note entries, personal memos, and checklist items created or stored on your device.</p>
+<h2>4. Notes Database &amp; Lock Disclaimer</h2>
+<p>Note storage, markdown parsing, and biometric lock features are provided "as is".</p>
+<h2>5. Limitation of Liability</h2>
+<p>To the maximum extent permitted by applicable law, the Developer shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Application.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically. If you have questions, please contact us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"ludo/privacy_policy/en":{appId:"ludo",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Ludo Bear",content:`<h2>1. Scope</h2>
+<p>This Privacy Policy describes how Ludo Bear, developed by Mohan MRKS, handles information when you use the game. The game does not require an account and does not provide a developer-operated game server or cloud-sync service.</p>
+<h2>2. Information stored on your device</h2>
+<p>Ludo Bear stores game preferences and progress locally, including player names and colors, settings, coins, and other game state. Match history and player statistics, such as winners, turns, captures, and match duration, are stored in a local database on your device. This information is used to provide game features and is not sent to the developer by the game. Player names you choose may identify you, so avoid entering sensitive personal information.</p>
+<h2>3. Notifications and device features</h2>
+<p>If enabled and permitted by your device, Ludo Bear can schedule local reminders. These notifications are created on your device; the game does not use a remote push-notification service. Audio and haptic feedback are used locally for gameplay.</p>
+<h2>4. Sharing and support</h2>
+<p>If you choose to share game information or contact support, Ludo Bear opens your device's sharing or email application. Information you choose to share may be handled by that application and its provider under their own policies. Support requests can be sent to <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>
+<h2>5. Retention and deletion</h2>
+<p>Game data remains in the app's local storage until it is removed. You can remove it by clearing the app's data or uninstalling the game. Device backup or restore settings may affect whether local app data is retained by your platform.</p>
+<h2>6. Data collection</h2>
+<p>The game does not ask for personal information, operate user accounts, or include an advertising or analytics SDK in its current Flutter project. It is designed to work offline.</p>
+<h2>7. Changes and contact</h2>
+<p>This policy may be updated when the game changes. For privacy questions, contact <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>`},"block_blast/privacy_policy/en":{appId:"block_blast",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Block Blast",content:`<h2>1. Scope</h2>
+<p>This Privacy Policy describes how Block Blast, developed by Mohan MRKS, handles information when you use the game. The game does not require an account and does not provide a developer-operated game server or cloud-sync service.</p>
+<h2>2. Information stored on your device</h2>
+<p>Block Blast stores game state and preferences locally using your device's app storage. This can include coins, unlocked levels and stars, high scores, selected block skins and backgrounds, purchased in-game items, power-up counts, sound and vibration settings, and your language selection. The game uses this information to save your progress; it is not sent to the developer by the game.</p>
+<h2>3. Device features</h2>
+<p>Audio and vibration are used locally for gameplay when enabled. The game does not use remote push notifications in its current version.</p>
+<h2>4. Sharing and support</h2>
+<p>If you choose to share game information or contact support, Block Blast opens your device's sharing or email application. Information you choose to share may be handled by that application and its provider under their own policies. Support requests can be sent to <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>
+<h2>5. Retention and deletion</h2>
+<p>Game data remains in the app's local storage until it is removed. You can remove it by clearing the app's data or uninstalling the game. Device backup or restore settings may affect whether local app data is retained by your platform.</p>
+<h2>6. Data collection</h2>
+<p>The game does not ask for personal information, operate user accounts, or include an advertising or analytics SDK in its current Flutter project. It is designed to work offline.</p>
+<h2>7. Changes and contact</h2>
+<p>This policy may be updated when the game changes. For privacy questions, contact <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>`},"knife_strike/privacy_policy/en":{appId:"knife_strike",docType:"privacy_policy",lang:"en",title:"Privacy Policy",subtitle:"Knife Strike",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Knife Strike</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Knife Strike is built with a "Privacy First" approach. We believe your personal data, high scores, and gaming experience belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Local Storage Policy</h2>
+<p>Knife Strike operates locally on your client device as an offline arcade game. We do not collect, harvest, transmit, or sell any personally identifiable information (PII). All gameplay progression—including unlocked stages, accumulated Rubles, unlocked custom blades, Cyrillic fonts, throwing indicator symbols, and precision statistics—is stored 100% locally on your device via secure client-side storage (SharedPreferences).</p>
+<h2>3. Device Permissions &amp; Hardware Features</h2>
+<p>Knife Strike uses only the minimal device features necessary to deliver game mechanics:</p>
+<ul>
+<li><strong>HAPTIC FEEDBACK / VIBRATION:</strong> Used purely locally to provide tactile feedback during knife impacts and blade clashes. This permission does not access or transmit any personal data.</li>
+<li><strong>AUDIO:</strong> Used purely locally to play sound effects and procedural game audio. No microphone recording or audio surveillance is performed.</li>
+<li><strong>LOCAL NOTIFICATIONS:</strong> Used on-device only to deliver friendly optional reminders to play. No remote push notifications or tracking tokens are employed.</li>
+</ul>
+<h2>4. Third-Party Services &amp; Network Activity</h2>
+<p>The Application does not maintain any remote user database or tracking servers. When you click external links—such as sharing your level victory status or contacting customer support—you interact with standard third-party platform dialogs (email client, system share sheet) that operate under their own terms.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>Knife Strike contains no age-inappropriate content, behavioral tracking, or personal data collection, fully complying with the Children's Online Privacy Protection Act (COPPA) and international privacy frameworks.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically as Knife Strike evolves. If you have any questions or feedback regarding our privacy standards, please reach out to us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`}};export{e as default};

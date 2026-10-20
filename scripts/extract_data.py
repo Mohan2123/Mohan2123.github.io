@@ -21,6 +21,9 @@ APP_COLORS = {
     'torch_light': {'primary': '#eab308', 'primaryDark': '#ca8a04'},
     'messages': {'primary': '#2563eb', 'primaryDark': '#1d4ed8'},
     'docs': {'primary': '#176b5b', 'primaryDark': '#104f42'},
+    'ludo': {'primary': '#ff2a55', 'primaryDark': '#d81b45'},
+    'knife_strike': {'primary': '#ffd54f', 'primaryDark': '#ffb300'},
+    'block_blast': {'primary': '#00e5ff', 'primaryDark': '#00b0ff'},
 }
 
 def extract_apps_and_legal():
