@@ -1,0 +1,478 @@
+const a={"ebook_reader/privacy_policy/sw":{appId:"ebook_reader",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"eBook Reader",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>eBook Reader</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). eBook Reader imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>eBook Reader inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Hutolewa ili kuonyesha vidhibiti vya uchezaji au hali ya uendeshaji chinichini.</li>
+</ul>
+<h2>3. Dhamana ya Uchakataji wa Ndani na Nje ya Mtandao</h2>
+<p>Uchakataji na shughuli zote za eBook Reader hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"ebook_reader/terms_of_service/sw":{appId:"ebook_reader",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"eBook Reader",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>eBook Reader</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>eBook Reader</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya eBook Reader</h2>
+<p>Vipengele vya eBook Reader vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"video_player/privacy_policy/sw":{appId:"video_player",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"Video Player",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>Video Player</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Video Player imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>Video Player inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Hutolewa ili kuonyesha vidhibiti vya uchezaji au hali ya uendeshaji chinichini.</li>
+</ul>
+<h2>3. Dhamana ya Usimbaji wa Video Ndani</h2>
+<p>Uchakataji na shughuli zote za Video Player hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"video_player/terms_of_service/sw":{appId:"video_player",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"Video Player",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>Video Player</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>Video Player</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya Video Player</h2>
+<p>Vipengele vya Video Player vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"photos/privacy_policy/sw":{appId:"photos",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"Photos App",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>Photos App</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Photos App imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>Photos App inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+</ul>
+<h2>3. Dhamana ya Uchakataji wa Vyombo vya Habari Ndani</h2>
+<p>Uchakataji na shughuli zote za Photos App hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"photos/terms_of_service/sw":{appId:"photos",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"Photos App",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>Photos App</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>Photos App</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya Photos App</h2>
+<p>Vipengele vya Photos App vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"sheets/privacy_policy/sw":{appId:"sheets",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"Sheets App",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>Sheets App</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Sheets App imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>Sheets App inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+</ul>
+<h2>3. Dhamana ya Fomula na Hesabu za Ndani</h2>
+<p>Uchakataji na shughuli zote za Sheets App hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"sheets/terms_of_service/sw":{appId:"sheets",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"Sheets App",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>Sheets App</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>Sheets App</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya Sheets App</h2>
+<p>Vipengele vya Sheets App vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"messages/privacy_policy/sw":{appId:"messages",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"Messages",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>Messages</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Messages imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>Messages inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>READ_SMS / SEND_SMS / RECEIVE_SMS:</strong> Imetolewa ndani ya kifaa chako ili kusoma, kutunga, kutuma na kupokea ujumbe wa SMS. Data zote za ujumbe huhifadhiwa ndani ya kifaa chako na hazipakiwi kamwe kwenye seva za nje.</li>
+<li><strong>READ_CONTACTS:</strong> Imetolewa ili kuonyesha majina na nambari za anwani zako katika mazungumzo. Anwani zako haziondoki kwenye kifaa chako.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Imetolewa ili kukuarifu mara moja unapopokea ujumbe mpya.</li>
+</ul>
+<h2>3. Dhamana ya Uhifadhi na Uchakataji wa Ujumbe Ndani</h2>
+<p>Hifadhidata ya ujumbe, utafutaji wa mazungumzo, na ujumbe ulioratibiwa hutekelezwa 100% ndani ya kifaa chako kupitia SQLite bila huduma za mtandao.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"messages/terms_of_service/sw":{appId:"messages",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"Messages",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>Messages</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>Messages</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya Messages</h2>
+<p>Vipengele vya Messages vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"torch_light/privacy_policy/sw":{appId:"torch_light",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"Torch Light",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>Torch Light</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Torch Light imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>Torch Light inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>CAMERA / FLASHLIGHT:</strong> Hutolewa ili kudhibiti mwanga wa kamera.</li>
+</ul>
+<h2>3. Dhamana ya Uendeshaji wa Ndani na Nje ya Mtandao</h2>
+<p>Uchakataji na shughuli zote za Torch Light hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"torch_light/terms_of_service/sw":{appId:"torch_light",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"Torch Light",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>Torch Light</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>Torch Light</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya Torch Light</h2>
+<p>Vipengele vya Torch Light vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"pdf_reader/privacy_policy/sw":{appId:"pdf_reader",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"PDF Reader",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>PDF Reader</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). PDF Reader imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>PDF Reader inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+</ul>
+<h2>3. Dhamana ya Utoaji wa Ndani</h2>
+<p>Uchakataji na shughuli zote za PDF Reader hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"pdf_reader/terms_of_service/sw":{appId:"pdf_reader",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"PDF Reader",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>PDF Reader</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>PDF Reader</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya PDF Reader</h2>
+<p>Vipengele vya PDF Reader vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"music_player/privacy_policy/sw":{appId:"music_player",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"Music Player",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>Music Player</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Music Player imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>Music Player inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>READ_MEDIA_AUDIO / READ_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Hutolewa ili kuonyesha vidhibiti vya uchezaji au hali ya uendeshaji chinichini.</li>
+</ul>
+<h2>3. Dhamana ya Uchakataji wa Sauti Ndani</h2>
+<p>Uchakataji na shughuli zote za Music Player hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"music_player/terms_of_service/sw":{appId:"music_player",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"Music Player",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>Music Player</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>Music Player</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya Music Player</h2>
+<p>Vipengele vya Music Player vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"file_manager/privacy_policy/sw":{appId:"file_manager",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"File Manager",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>File Manager</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). File Manager imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>File Manager inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>MANAGE_EXTERNAL_STORAGE / READ_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+<li><strong>CAMERA:</strong> Hutolewa ndani ya kifaa ili kupiga picha au kuchanganua misimbo. Picha za kamera huchakatwa kwenye kumbukumbu pekee.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Hutolewa ili kuonyesha vidhibiti vya uchezaji au hali ya uendeshaji chinichini.</li>
+</ul>
+<h2>3. Dhamana ya Uchakataji wa Ndani na Nje ya Mtandao</h2>
+<p>Uchakataji na shughuli zote za File Manager hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"file_manager/terms_of_service/sw":{appId:"file_manager",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"File Manager",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>File Manager</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>File Manager</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya File Manager</h2>
+<p>Vipengele vya File Manager vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"qr_scanner/privacy_policy/sw":{appId:"qr_scanner",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"QR Scanner",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>QR Scanner</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). QR Scanner imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>QR Scanner inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>CAMERA:</strong> Hutolewa ndani ya kifaa ili kupiga picha au kuchanganua misimbo. Picha za kamera huchakatwa kwenye kumbukumbu pekee.</li>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+</ul>
+<h2>3. Dhamana ya Uchakataji wa Msimbo Ndani</h2>
+<p>Uchakataji na shughuli zote za QR Scanner hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"qr_scanner/terms_of_service/sw":{appId:"qr_scanner",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"QR Scanner",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>QR Scanner</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>QR Scanner</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya QR Scanner</h2>
+<p>Vipengele vya QR Scanner vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"voice_recorder/privacy_policy/sw":{appId:"voice_recorder",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"Voice Recorder",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>Voice Recorder</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Voice Recorder imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>Voice Recorder inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>RECORD_AUDIO:</strong> Hutolewa ndani ya kifaa ili kurekodi sauti. Sauti huhifadhiwa moja kwa moja kwenye kumbukumbu ya kifaa chako.</li>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+<li><strong>POST_NOTIFICATIONS:</strong> Hutolewa ili kuonyesha vidhibiti vya uchezaji au hali ya uendeshaji chinichini.</li>
+</ul>
+<h2>3. Dhamana ya Usimbaji wa Sauti Ndani</h2>
+<p>Uchakataji na shughuli zote za Voice Recorder hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"voice_recorder/terms_of_service/sw":{appId:"voice_recorder",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"Voice Recorder",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>Voice Recorder</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>Voice Recorder</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya Voice Recorder</h2>
+<p>Vipengele vya Voice Recorder vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"notes/privacy_policy/sw":{appId:"notes",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"Notes App",content:`<h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+<p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>Notes App</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Notes App imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+<h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+<p>Notes App inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+<ul>
+<li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+</ul>
+<h2>3. Dhamana ya Uhifadhi wa Ndani na Usalama</h2>
+<p>Uchakataji na shughuli zote za Notes App hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+<h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+<p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+<h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+<p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"notes/terms_of_service/sw":{appId:"notes",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"Notes App",content:`<h2>1. Kukubali Masharti</h2>
+<p>Masharti haya ya Huduma ("Masharti") yanasimamia ufikiaji na matumizi yako ya programu ya simu ya <strong>Notes App</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Kwa kupakua au kutumia Programu, unakubali kufungwa na Masharti haya.</p>
+<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>
+<p>Tunakupa leseni yenye mipaka, isiyo ya kipekee, isiyoweza kuhamishwa ya kutumia <strong>Notes App</strong> kwenye kifaa chako.</p>
+<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>
+<p>Unawajibika kikamilifu kwa faili na maudhui yote yaliyohifadhiwa kwenye kifaa chako.</p>
+<h2>4. Kanusho la Injini ya Notes App</h2>
+<p>Vipengele vya Notes App vinatolewa "kama vilivyo" bila udhamini wa aina yoyote.</p>
+<h2>5. Kikomo cha Dhima</h2>
+<p>Kwa kiwango cha juu kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote usio wa moja kwa moja unaotokana na matumizi yako ya Programu.</p>
+<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+<p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+<p>
+<strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+<strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`},"docs/privacy_policy/sw":{appId:"docs",docType:"privacy_policy",lang:"sw",title:"Sera ya Faragha",subtitle:"Docs",content:`<h2>1. Kuhusu sera hii</h2>
+<p>Sera hii ya faragha inaeleza kwa kina jinsi programu ya Docs ("Docs" au "Programu"), iliyotengenezwa na Mohan MRKS, inavyoshughulikia na kulinda taarifa wakati unapoitumia. Docs imeundwa mahususi kwa ajili ya kusimamia na kuhariri hati zilizohifadhiwa ndani ya kumbukumbu ya kifaa chako pekee. Programu hii haitoi akaunti ya mtumiaji mtandaoni inayoendeshwa na msanidi programu wala huduma ya usawazishaji (sync) wa hati kwenye wingu (cloud).</p>
+<h2>2. Hati na faharasa ya ndani</h2>
+<p>Hati zako zinasomwa, kuhaririwa, na kuhifadhiwa moja kwa moja kwenye kifaa chako au katika maeneo ya hifadhi ya ndani uliyochagua mwenyewe. Docs haitumi yaliyomo kwenye hati zako kwa seva yoyote ya Docs au wahusika wengine chini ya hali yoyote. Ili kuorodhesha, kutafuta kwa haraka, na kupanga faili kwa ufanisi, Programu huweka hifadhidata ya ndani kwenye kifaa iliyo na njia za faili, majina, viendelezi, ukubwa, nyakati za marekebisho, hali ya vipendwa na ulinzi, pamoja na muhtasari wa maandishi uliotolewa kwa ajili ya utafutaji wa haraka. Hifadhidata hii na muhtasari wake hubaki kwenye kifaa chako pekee na hufutwa kabisa wakati data ya Programu inaposafishwa au Programu inapofutwa; hati asili zilizohifadhiwa nje ya folda ya faragha ya Programu zitasalia salama kwenye kifaa chako.<br><br>Kwenye mfumo wa uendeshaji wa Android, Docs inaweza kuomba ruhusa ya kufikia hifadhi (ikijumuisha ufikiaji wa faili zote kwenye matoleo ya Android yanayoungwa mkono) ili kupata na kusimamia hati. Kwenye mifumo mingine, ufikiaji hutolewa kupitia zana za kawaida za mfumo za kuchagua na kuhifadhi faili.</p>
+<h2>3. Hati zilizolindwa kwa nenosiri</h2>
+<p>Unapochagua kipengele cha "Linda & Hifadhi", Docs husimba hati iliyotolewa kwa kutumia kiwango thabiti cha usimbaji fiche cha AES-256-GCM na ufunguo unaotokana na nenosiri lako kupitia kanuni ya PBKDF2-HMAC-SHA-256. Nenosiri hili halitumwi kamwe wala kuhifadhiwa kwenye seva za msanidi programu. Tafadhali weka nenosiri lako mahali salama: nenosiri lililosahaulika haliwezi kurejeshwa na msanidi programu kwa njia yoyote ile, na kupoteza nenosiri kutafanya hati hiyo iliyolindwa isiweze kufikiwa tena kabisa.</p>
+<h2>4. Utambuzi wa hitilafu na kumbukumbu za mfumo</h2>
+<p>Kwa madhumuni ya kutatua matatizo ya kiufundi na kuboresha uthabiti, Docs hurekodi maelezo ya hitilafu za programu (kama vile ujumbe wa hitilafu na ufuatiliaji wa safu) kwenye faili ya utambuzi iliyo ndani ya hifadhi ya faragha ya Programu kwenye kifaa. Ripoti hizi za utambuzi hazitumwi kiotomatiki na Docs kupitia mtandao kamwe. Faili huzungushwa na kufanywa upya kadiri ukubwa unavyoongezeka. Kwa kuwa maelezo ya hitilafu yanaweza kujumuisha maelezo ya muktadha, epuka kushiriki faili za utambuzi na wengine bila kuzikagua kwanza mwenyewe.</p>
+<h2>5. Mtandao na huduma za wahusika wengine</h2>
+<p>Baadhi ya vitendo unavyovianzisha mwenyewe vinaweza kuwasiliana na huduma za nje ya Docs, ikijumuisha kupakua faili kutoka kwa kiungo cha URL, kufungua tovuti kwenye kivinjari cha ndani ya programu, kushiriki faili kupitia menyu ya kushiriki ya mfumo wa uendeshaji, au kuwasiliana na timu ya usaidizi kwa barua pepe. Huduma hizo za nje zinaweza kupokea data ya kiufundi kama vile anwani yako ya IP, URL iliyoombwa, au maudhui unayochagua kushiriki. Sera za faragha huru za huduma hizo za wahusika wengine zitatumika. Docs haina udhibiti wala uwajibikaji kwa huduma hizo za nje.</p>
+<h2>6. Udhibiti wa data na maelezo ya mawasiliano</h2>
+<p>Una uhuru kamili wa kudhibiti, kuhariri, au kufuta hati zako wakati wowote kwa kutumia Docs na zana za faili zilizojengwa ndani ya kifaa chako. Kufuta data ya Programu kutaondoa faharasa ya utafutaji wa ndani na kumbukumbu za utambuzi; lakini hii haifuti hati zilizohifadhiwa katika folda zingine kwenye kifaa chako. Kwa maswali au maoni kuhusu faragha, tafadhali wasiliana nasi kwa barua pepe: <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>
+<h2>7. Mabadiliko ya sera</h2>
+<p>Sera hii ya faragha inaweza kusasishwa mara kwa mara kadiri Docs inavyoboreshwa na kuongeza vipengele vipya. Sera hii inaweza kupitiwa upya mara kwa mara.</p>`},"docs/terms_of_service/sw":{appId:"docs",docType:"terms_of_service",lang:"sw",title:"Masharti ya Huduma",subtitle:"Docs",content:`<h2>1. Kukubali Makubaliano</h2>
+<p>Masharti haya ya huduma yanaongoza ufikiaji na matumizi yako ya kihariri cha hati cha Docs kilichotengenezwa na Mohan MRKS. Kwa kusakinisha au kutumia Programu, unakubali kisheria kufungwa na masharti haya. Ikiwa hukubaliani na masharti haya, tafadhali usisakinishe au kutumia Programu.</p>
+<h2>2. Matumizi Halali ya Programu</h2>
+<p>Unaweza kutumia Docs kwa madhumuni halali na yanayoruhusiwa kisheria pekee kuunda, kutazama, kuhariri, kupanga na kutoa hati. Wewe ndiye unayewajibika kikamilifu kwa maudhui yote unayounda, kufungua au kuhariri, na unahakikisha kuwa una haki zote muhimu za kisheria za kutumia maudhui hayo.</p>
+<h2>3. Faili zako na wajibu wa nakala rudufu</h2>
+<p>Docs imeundwa kufanya kazi na hati zilizohifadhiwa kwenye kifaa chako au katika maeneo uliyobainisha mwenyewe. Ni jukumu lako kuchagua faili zinazofaa, kuthibitisha matokeo ya hati zilizotolewa, na kudumisha nakala rudufu (backups) za mara kwa mara za data zako muhimu. Hifadhi nakala tofauti kila wakati kabla ya kutekeleza shughuli za faili zinazoweza kubadilisha, kuhamisha au kufuta data. Msanidi programu hawezi kurejesha faili zilizopotea au kufutwa kutoka kwenye kifaa chako chini ya hali yoyote.</p>
+<h2>4. Faili zilizolindwa na usalama wa nenosiri</h2>
+<p>Ni wajibu wako binafsi kulinda na kukumbuka manenosiri yanayotumika katika kipengele cha ulinzi wa hati kwenye Programu. Msanidi programu hawezi kurejesha nenosiri lililosahaulika na hana uwezo wa kusimbua faili bila nenosiri sahihi. Usimbaji fiche hupunguza hatari ya watu wasioidhinishwa kufikia faili lakini hauchukui nafasi ya mazoea mazuri ya usalama wa kifaa au nakala rudufu za mara kwa mara.</p>
+<h2>5. Huduma za wahusika wengine na programu huria</h2>
+<p>Baadhi ya vipengele vinaweza kufungua tovuti, kupakua faili au kushiriki maudhui kupitia huduma za wahusika wengine na programu za mfumo. Huduma hizo zinaongozwa na masharti na sera zao wenyewe. Docs pia inajumuisha vijenzi vya programu huria (open source) za wahusika wengine vinavyofuata ilani za leseni husika zinazoonyeshwa kwenye Programu.</p>
+<h2>6. Upatikanaji na ukataaji wa dhamana</h2>
+<p>Docs inatolewa kwa msingi wa "kama ilivyo" (AS IS) na "inavyopatikana" (AS AVAILABLE), bila dhamana ya aina yoyote, iwe ya wazi au ya kudokezwa. Msanidi programu haitoi ahadi kwamba Programu haitakatizwa, haitakuwa na hitilafu, au itafaa kwa kila mtiririko wa kazi. Kwa kiwango cha juu kinachoruhusiwa na sheria inayotumika, msanidi programu anakanusha dhamana zote zilizodokezwa na hatawajibika kwa hasara yoyote isiyo ya moja kwa moja (ikijumuisha upotevu wa data) inayotokana na matumizi ya Programu.</p>
+<h2>7. Mabadiliko ya masharti na mawasiliano</h2>
+<p>Masharti haya yanaweza kusasishwa kadiri Programu inavyobadilika. Kuendelea kutumia Programu baada ya sasisho kunamaanisha unakubali masharti yaliyorekebishwa. Maswali yanaweza kutumwa kwa: <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>`},"knife_strike/privacy_policy/sw":{appId:"knife_strike",docType:"privacy_policy",lang:"sw",title:"Privacy Policy",subtitle:"Knife Strike",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Knife Strike</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Knife Strike is built with a "Privacy First" approach. We believe your personal data, high scores, and gaming experience belong exclusively to you.</p>
+<h2>2. Data Handling &amp; Local Storage Policy</h2>
+<p>Knife Strike operates locally on your client device as an offline arcade game. We do not collect, harvest, transmit, or sell any personally identifiable information (PII). All gameplay progression—including unlocked stages, accumulated Rubles, unlocked custom blades, Cyrillic fonts, throwing indicator symbols, and precision statistics—is stored 100% locally on your device via secure client-side storage (SharedPreferences).</p>
+<h2>3. Device Permissions &amp; Hardware Features</h2>
+<p>Knife Strike uses only the minimal device features necessary to deliver game mechanics:</p>
+<ul>
+<li><strong>HAPTIC FEEDBACK / VIBRATION:</strong> Used purely locally to provide tactile feedback during knife impacts and blade clashes. This permission does not access or transmit any personal data.</li>
+<li><strong>AUDIO:</strong> Used purely locally to play sound effects and procedural game audio. No microphone recording or audio surveillance is performed.</li>
+<li><strong>LOCAL NOTIFICATIONS:</strong> Used on-device only to deliver friendly optional reminders to play. No remote push notifications or tracking tokens are employed.</li>
+</ul>
+<h2>4. Third-Party Services &amp; Network Activity</h2>
+<p>The Application does not maintain any remote user database or tracking servers. When you click external links—such as sharing your level victory status or contacting customer support—you interact with standard third-party platform dialogs (email client, system share sheet) that operate under their own terms.</p>
+<h2>5. Children's Privacy (COPPA Compliance)</h2>
+<p>Knife Strike contains no age-inappropriate content, behavioral tracking, or personal data collection, fully complying with the Children's Online Privacy Protection Act (COPPA) and international privacy frameworks.</p>
+<h2>6. Policy Updates &amp; Contact Information</h2>
+<p>We reserve the right to update this policy periodically as Knife Strike evolves. If you have any questions or feedback regarding our privacy standards, please reach out to us at:</p>
+<p>
+<strong>Developer:</strong> Mohan MRKS<br/>
+<strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+<strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+</p>`}};export{a as default};

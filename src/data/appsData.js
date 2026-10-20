@@ -453,6 +453,37 @@ export const APPS = [
       "primary": "#176b5b",
       "primaryDark": "#104f42"
     }
+  },
+  {
+    "id": "block_blast",
+    "package_id": "com.mohan.blockblast",
+    "name": "Block Blast",
+    "tagline": "Addictive Block Puzzle with 100 Levels & Procedural Synthesized Audio",
+    "category": "game",
+    "category_label": "Games & Entertainment",
+    "summary": "Fit dynamic blocks onto the 8x8 grid to blast full rows and columns. Complete 100 progressive levels with procedural custom shaders and in-code synthesized sound effects.",
+    "features": [
+      {
+        "title": "100 Progressive Adventure Levels",
+        "desc": "Escalating difficulty from novice challenges to tactical obstacle clearing."
+      },
+      {
+        "title": "Classic Endless & Time Attack",
+        "desc": "Endless high-score chasing or 90-second speed blitz modes."
+      },
+      {
+        "title": "Procedural In-Code Sound & Visuals",
+        "desc": "Zero image or audio assets; rendered purely through mathematics and Canvas shaders."
+      },
+      {
+        "title": "Block Armory & Customization",
+        "desc": "Unlock neon crystals, obsidian glass, nordic rune skins, and dynamic powerups."
+      }
+    ],
+    "colors": {
+      "primary": "#00e5ff",
+      "primaryDark": "#00b0ff"
+    }
   }
 ];
 export const LANGUAGES = [
