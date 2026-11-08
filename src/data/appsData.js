@@ -455,6 +455,41 @@ export const APPS = [
     }
   },
   {
+    "id": "docupulse",
+    "package_id": "com.mohan.docupulse",
+    "name": "DocuPulse",
+    "tagline": "Smart On-Device Document Scanner, OCR Studio & PDF Toolkit",
+    "category": "productivity",
+    "category_label": "Productivity & Docs",
+    "summary": "An intelligent on-device document scanner and PDF toolkit for capturing, auto-edge cropping, enhancing, recognizing text with offline OCR, signing, and exporting multi-format documents with privacy by default.",
+    "features": [
+      {
+        "title": "Camera Document Scanner",
+        "desc": "Real-time edge detection, automatic perspective transformation, and color enhancement filters."
+      },
+      {
+        "title": "On-Device Neural OCR",
+        "desc": "Extract text from scanned pages locally using lightweight on-device machine learning models."
+      },
+      {
+        "title": "Digital Signatures & Watermarks",
+        "desc": "Draw cryptographic signatures with pen/pencil tools and place customizable security watermarks."
+      },
+      {
+        "title": "50+ Multi-Format Export",
+        "desc": "Directly convert and share documents in PDF, JPEG, PNG, ZIP, and other standardized formats."
+      },
+      {
+        "title": "Privacy by Default",
+        "desc": "Zero tracking, zero cloud uploads, and 100% on-device data storage and local processing."
+      }
+    ],
+    "colors": {
+      "primary": "#dc2626",
+      "primaryDark": "#991b1b"
+    }
+  },
+  {
     "id": "ludo",
     "package_id": "com.mohan.ludo",
     "name": "Ludo Bear",
@@ -694,6 +729,10 @@ export const APP_COLORS = {
   "docs": {
     "primary": "#176b5b",
     "primaryDark": "#104f42"
+  },
+  "docupulse": {
+    "primary": "#dc2626",
+    "primaryDark": "#991b1b"
   },
   "ludo": {
     "primary": "#ff2a55",
