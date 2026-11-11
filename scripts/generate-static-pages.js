@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { APPS, LANGUAGES } from '../src/data/appsData.js';
+import { LAUNCHER_LANGUAGES } from '../src/data/launcherLegal.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -114,6 +115,22 @@ for (const app of APPS) {
       );
       routeCount++;
     }
+  }
+}
+
+const launcherDir = path.join(rootDir, 'launcher');
+for (const { code } of LAUNCHER_LANGUAGES) {
+  for (const docType of ['privacy_policy', 'terms_of_service']) {
+    const docDir = path.join(launcherDir, docType);
+    fs.mkdirSync(docDir, { recursive: true });
+    const docTitle = docType === 'privacy_policy' ? 'Privacy Policy' : 'Terms of Service';
+    const docPath = path.join(docDir, `${code}.html`);
+    const lang = code.replace(/_([a-z]+)/, (_, region) => `-${region.toUpperCase()}`);
+    writeFileIfChanged(
+      docPath,
+      generateHtml(`${docTitle} - Launcher`, `${docTitle} for Launcher.`, lang)
+    );
+    routeCount++;
   }
 }
 

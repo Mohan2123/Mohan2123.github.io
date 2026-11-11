@@ -1,3 +1,7 @@
+import { getLauncherLegalDoc } from './launcherLegal.js';
+import { getSupplementalGameLegalDoc } from './gamesLegal.js';
+import { getLocalizedGameLegalDoc } from './localizedGamesLegal.js';
+
 // Lazy-load translation files on demand
 const legalCache = {};
 
@@ -27,6 +31,10 @@ const legalLoaders = {
 };
 
 export async function fetchLegalDoc(appId, docType, lang = 'en') {
+  if (appId === 'launcher') {
+    return getLauncherLegalDoc(docType, lang);
+  }
+
   const targetLang = legalLoaders[lang] ? lang : 'en';
 
   if (!legalCache[targetLang]) {
@@ -41,11 +49,15 @@ export async function fetchLegalDoc(appId, docType, lang = 'en') {
 
   const key = `${appId}/${docType}/${targetLang}`;
   const doc = legalCache[targetLang][key];
+  if (doc) return doc;
 
-  if (!doc && targetLang !== 'en') {
+  const localizedGameDoc = getLocalizedGameLegalDoc(appId, docType, targetLang);
+  if (localizedGameDoc) return localizedGameDoc;
+
+  if (targetLang !== 'en') {
     // Fallback to English if missing in target language
     return fetchLegalDoc(appId, docType, 'en');
   }
 
-  return doc || null;
+  return getSupplementalGameLegalDoc(appId, docType);
 }

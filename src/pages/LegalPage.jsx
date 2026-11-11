@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { APPS, LANGUAGES, APP_COLORS } from '../data/appsData';
+import { APPS, APP_COLORS } from '../data/appsData';
 import { fetchLegalDoc } from '../data/legalLoader';
 import { Header, Footer } from '../components/Layout';
 import { useRouter } from '../RouterContext';
@@ -10,8 +10,9 @@ export function LegalPage({ appId, docType, lang = 'en' }) {
   const [loading, setLoading] = useState(true);
 
   const app = APPS.find(a => a.id === appId);
-  const appName = app ? app.name : (appId === 'docs' ? 'Docs' : appId);
+  const appName = app ? app.name : (appId === 'docs' ? 'Docs' : appId === 'launcher' ? 'Launcher' : appId);
   const colors = APP_COLORS[appId] || { primary: '#1a73e8', primaryDark: '#1557b0' };
+  const backLink = appId === 'launcher' ? '/' : `/${appId}/index.html`;
 
   const otherDocType = docType === 'privacy_policy' ? 'terms_of_service' : 'privacy_policy';
   const otherDocTitle = docType === 'privacy_policy' ? 'Terms of Service' : 'Privacy Policy';
@@ -30,14 +31,12 @@ export function LegalPage({ appId, docType, lang = 'en' }) {
     };
   }, [appId, docType, lang]);
 
-  const availableLangs = LANGUAGES;
-
   return (
     <div className="legal-view-container" style={{
       '--primary': colors.primary,
       '--primary-dark': colors.primaryDark,
     }}>
-      <Header backLink={`/${appId}/index.html`} backText={`← Back to ${appName}`} />
+      <Header backLink={backLink} backText={`← Back to ${appName}`} />
       
       <div className="legal-header">
         <h1 style={{ color: colors.primaryDark }}>
@@ -79,10 +78,10 @@ export function LegalPage({ appId, docType, lang = 'en' }) {
         </a>
       </div>
       <Footer 
-        backLink={`/${appId}/index.html`} 
+        backLink={backLink}
         legalLinks={[
-          { label: 'Privacy Policy', href: `/${appId}/privacy_policy/en.html` },
-          { label: 'Terms of Service', href: `/${appId}/terms_of_service/en.html` }
+          { label: 'Privacy Policy', href: `/${appId}/privacy_policy/${lang}.html` },
+          { label: 'Terms of Service', href: `/${appId}/terms_of_service/${lang}.html` }
         ]} 
       />
     </div>

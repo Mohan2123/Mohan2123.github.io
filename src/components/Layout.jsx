@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useRouter } from '../RouterContext';
 import { LANGUAGES } from '../data/appsData';
+import { LAUNCHER_LANGUAGES } from '../data/launcherLegal';
 
 export function Header({ backLink, backText = "← All Applications" }) {
   const { navigate, route, currentLang, changeLanguage } = useRouter();
@@ -19,7 +20,8 @@ export function Header({ backLink, backText = "← All Applications" }) {
     };
   }, []);
 
-  const activeLangObj = LANGUAGES.find(l => l.code === currentLang) || LANGUAGES[0];
+  const languages = route.appId === 'launcher' ? LAUNCHER_LANGUAGES : LANGUAGES;
+  const activeLangObj = languages.find(l => l.code === currentLang) || languages[0];
 
   return (
     <header>
@@ -91,7 +93,7 @@ export function Header({ backLink, backText = "← All Applications" }) {
 
               {dropdownOpen && (
                 <div className="lang-dropdown-menu">
-                  {LANGUAGES.map((item) => (
+                  {languages.map((item) => (
                     <button
                       key={item.code}
                       type="button"
