@@ -230,5 +230,21 @@
     "title": "Masharti ya Huduma",
     "subtitle": "DocuPulse",
     "content": "<h2>1. Kukubali Masharti</h2>\n<p>Masharti haya ya Huduma (\"Masharti\") yanasimamia matumizi ya programu ya simu ya <strong>DocuPulse</strong> (\"Programu\", \"Huduma\"), iliyotengenezwa na <strong>Mohan MRKS</strong> (\"Msanidi\"). Kwa kusakinisha au kutumia DocuPulse, unakubali kufungwa na Masharti haya.</p>\n<h2>2. Upeo wa Leseni na Matumizi Yanayoruhusiwa</h2>\n<p>Tunakupa leseni ya kibinafsi, isiyo ya kipekee na inayoweza kufutwa ya kutumia DocuPulse kuchanganua, kuhariri, kutambua maandishi na kuweka saini kwenye nyaraka kisheria.</p>\n<h2>3. Maudhui ya Ndani na Wajibu wa Mtumiaji</h2>\n<p>Unamiliki haki zote na unawajibika kisheria kwa nyaraka na saini zote zinazochakatwa katika DocuPulse. Kwa kuwa programu inafanya kazi bila intaneti na haina nakala ya wingu, unawajibika kuhifadhi nakala za faili zako muhimu.</p>\n<h2>4. Kanusho la Injini ya OCR</h2>\n<p>Huduma za uchanganuzi na OCR zinatolewa \"kama zilivyo\". Usahihi wa utambuzi unategemea mwanga na uwazi wa nyaraka. Msanidi hatoi hakikisho la kutokuwa na hitilafu 100%.</p>\n<h2>5. Kikomo cha Dhima</h2>\n<p>Kwa kiwango kinachoruhusiwa na sheria, Msanidi hatawajibika kwa uharibifu wowote au upotevu wa data unaotokana na matumizi ya DocuPulse.</p>\n<h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>\n<p>Tuna haki ya kubadilisha masharti haya wakati wowote. Kwa maswali, wasiliana nasi:</p>\n<p>\n<strong>Msanidi:</strong> Mohan MRKS<br/>\n<strong>Barua pepe ya Usaidizi:</strong> <a href=\"mailto:mohanmrks@yandex.com\">mohanmrks@yandex.com</a><br/>\n<strong>Tovuti:</strong> <a href=\"https://mohan2123.github.io\" rel=\"noopener noreferrer\" target=\"_blank\">mohan2123.github.io</a>\n</p>"
+  },
+  "fruit_cutter/privacy_policy/sw": {
+    "appId": "fruit_cutter",
+    "docType": "privacy_policy",
+    "lang": "sw",
+    "title": "Sera ya Faragha",
+    "subtitle": "Fruit Blade: Bogatyr Slicer",
+    "content": "<h2>1. Muundo Unaolinda Faragha</h2>\n<p>Sera hii ya Faragha inahusu mchezo wa <strong>Fruit Blade: Bogatyr Slicer</strong> uliotengenezwa na <strong>Mohan MRKS</strong>. Mchezo huu umeundwa kwa misingi ya faragha kamili na kucheza bila mtandao. Data yako binafsi na alama zako ni zako pekee.</p>\n<h2>2. Utunzaji wa Data na Hifadhi ya Kifaa</h2>\n<p>Mchezo unafanya kazi kikamilifu ndani ya kifaa chako bila mtandao. Hatukusanyi, hatufuatilii, wala hatuuzi taarifa yoyote ya kibinafsi (PII). Maendeleo ya ngazi 100, matunda 50, alama na sarafu za Rubles (₽) zimehifadhiwa 100% kwenye kifaa chako.</p>\n<h2>3. Ruhusa za Kifaa</h2>\n<p>Mtetemo wakati wa kukata matunda na sauti za mchezo hufanya kazi ndani ya kifaa pekee. Hakuna kinasa sauti au maikrofoni inayotumika.</p>\n<h2>4. Mawasiliano</h2>\n<p>Mawasiliano: <a href=\"mailto:mohanmrks@yandex.com\">mohanmrks@yandex.com</a>.</p>"
+  },
+  "fruit_cutter/terms_of_service/sw": {
+    "appId": "fruit_cutter",
+    "docType": "terms_of_service",
+    "lang": "sw",
+    "title": "Masharti ya Huduma",
+    "subtitle": "Fruit Blade: Bogatyr Slicer",
+    "content": "<h2>1. Makubaliano na Matumizi</h2>\n<p>Masharti haya yanahusu mchezo wa <strong>Fruit Blade: Bogatyr Slicer</strong> kwa matumizi ya burudani ya binafsi.</p>\n<h2>2. Usalama wa Mchezo</h2>\n<p>Huu ni mchezo wa kidijitali wa kukata matunda kwenye skrini ya simu, si mafunzo ya visu au silaha halisi.</p>\n<h2>3. Mawasiliano</h2>\n<p>Barua pepe: <a href=\"mailto:mohanmrks@yandex.com\">mohanmrks@yandex.com</a>.</p>"
   }
 }

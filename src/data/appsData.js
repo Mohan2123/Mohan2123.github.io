@@ -589,6 +589,41 @@ export const APPS = [
       "primary": "#00e5ff",
       "primaryDark": "#00b0ff"
     }
+  },
+  {
+    "id": "fruit_cutter",
+    "package_id": "com.antigravity.fruitcutter.fruit_cutter",
+    "name": "Fruit Blade: Bogatyr Slicer",
+    "tagline": "Razor-Sharp Fruit Slicing with 100 Levels & 50 Realistic Fruits",
+    "category": "game",
+    "category_label": "Games & Entertainment",
+    "summary": "Master the art of the blade across 100 progressive adventure levels and 50 realistic country fruits. Slash multiple fruits to unleash powerful combos, unlock mythic bogatyr blades, spin the daily prize wheel, and achieve slicing supremacy.",
+    "features": [
+      {
+        "title": "100 Progressive Adventure Levels",
+        "desc": "Escalating challenges from apprentice slicing to intense master boss encounters."
+      },
+      {
+        "title": "50 Realistic Country Fruits",
+        "desc": "Handcrafted vector rendering of watermelons, pomegranates, dragonfruits, and orchard favorites."
+      },
+      {
+        "title": "Bogatyr Blade Armory",
+        "desc": "Unlock legendary blades, sabers, and swords with unique trails and cutting sounds."
+      },
+      {
+        "title": "Daily Wheel & Rewards",
+        "desc": "Spin the fortune wheel daily to earn Rubles (₽) and collect premium blades."
+      },
+      {
+        "title": "Complete Privacy & Offline Play",
+        "desc": "100% offline gameplay with local storage, no accounts, and zero data tracking."
+      }
+    ],
+    "colors": {
+      "primary": "#ff9100",
+      "primaryDark": "#e65100"
+    }
   }
 ];
 export const LANGUAGES = [
@@ -745,5 +780,9 @@ export const APP_COLORS = {
   "block_blast": {
     "primary": "#00e5ff",
     "primaryDark": "#00b0ff"
+  },
+  "fruit_cutter": {
+    "primary": "#ff9100",
+    "primaryDark": "#e65100"
   }
 };

@@ -230,5 +230,21 @@
     "title": "利用規約",
     "subtitle": "DocuPulse",
     "content": "<h2>1. 規約の同意</h2>\n<p>本利用規約（以下「本規約」）は、<strong>Mohan MRKS</strong>（以下「開発者」）が提供する <strong>DocuPulse</strong> モバイルアプリの利用条件を定めるものです。DocuPulse をインストールまたは利用することにより、本規約に同意したものとみなされます。</p>\n<h2>2. ライセンスの範囲と許可された使用法</h2>\n<p>開発者は、お客様に対し、適法な目的で文書のスキャン、編集、OCR、署名、ファイル管理を行うための個人的で譲渡不能な本アプリの利用ライセンスを付与します。</p>\n<h2>3. ローカルファイルとユーザーの責任</h2>\n<p>本アプリでスキャンまたは作成されたすべてのファイル、テキスト、電子署名の適法性および権利はお客様に帰属します。クラウドバックアップのないオフライン仕様のため、重要データのバックアップはお客様自身の責任で行ってください。</p>\n<h2>4. OCR エンジンに関する免責事項</h2>\n<p>スキャン機能および文字認識（OCR）は「現状有姿」で提供されます。認識精度は撮影環境やフォントに左右されるため、完全な誤り無き認識を保証するものではありません。</p>\n<h2>5. 責任の制限</h2>\n<p>法令で許容される最大限の範囲において、開発者は本アプリの利用または利用不能から生じる直接的・間接的損害について一切の責任を負いません。</p>\n<h2>6. ポリシーの更新と連絡先情報</h2>\n<p>本規約は改定されることがあります。改定後も利用を継続した場合、変更内容に同意したものとみなされます。お問い合わせ：</p>\n<p>\n<strong>開発者：</strong>Mohan MRKS<br/>\n<strong>サポート窓口：</strong><a href=\"mailto:mohanmrks@yandex.com\">mohanmrks@yandex.com</a><br/>\n<strong>公式サイト：</strong><a href=\"https://mohan2123.github.io\" rel=\"noopener noreferrer\" target=\"_blank\">mohan2123.github.io</a>\n</p>"
+  },
+  "fruit_cutter/privacy_policy/ja": {
+    "appId": "fruit_cutter",
+    "docType": "privacy_policy",
+    "lang": "ja",
+    "title": "プライバシーポリシー",
+    "subtitle": "Fruit Blade: Bogatyr Slicer",
+    "content": "<h2>1. プライバシー最優先の設計</h2>\n<p>本プライバシーポリシーは、<strong>Mohan MRKS</strong>（「開発者」）が開発したモバイルゲーム<strong>Fruit Blade: Bogatyr Slicer</strong>（「本アプリ」、「本ゲーム」）に適用されます。本ゲームは徹底した「プライバシー第一」および完全オフライン動作の理念に基づいて設計されています。お客様の個人データ、スコア、ゲームプレイの成果はお客様自身のものです。</p>\n<h2>2. データ処理と端末内ローカル保存</h2>\n<p>Fruit Blade: Bogatyr Slicer は、端末内だけで完結するオフラインアーケードゲームです。個人を特定できる情報（PII）の収集、送信、追跡、販売は一切行いません。全100ステージの進行状況、50種類のリアルなフルーツ図鑑、ハイスコア、集めたルーブル（₽）、解放した刀刃、サウンド設定はすべて端末内の安全な領域（SharedPreferences）に100％ローカル保存されます。</p>\n<h2>3. デバイスの権限と機能</h2>\n<p>本ゲームは快適なプレイに必要な最小限の端末機能のみを使用します：</p>\n<ul>\n<li><strong>触覚フィードバック / 振動：</strong> フルーツを切断した際やコンボの爽快感を伝えるために端末内でのみ振動を発生させます。個人データへのアクセスは一切ありません。</li>\n<li><strong>オーディオ再生：</strong> 刀の斬撃音やフルーツのスプラッシュ音、勝利ファンファーレの再生にローカルで使用します。マイクの利用や録音は一切行いません。</li>\n<li><strong>ローカル通知：</strong> 毎日のルーレットなどのリマインダーを端末内でのみスケジュールします。外部プッシュ通知サーバーは使用しません。</li>\n</ul>\n<h2>4. 外部サービスとネットワーク</h2>\n<p>本アプリは外部の分析サーバーや広告トラッカーを一切含みません。完全なオフライン状態でお楽しみいただけます。サポートへのお問い合わせはメールにて承ります：<a href=\"mailto:mohanmrks@yandex.com\">mohanmrks@yandex.com</a>。</p>"
+  },
+  "fruit_cutter/terms_of_service/ja": {
+    "appId": "fruit_cutter",
+    "docType": "terms_of_service",
+    "lang": "ja",
+    "title": "利用規約",
+    "subtitle": "Fruit Blade: Bogatyr Slicer",
+    "content": "<h2>1. 同意および利用条件</h2>\n<p>本規約は <strong>Fruit Blade: Bogatyr Slicer</strong> に適用されます。ゲームのインストールまたはプレイにより、本規約に同意したものとみなされます。</p>\n<h2>2. ゲームプレイと安全性</h2>\n<p>本ゲームはタッチスクリーン上でフルーツをスライスする仮想アーケードゲームであり、現実の刃物やナイフの取り扱いを指南するものではありません。</p>\n<h2>3. 進行状況とルーブル</h2>\n<p>100のステージや刀刃、ゲーム内ルーブル（₽）はすべて端末に保存され、ゲーム外での換金価値はありません。</p>\n<h2>4. お問い合わせ</h2>\n<p>メール：<a href=\"mailto:mohanmrks@yandex.com\">mohanmrks@yandex.com</a>。</p>"
   }
 }

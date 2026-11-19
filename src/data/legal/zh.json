@@ -230,5 +230,21 @@
     "title": "服务条款",
     "subtitle": "DocuPulse",
     "content": "<h2>1. 接受条款</h2>\n<p>本服务条款（以下简称“本条款”）适用于您访问和使用由 <strong>Mohan MRKS</strong>（以下简称“开发者”）开发的 <strong>DocuPulse</strong> 移动应用程序（以下简称“本应用”）。下载、安装或使用 DocuPulse 即表示您同意接受本条款的法律约束。</p>\n<h2>2. 许可范围与允许用途</h2>\n<p>我们授予您一项个人的、全球范围的、非排他性的、不可转让且可撤销的许可，允许您在拥有或控制的兼容设备上使用 DocuPulse 用于合法的文档扫描、编辑、文字识别、电子签署和文件归档管理。</p>\n<h2>3. 本地内容与用户责任</h2>\n<p>您对通过 DocuPulse 扫描、编辑、提取或导出的所有文档、图像、文字和电子签名拥有完全所有权并承担唯一法律责任。由于 DocuPulse 采用纯本地离线运行模式，不提供云端备份，您应自行负责重要数据的独立备份。</p>\n<h2>4. OCR 与功能免责声明</h2>\n<p>文档扫描、图像校正和文字识别（OCR）功能均按“原样”提供。文字识别准确率受拍摄光线、文档平整度、相机画质和印刷字体影响，开发者不保证 OCR 识别结果完全无误。</p>\n<h2>5. 责任限制</h2>\n<p>在适用法律允许的最大范围内，开发者不对因使用或无法使用 DocuPulse 或由此导致的数据丢失承担任何直接、间接或附带赔偿责任。</p>\n<h2>6. 政策更新与联系方式</h2>\n<p>我们保留适时修订本条款的权利。修改后继续使用本应用即视为接受新条款。疑问请联系：</p>\n<p>\n<strong>开发者：</strong>Mohan MRKS<br/>\n<strong>支持邮箱：</strong><a href=\"mailto:mohanmrks@yandex.com\">mohanmrks@yandex.com</a><br/>\n<strong>官方网址：</strong><a href=\"https://mohan2123.github.io\" rel=\"noopener noreferrer\" target=\"_blank\">mohan2123.github.io</a>\n</p>"
+  },
+  "fruit_cutter/privacy_policy/zh": {
+    "appId": "fruit_cutter",
+    "docType": "privacy_policy",
+    "lang": "zh",
+    "title": "隐私政策",
+    "subtitle": "Fruit Blade: Bogatyr Slicer",
+    "content": "<h2>1. 隐私优先架构</h2>\n<p>本隐私政策适用于由 <strong>Mohan MRKS</strong>（“开发者”）开发的 <strong>Fruit Blade: Bogatyr Slicer</strong>（《水果之刃：勇士切水果》）移动端游戏应用（“应用”、“游戏”、“服务”）。本游戏基于严苛的“隐私第一”和完全离线运行理念构建。我们坚信您的个人数据、最高得分和切割成就完全属于您自己。</p>\n<h2>2. 数据处理与本地存储</h2>\n<p>Fruit Blade: Bogatyr Slicer 完全在您的客户端设备本地作为离线街机游戏运行。我们不收集、不上传、不追踪、也不出售任何个人身份信息（PII）。所有游戏进度——包括全部100个关卡的挑战、50种逼真水果图鉴、历史最高分、累积的卢布（₽）、兵器库刀刃解锁记录、音效配置与连击统计——均100%保存在您的设备本地安全存储中（SharedPreferences）。</p>\n<h2>3. 设备权限与硬件功能</h2>\n<p>游戏仅使用提供流畅体验所必需的最低硬件功能：</p>\n<ul>\n<li><strong>触觉反馈 / 震动：</strong> 纯本地触发，用于在刀刃切割水果、触发连击与解除炸弹时提供清脆的触觉震动反馈。绝不读取或传输任何用户隐私数据。</li>\n<li><strong>音频播放：</strong> 纯本地解码播放刀光挥舞、果汁四溅与胜利欢呼声效。绝不请求麦克风权限或进行任何音频监听录制。</li>\n<li><strong>本地通知：</strong> 仅在设备本地设定，用于每日转盘与挑战的可选温和提醒。绝不使用远程推送服务、设备追踪令牌或云端服务器。</li>\n</ul>\n<h2>4. 第三方服务与网络连接</h2>\n<p>本应用不包含任何远程用户数据库、数据分析SDK或广告追踪程序。游戏在完全离线状态下即可体验全部内容。当您主动选择分享高分或发送支持邮件时，仅调用操作系统标准系统组件。</p>\n<h2>5. 儿童隐私保护（符合 COPPA）</h2>\n<p>游戏不含任何暴力、血腥或不良内容，不进行用户画像与个性化追踪，完全符合《儿童在线隐私保护法》（COPPA）及国际隐私安全法规。</p>\n<h2>6. 政策更新与联系方式</h2>\n<p>如有关于隐私政策的任何问题或建议，请联系：</p>\n<p>\n<strong>开发者：</strong> Mohan MRKS<br/>\n<strong>支持邮箱：</strong> <a href=\"mailto:mohanmrks@yandex.com\">mohanmrks@yandex.com</a><br/>\n<strong>官方网站：</strong> <a href=\"https://mohan2123.github.io\" rel=\"noopener noreferrer\" target=\"_blank\">mohan2123.github.io</a>\n</p>"
+  },
+  "fruit_cutter/terms_of_service/zh": {
+    "appId": "fruit_cutter",
+    "docType": "terms_of_service",
+    "lang": "zh",
+    "title": "服务条款",
+    "subtitle": "Fruit Blade: Bogatyr Slicer",
+    "content": "<h2>1. 协议与许可使用</h2>\n<p>本服务条款适用于 <strong>Fruit Blade: Bogatyr Slicer</strong> 游戏。安装或运行游戏即代表您同意本条款，仅供个人非商业休闲娱乐使用。</p>\n<h2>2. 游戏机制与安全须知</h2>\n<p>本作为触屏滑动切割水果的虚拟街机游戏，所有刀光剑影均为虚拟娱乐表现，绝不构成现实中冷兵器或刀具操作的示范或指导。</p>\n<h2>3. 游戏数据与虚拟货币</h2>\n<p>100个关卡进度、已解锁刀刃与游戏卢布（₽）均保存在您的本地设备上，不具备游戏外的任何真实货币价值。清除应用缓存可能会重置游戏存档。</p>\n<h2>4. 联系我们</h2>\n<p>邮箱：<a href=\"mailto:mohanmrks@yandex.com\">mohanmrks@yandex.com</a>。</p>"
   }
 }
