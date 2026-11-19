@@ -592,7 +592,7 @@ export const APPS = [
   },
   {
     "id": "fruit_cutter",
-    "package_id": "com.antigravity.fruitcutter.fruit_cutter",
+    "package_id": "com.mohan.fruit_cutter",
     "name": "Fruit Blade: Bogatyr Slicer",
     "tagline": "Razor-Sharp Fruit Slicing with 100 Levels & 50 Realistic Fruits",
     "category": "game",
