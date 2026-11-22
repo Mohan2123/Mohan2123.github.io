@@ -454,12 +454,12 @@ const n={"ebook_reader/privacy_policy/ja":{appId:"ebook_reader",docType:"privacy
 <h2>6. 提供条件および保証の否認</h2>
 <p>Docs は「現状有姿（AS IS）」かつ「提供可能な範囲（AS AVAILABLE）」を前提として無保証で提供されます。開発者は、本アプリの稼働に中断が生じないこと、完全無欠でエラーが存在しないこと、またはお客様固有の業務フローや目的に完全に適合することを明示的にも黙示的にも一切保証いたしません。適用法令により許容される最大限の範囲において、開発者は一切の黙示的保証を明示的に否認し、データの喪失、利益の損失、または業務の中断を含む、本アプリの利用または利用不能から生じるいかなる間接的、付随的、特別、または結果的損害についても一切の責任を負いません。本規約のいかなる規定も、法律により排除することが認められない消費者の法的権利を排除するものではありません。</p>
 <h2>7. 規約の変更およびお問い合わせ</h2>
-<p>本規約は、本アプリの機能変更や改善に伴い、随時改定されることがあります。規約改定後に本アプリの利用を継続した場合、変更後の新利用規約に同意したものとみなされます。本規約に関するご質問やご意見は、以下までお送りください：<a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>。</p>`},"knife_strike/privacy_policy/ja":{appId:"knife_strike",docType:"privacy_policy",lang:"ja",title:"Privacy Policy",subtitle:"Knife Strike",content:`<h2>1. Privacy First Architecture</h2>
-<p>This Privacy Policy applies to the <strong>Knife Strike</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Knife Strike is built with a "Privacy First" approach. We believe your personal data, high scores, and gaming experience belong exclusively to you.</p>
+<p>本規約は、本アプリの機能変更や改善に伴い、随時改定されることがあります。規約改定後に本アプリの利用を継続した場合、変更後の新利用規約に同意したものとみなされます。本規約に関するご質問やご意見は、以下までお送りください：<a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>。</p>`},"spin_strike/privacy_policy/ja":{appId:"spin_strike",docType:"privacy_policy",lang:"ja",title:"Privacy Policy",subtitle:"Spin Strike",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Spin Strike</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Spin Strike is built with a "Privacy First" approach. We believe your personal data, high scores, and gaming experience belong exclusively to you.</p>
 <h2>2. Data Handling &amp; Local Storage Policy</h2>
-<p>Knife Strike operates locally on your client device as an offline arcade game. We do not collect, harvest, transmit, or sell any personally identifiable information (PII). All gameplay progression—including unlocked stages, accumulated Rubles, unlocked custom blades, Cyrillic fonts, throwing indicator symbols, and precision statistics—is stored 100% locally on your device via secure client-side storage (SharedPreferences).</p>
+<p>Spin Strike operates locally on your client device as an offline arcade game. We do not collect, harvest, transmit, or sell any personally identifiable information (PII). All gameplay progression—including unlocked stages, accumulated Rubles, unlocked custom blades, Cyrillic fonts, throwing indicator symbols, and precision statistics—is stored 100% locally on your device via secure client-side storage (SharedPreferences).</p>
 <h2>3. Device Permissions &amp; Hardware Features</h2>
-<p>Knife Strike uses only the minimal device features necessary to deliver game mechanics:</p>
+<p>Spin Strike uses only the minimal device features necessary to deliver game mechanics:</p>
 <ul>
 <li><strong>HAPTIC FEEDBACK / VIBRATION:</strong> Used purely locally to provide tactile feedback during knife impacts and blade clashes. This permission does not access or transmit any personal data.</li>
 <li><strong>AUDIO:</strong> Used purely locally to play sound effects and procedural game audio. No microphone recording or audio surveillance is performed.</li>
@@ -468,9 +468,9 @@ const n={"ebook_reader/privacy_policy/ja":{appId:"ebook_reader",docType:"privacy
 <h2>4. Third-Party Services &amp; Network Activity</h2>
 <p>The Application does not maintain any remote user database or tracking servers. When you click external links—such as sharing your level victory status or contacting customer support—you interact with standard third-party platform dialogs (email client, system share sheet) that operate under their own terms.</p>
 <h2>5. Children's Privacy (COPPA Compliance)</h2>
-<p>Knife Strike contains no age-inappropriate content, behavioral tracking, or personal data collection, fully complying with the Children's Online Privacy Protection Act (COPPA) and international privacy frameworks.</p>
+<p>Spin Strike contains no age-inappropriate content, behavioral tracking, or personal data collection, fully complying with the Children's Online Privacy Protection Act (COPPA) and international privacy frameworks.</p>
 <h2>6. Policy Updates &amp; Contact Information</h2>
-<p>We reserve the right to update this policy periodically as Knife Strike evolves. If you have any questions or feedback regarding our privacy standards, please reach out to us at:</p>
+<p>We reserve the right to update this policy periodically as Spin Strike evolves. If you have any questions or feedback regarding our privacy standards, please reach out to us at:</p>
 <p>
 <strong>Developer:</strong> Mohan MRKS<br/>
 <strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>

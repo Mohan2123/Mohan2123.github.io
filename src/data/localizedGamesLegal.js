@@ -1,6 +1,6 @@
 const gameNames = {
   ludo: 'Ludo Bear',
-  knife_strike: 'Knife Strike',
+  spin_strike: 'Spin Strike',
   block_blast: 'Block Blast',
 };
 

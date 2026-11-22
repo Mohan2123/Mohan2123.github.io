@@ -3,6 +3,7 @@ import { APPS, APP_COLORS } from '../data/appsData';
 import { fetchLegalDoc } from '../data/legalLoader';
 import { Header, Footer } from '../components/Layout';
 import { useRouter } from '../RouterContext';
+import { getLegalUi } from '../data/legalUiI18n';
 
 export function LegalPage({ appId, docType, lang = 'en' }) {
   const { navigate } = useRouter();
@@ -14,8 +15,12 @@ export function LegalPage({ appId, docType, lang = 'en' }) {
   const colors = APP_COLORS[appId] || { primary: '#1a73e8', primaryDark: '#1557b0' };
   const backLink = appId === 'launcher' ? '/' : `/${appId}/index.html`;
 
-  const otherDocType = docType === 'privacy_policy' ? 'terms_of_service' : 'privacy_policy';
-  const otherDocTitle = docType === 'privacy_policy' ? 'Terms of Service' : 'Privacy Policy';
+  const ui = getLegalUi(lang);
+  const isPrivacy = docType === 'privacy_policy';
+  const otherDocType = isPrivacy ? 'terms_of_service' : 'privacy_policy';
+  const currentDocFallbackTitle = isPrivacy ? ui.privacyPolicy : ui.termsOfService;
+  const otherDocTitle = isPrivacy ? ui.termsOfService : ui.privacyPolicy;
+  const backText = ui.backTo.replace('{app}', appName);
 
   useEffect(() => {
     let isCurrent = true;
@@ -36,11 +41,11 @@ export function LegalPage({ appId, docType, lang = 'en' }) {
       '--primary': colors.primary,
       '--primary-dark': colors.primaryDark,
     }}>
-      <Header backLink={backLink} backText={`← Back to ${appName}`} />
+      <Header backLink={backLink} backText={backText} />
       
       <div className="legal-header">
         <h1 style={{ color: colors.primaryDark }}>
-          {doc ? doc.title : (docType === 'privacy_policy' ? 'Privacy Policy' : 'Terms of Service')}
+          {doc ? doc.title : currentDocFallbackTitle}
         </h1>
         <p>{appName}</p>
       </div>
@@ -49,7 +54,7 @@ export function LegalPage({ appId, docType, lang = 'en' }) {
 
         {loading ? (
           <div className="legal-card" style={{ textAlign: 'center', padding: '3rem 1rem' }}>
-            <p style={{ color: 'var(--text-muted)' }}>Loading document...</p>
+            <p style={{ color: 'var(--text-muted)' }}>{ui.loading}</p>
           </div>
         ) : doc ? (
           <div 
@@ -58,14 +63,14 @@ export function LegalPage({ appId, docType, lang = 'en' }) {
           />
         ) : (
           <div className="legal-card">
-            <h2>Document Not Available</h2>
-            <p>The requested legal document could not be loaded for language "{lang}".</p>
+            <h2>{ui.notAvailable}</h2>
+            <p>{ui.notAvailableDesc.replace('{lang}', lang)}</p>
           </div>
         )}
       </div>
 
       <div className="legal-subfooter">
-        &copy; 2026 Mohan MRKS. All rights reserved. | {' '}
+        &copy; 2026 Mohan MRKS. {ui.allRightsReserved} | {' '}
         <a 
           style={{ color: colors.primaryDark }}
           href={`/${appId}/${otherDocType}/${lang}.html`}
@@ -80,8 +85,8 @@ export function LegalPage({ appId, docType, lang = 'en' }) {
       <Footer 
         backLink={backLink}
         legalLinks={[
-          { label: 'Privacy Policy', href: `/${appId}/privacy_policy/${lang}.html` },
-          { label: 'Terms of Service', href: `/${appId}/terms_of_service/${lang}.html` }
+          { label: ui.privacyPolicy, href: `/${appId}/privacy_policy/${lang}.html` },
+          { label: ui.termsOfService, href: `/${appId}/terms_of_service/${lang}.html` }
         ]} 
       />
     </div>

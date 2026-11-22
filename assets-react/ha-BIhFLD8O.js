@@ -454,12 +454,12 @@ const a={"ebook_reader/privacy_policy/ha":{appId:"ebook_reader",docType:"privacy
 <h2>6. Samuwa da rashin bayar da garanti</h2>
 <p>Ana ba da Docs "yadda yake" (AS IS) da kuma "yadda yake a shirye" (AS AVAILABLE), ba tare da kowane irin garanti ba, na fili ko na ɓoye. Mai haɓakawa ba ya ba da tabbacin cewa Manhajar za ta ci gaba da aiki ba tare da tsangwama ba, ba tare da kuskure ba, ko ta dace da kowane irin aikin ku. Har zuwa iyakar da doka ta ba da izini, mai haɓakawa ya ƙi duk wasu garanti da ba a bayyana ba kuma ba zai ɗauki alhakin asarar kai tsaye ko ta fakaice ba (ciki har da asarar bayanai) da ta taso daga amfani da Manhajar.</p>
 <h2>7. Canje-canje da tuntuɓa</h2>
-<p>Ana iya sabunta waɗannan sharudda yayin da Manhajar ke samun ci gaba. Ci gaba da amfani da Manhajar bayan an sabunta yana nufin kun karɓi sabbin sharuddan. Ana iya aika tambayoyi zuwa: <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>`},"knife_strike/privacy_policy/ha":{appId:"knife_strike",docType:"privacy_policy",lang:"ha",title:"Privacy Policy",subtitle:"Knife Strike",content:`<h2>1. Privacy First Architecture</h2>
-<p>This Privacy Policy applies to the <strong>Knife Strike</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Knife Strike is built with a "Privacy First" approach. We believe your personal data, high scores, and gaming experience belong exclusively to you.</p>
+<p>Ana iya sabunta waɗannan sharudda yayin da Manhajar ke samun ci gaba. Ci gaba da amfani da Manhajar bayan an sabunta yana nufin kun karɓi sabbin sharuddan. Ana iya aika tambayoyi zuwa: <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>`},"spin_strike/privacy_policy/ha":{appId:"spin_strike",docType:"privacy_policy",lang:"ha",title:"Privacy Policy",subtitle:"Spin Strike",content:`<h2>1. Privacy First Architecture</h2>
+<p>This Privacy Policy applies to the <strong>Spin Strike</strong> mobile application ("Application", "App", "Service"), developed by <strong>Mohan MRKS</strong> ("Developer"). Spin Strike is built with a "Privacy First" approach. We believe your personal data, high scores, and gaming experience belong exclusively to you.</p>
 <h2>2. Data Handling &amp; Local Storage Policy</h2>
-<p>Knife Strike operates locally on your client device as an offline arcade game. We do not collect, harvest, transmit, or sell any personally identifiable information (PII). All gameplay progression—including unlocked stages, accumulated Rubles, unlocked custom blades, Cyrillic fonts, throwing indicator symbols, and precision statistics—is stored 100% locally on your device via secure client-side storage (SharedPreferences).</p>
+<p>Spin Strike operates locally on your client device as an offline arcade game. We do not collect, harvest, transmit, or sell any personally identifiable information (PII). All gameplay progression—including unlocked stages, accumulated Rubles, unlocked custom blades, Cyrillic fonts, throwing indicator symbols, and precision statistics—is stored 100% locally on your device via secure client-side storage (SharedPreferences).</p>
 <h2>3. Device Permissions &amp; Hardware Features</h2>
-<p>Knife Strike uses only the minimal device features necessary to deliver game mechanics:</p>
+<p>Spin Strike uses only the minimal device features necessary to deliver game mechanics:</p>
 <ul>
 <li><strong>HAPTIC FEEDBACK / VIBRATION:</strong> Used purely locally to provide tactile feedback during knife impacts and blade clashes. This permission does not access or transmit any personal data.</li>
 <li><strong>AUDIO:</strong> Used purely locally to play sound effects and procedural game audio. No microphone recording or audio surveillance is performed.</li>
@@ -468,9 +468,9 @@ const a={"ebook_reader/privacy_policy/ha":{appId:"ebook_reader",docType:"privacy
 <h2>4. Third-Party Services &amp; Network Activity</h2>
 <p>The Application does not maintain any remote user database or tracking servers. When you click external links—such as sharing your level victory status or contacting customer support—you interact with standard third-party platform dialogs (email client, system share sheet) that operate under their own terms.</p>
 <h2>5. Children's Privacy (COPPA Compliance)</h2>
-<p>Knife Strike contains no age-inappropriate content, behavioral tracking, or personal data collection, fully complying with the Children's Online Privacy Protection Act (COPPA) and international privacy frameworks.</p>
+<p>Spin Strike contains no age-inappropriate content, behavioral tracking, or personal data collection, fully complying with the Children's Online Privacy Protection Act (COPPA) and international privacy frameworks.</p>
 <h2>6. Policy Updates &amp; Contact Information</h2>
-<p>We reserve the right to update this policy periodically as Knife Strike evolves. If you have any questions or feedback regarding our privacy standards, please reach out to us at:</p>
+<p>We reserve the right to update this policy periodically as Spin Strike evolves. If you have any questions or feedback regarding our privacy standards, please reach out to us at:</p>
 <p>
 <strong>Developer:</strong> Mohan MRKS<br/>
 <strong>Support Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>

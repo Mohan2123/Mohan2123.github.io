@@ -15,13 +15,13 @@ const documents = {
 <h2>6. Changes and contact</h2>
 <p>These terms may be updated when the game changes. Questions can be sent to <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>`,
   },
-  knife_strike: {
+  spin_strike: {
     title: 'Terms of Service',
-    subtitle: 'Knife Strike',
+    subtitle: 'Spin Strike',
     content: `<h2>1. Agreement and permitted use</h2>
-<p>These terms apply to Knife Strike, developed by Mohan MRKS. By installing or using the game, you agree to use it lawfully and in accordance with these terms. If you do not agree, stop using the game.</p>
+<p>These terms apply to Spin Strike, developed by Mohan MRKS. By installing or using the game, you agree to use it lawfully and in accordance with these terms. If you do not agree, stop using the game.</p>
 <h2>2. Gameplay and safety</h2>
-<p>Knife Strike is an arcade game for entertainment. Game actions are simulated and are not instructions for handling or throwing real objects. Do not imitate gameplay in a way that could injure you or another person. You are responsible for player names or information you choose to enter.</p>
+<p>Spin Strike is an arcade game for entertainment. Game actions are simulated and are not instructions for handling or throwing real objects. Do not imitate gameplay in a way that could injure you or another person. You are responsible for player names or information you choose to enter.</p>
 <h2>3. Game progress and device storage</h2>
 <p>Unlocked stages, game currency, selected blades, settings, and other progress are stored on your device. You are responsible for protecting your device and keeping any backups you need. Clearing app data, uninstalling the game, or device backup settings may affect saved progress.</p>
 <h2>4. Device features and external apps</h2>

@@ -80,7 +80,7 @@ function generateHtml(title, description, lang = 'en') {
 // 1. Root index.html
 const rootIndexPath = path.join(rootDir, 'index.html');
 const rootTitle = "Mohan Apps Showcase | Fast, Clean & Multi-Platform Applications";
-const rootDesc = "Explore Mohan's ecosystem of multiple OS supported applications, including File Manager, QR Scanner, Music Player, Photos Gallery, eBook Reader, PDF Reader, Notes, Sheets, Video Player, Voice Recorder, Torch Light, Messages, Ludo Bear, Knife Strike, and Block Blast.";
+const rootDesc = "Explore Mohan's ecosystem of multiple OS supported applications, including File Manager, QR Scanner, Music Player, Photos Gallery, eBook Reader, PDF Reader, Notes, Sheets, Video Player, Voice Recorder, Torch Light, Messages, Ludo Bear, Spin Strike, and Block Blast.";
 writeFileIfChanged(rootIndexPath, generateHtml(rootTitle, rootDesc));
 console.log(`Generated root ${rootIndexPath}`);
 
@@ -88,6 +88,66 @@ console.log(`Generated root ${rootIndexPath}`);
 const notFoundPath = path.join(rootDir, '404.html');
 writeFileIfChanged(notFoundPath, generateHtml(rootTitle, rootDesc));
 console.log(`Generated 404 fallback ${notFoundPath}`);
+
+// Load localized document titles from src/data/legal/*.json and localized helper modules
+import { getLauncherLegalDoc } from '../src/data/launcherLegal.js';
+import { getLocalizedGameLegalDoc } from '../src/data/localizedGamesLegal.js';
+import { LEGAL_UI_TRANSLATIONS } from '../src/data/legalUiI18n.js';
+
+const legalDir = path.join(rootDir, 'src', 'data', 'legal');
+const legalTitles = {};
+if (fs.existsSync(legalDir)) {
+  for (const file of fs.readdirSync(legalDir)) {
+    if (!file.endsWith('.json')) continue;
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(legalDir, file), 'utf8'));
+      for (const [key, doc] of Object.entries(data)) {
+        if (doc && doc.title) {
+          legalTitles[key] = doc.title;
+        }
+      }
+    } catch (_) {}
+  }
+}
+
+function resolveNativeTitle(appId, docType, langCode) {
+  if (appId === 'launcher') {
+    const doc = getLauncherLegalDoc(docType, langCode);
+    if (doc?.title) return doc.title;
+  }
+  const key = `${appId}/${docType}/${langCode}`;
+  if (legalTitles[key]) return legalTitles[key];
+  const gameDoc = getLocalizedGameLegalDoc(appId, docType, langCode);
+  if (gameDoc?.title) return gameDoc.title;
+
+  const baseLang = langCode.toLowerCase().split('_')[0];
+  const ui = LEGAL_UI_TRANSLATIONS[langCode] || LEGAL_UI_TRANSLATIONS[baseLang] || LEGAL_UI_TRANSLATIONS.en;
+  return docType === 'privacy_policy' ? ui.privacyPolicy : ui.termsOfService;
+}
+
+function resolveNativeDescription(appName, docTitle, langCode) {
+  const norm = langCode.toLowerCase();
+  if (norm.startsWith('hi')) return `${appName} के लिए ${docTitle}।`;
+  if (norm.startsWith('ru')) return `${docTitle} для ${appName}.`;
+  if (norm.startsWith('es')) return `${docTitle} de ${appName}.`;
+  if (norm.startsWith('fr')) return `${docTitle} de ${appName}.`;
+  if (norm.startsWith('de')) return `${docTitle} für ${appName}.`;
+  if (norm.startsWith('pt')) return `${docTitle} para ${appName}.`;
+  if (norm.startsWith('it')) return `${docTitle} per ${appName}.`;
+  if (norm.startsWith('bn')) return `${appName} এর ${docTitle}।`;
+  if (norm.startsWith('mr')) return `${appName} साठी ${docTitle}.`;
+  if (norm.startsWith('te')) return `${appName} కొరకు ${docTitle}.`;
+  if (norm.startsWith('ta')) return `${appName} க்கான ${docTitle}.`;
+  if (norm.startsWith('tr')) return `${appName} için ${docTitle}.`;
+  if (norm.startsWith('vi')) return `${docTitle} cho ${appName}.`;
+  if (norm.startsWith('ja')) return `${appName} の${docTitle}。`;
+  if (norm.startsWith('zh')) return `${appName} ${docTitle}。`;
+  if (norm.startsWith('ko')) return `${appName}에 대한 ${docTitle}.`;
+  if (norm.startsWith('sw')) return `${docTitle} ya ${appName}.`;
+  if (norm.startsWith('ha')) return `${docTitle} na ${appName}.`;
+  if (norm.startsWith('id')) return `${docTitle} untuk ${appName}.`;
+  return `${docTitle} for ${appName}.`;
+}
 
 // GitHub Pages needs a file at each route to serve deep links with HTTP 200.
 let routeCount = 0;
@@ -106,12 +166,13 @@ for (const app of APPS) {
     for (const docType of ['privacy_policy', 'terms_of_service']) {
       const docDir = path.join(appDir, docType);
       fs.mkdirSync(docDir, { recursive: true });
-      const docTitle = docType === 'privacy_policy' ? 'Privacy Policy' : 'Terms of Service';
+      const docTitle = resolveNativeTitle(app.id, docType, code);
+      const docDesc = resolveNativeDescription(app.name, docTitle, code);
       const docPath = path.join(docDir, `${code}.html`);
       const lang = code.replace(/_([a-z]+)/, (_, region) => `-${region.toUpperCase()}`);
       writeFileIfChanged(
         docPath,
-        generateHtml(`${docTitle} - ${app.name}`, `${docTitle} for ${app.name}.`, lang)
+        generateHtml(`${docTitle} - ${app.name}`, docDesc, lang)
       );
       routeCount++;
     }
@@ -123,12 +184,13 @@ for (const { code } of LAUNCHER_LANGUAGES) {
   for (const docType of ['privacy_policy', 'terms_of_service']) {
     const docDir = path.join(launcherDir, docType);
     fs.mkdirSync(docDir, { recursive: true });
-    const docTitle = docType === 'privacy_policy' ? 'Privacy Policy' : 'Terms of Service';
+    const docTitle = resolveNativeTitle('launcher', docType, code);
+    const docDesc = resolveNativeDescription('Launcher', docTitle, code);
     const docPath = path.join(docDir, `${code}.html`);
     const lang = code.replace(/_([a-z]+)/, (_, region) => `-${region.toUpperCase()}`);
     writeFileIfChanged(
       docPath,
-      generateHtml(`${docTitle} - Launcher`, `${docTitle} for Launcher.`, lang)
+      generateHtml(`${docTitle} - Launcher`, docDesc, lang)
     );
     routeCount++;
   }

@@ -525,9 +525,9 @@ export const APPS = [
     }
   },
   {
-    "id": "knife_strike",
-    "package_id": "com.mohan.knife_strike",
-    "name": "Knife Strike",
+    "id": "spin_strike",
+    "package_id": "com.mohan.spin_strike",
+    "name": "Spin Strike",
     "tagline": "Throw Knives, Hit Spinning Targets, Slice Fruit & Defeat 100 Boss Stages",
     "category": "game",
     "category_label": "Games & Entertainment",
@@ -773,7 +773,7 @@ export const APP_COLORS = {
     "primary": "#ff2a55",
     "primaryDark": "#d81b45"
   },
-  "knife_strike": {
+  "spin_strike": {
     "primary": "#ffd54f",
     "primaryDark": "#ffb300"
   },
