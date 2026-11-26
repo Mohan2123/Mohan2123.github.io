@@ -35,3 +35,5 @@ pnpm-debug.log*
 ehthumbs.db
 Thumbs.db
 
+jaspr/.dart_tool/
+jaspr/build/

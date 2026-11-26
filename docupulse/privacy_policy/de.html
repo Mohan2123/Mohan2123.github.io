@@ -1,13 +1,116 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Datenschutzerklärung - DocuPulse</title>
-    <meta name="description" content="Datenschutzerklärung für DocuPulse." />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
+    <title>Privacy Policy - DocuPulse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <div class="legal-view-container" style="--primary: #7c3aed; --primary-dark: #6d28d9;">
+      <header>
+        <div class="container nav-container">
+          <a class="logo" href="/de/index.html">
+            <div class="logo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <span>Mohan Apps</span>
+          </a>
+          <nav class="nav-actions">
+            <a class="nav-back-link" href="/docupulse/index.html">← Zurück zu DocuPulse</a>
+            <div class="lang-selector">
+              <select onchange="if (this.value) window.location.href = this.value;">
+                <option value="/docupulse/privacy_policy/en_ru.html">English (Russia)</option>
+                <option value="/docupulse/privacy_policy/en_us.html">English (US)</option>
+                <option value="/docupulse/privacy_policy/en_in.html">English (India)</option>
+                <option value="/docupulse/privacy_policy/en_gb.html">English (UK)</option>
+                <option value="/docupulse/privacy_policy/en_au.html">English (Australia)</option>
+                <option value="/docupulse/privacy_policy/ru.html">Русский</option>
+                <option value="/docupulse/privacy_policy/ar.html">العربية</option>
+                <option value="/docupulse/privacy_policy/ur.html">اردو</option>
+                <option value="/docupulse/privacy_policy/hi.html">हिंदी</option>
+                <option value="/docupulse/privacy_policy/bn.html">বাংলা</option>
+                <option value="/docupulse/privacy_policy/te.html">తెలుగు</option>
+                <option value="/docupulse/privacy_policy/mr.html">मराठी</option>
+                <option value="/docupulse/privacy_policy/ta.html">தமிழ்</option>
+                <option value="/docupulse/privacy_policy/es.html">Español</option>
+                <option value="/docupulse/privacy_policy/pt_br.html">Português (Brasil)</option>
+                <option value="/docupulse/privacy_policy/fr.html">Français</option>
+                <option value="/docupulse/privacy_policy/de.html" selected>Deutsch</option>
+                <option value="/docupulse/privacy_policy/id.html">Bahasa Indonesia</option>
+                <option value="/docupulse/privacy_policy/it.html">Italiano</option>
+                <option value="/docupulse/privacy_policy/ja.html">日本語</option>
+                <option value="/docupulse/privacy_policy/ko.html">한국어</option>
+                <option value="/docupulse/privacy_policy/tr.html">Türkçe</option>
+                <option value="/docupulse/privacy_policy/vi.html">Tiếng Việt</option>
+                <option value="/docupulse/privacy_policy/zh.html">中文 (简体)</option>
+                <option value="/docupulse/privacy_policy/ha.html">Hausa</option>
+                <option value="/docupulse/privacy_policy/sw.html">Kiswahili</option>
+                <option value="/docupulse/privacy_policy/gu.html">ગુજરાતી</option>
+                <option value="/docupulse/privacy_policy/kn.html">ಕನ್ನಡ</option>
+                <option value="/docupulse/privacy_policy/od.html">ଓଡ଼ିଆ</option>
+                <option value="/docupulse/privacy_policy/fa.html">فارسی</option>
+              </select>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="legal-header"><h1 style="color: #6d28d9;">Datenschutzerklärung</h1><p>DocuPulse</p></div>
+      <div class="legal-body-container">
+        <div class="legal-card">
+          <h2>1. Privacy-First-Architektur</h2>
+          <p>Diese Datenschutzerklärung gilt für die mobile Anwendung <strong>DocuPulse</strong> („Anwendung“, „App“, „Dienst“), entwickelt von <strong>Mohan MRKS</strong> („Entwickler“). DocuPulse wurde nach einer strikten „Privacy-First“-Philosophie entwickelt. Ihre persönlichen Dokumente, Scans, Unterschriften und Dateien gehören ausschließlich Ihnen.</p>
+          <h2>2. Datenverarbeitung &amp; Geräteberechtigungen</h2>
+          <p>DocuPulse arbeitet vollständig lokal auf Ihrem Endgerät als autonomes Offline-Tool. Details zu den Berechtigungen:</p>
+          <ul>
+          <li><strong>KAMERA:</strong> Wird ausschließlich verwendet, um Dokumente, Belege und Notizen direkt in der Scan-Oberfläche zu erfassen. Kamerabilder werden ausschließlich im Arbeitsspeicher verarbeitet und im privaten App-Speicher gesichert. Es erfolgt keine Übertragung an externe Server.</li>
+          <li><strong>SPEICHERZUGRIFF:</strong> Dient zum Importieren von Bildern oder PDF-Dateien sowie zum Speichern fertiger Dokumente und Archive an von Ihnen ausgewählten Orten auf dem Gerät. Es findet kein Cloud-Upload statt.</li>
+          </ul>
+          <h2>3. Lokale OCR &amp; Verarbeitungsgarantie</h2>
+          <p>Alle Kernfunktionen von DocuPulse – einschließlich Kantenerkennung, Perspektivkorrektur, Bildfilter, optische Zeichenerkennung (OCR) über integrierte KI-Modelle, digitale Signaturen, Wasserzeichen und Dokumentenexport (PDF, JPEG, PNG, ZIP usw.) – laufen zu 100 % lokal auf Ihrer Gerätehardware ab.</p>
+          <h2>4. Vollständige Offline-Nutzung &amp; Kein Tracking</h2>
+          <p>DocuPulse enthält weder Werbe-SDKs noch Analyse-Tools, Telemetrie oder Tracker. Die Anwendung erfordert keine Benutzerkonten und kommuniziert mit keinen Cloud-Servern des Entwicklers.</p>
+          <h2>5. Schutz der Privatsphäre von Kindern (COPPA)</h2>
+          <p>DocuPulse erhebt oder verarbeitet zu keinem Zeitpunkt personenbezogene Daten von Kindern oder Erwachsenen. Die App ist sicher für Nutzer aller Altersgruppen.</p>
+          <h2>6. Richtlinienaktualisierungen und Kontaktinformationen</h2>
+          <p>Wir behalten uns das Recht vor, diese Erklärung bei neuen App-Funktionen anzupassen. Bei Fragen kontaktieren Sie uns unter:</p>
+          <p>
+          <strong>Entwickler:</strong> Mohan MRKS<br/>
+          <strong>Support-E-Mail:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+          <strong>Website:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+          </p>
+          <hr class="legal-divider"/>
+          <div class="legal-meta-footer">
+            <p>This legal agreement is officially issued and governed by Mohan MRKS.</p>
+            <a class="btn btn-secondary btn-sm" href="/docupulse/terms_of_service/de.html">View Nutzungsbedingungen →</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container footer-container">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/de/index.html">
+                <div class="logo-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <span>Mohan Apps</span>
+              </a>
+              <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+            </div>
+          </div>
+          <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

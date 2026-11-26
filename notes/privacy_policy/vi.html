@@ -1,13 +1,115 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chính Sách Bảo Mật - Notes &amp; Tasks</title>
-    <meta name="description" content="Chính Sách Bảo Mật cho Notes &amp; Tasks." />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
+    <title>Privacy Policy - Notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <div class="legal-view-container" style="--primary: #10b981; --primary-dark: #059669;">
+      <header>
+        <div class="container nav-container">
+          <a class="logo" href="/vi/index.html">
+            <div class="logo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <span>Mohan Apps</span>
+          </a>
+          <nav class="nav-actions">
+            <a class="nav-back-link" href="/notes/index.html">← Quay lại Notes</a>
+            <div class="lang-selector">
+              <select onchange="if (this.value) window.location.href = this.value;">
+                <option value="/notes/privacy_policy/en_ru.html">English (Russia)</option>
+                <option value="/notes/privacy_policy/en_us.html">English (US)</option>
+                <option value="/notes/privacy_policy/en_in.html">English (India)</option>
+                <option value="/notes/privacy_policy/en_gb.html">English (UK)</option>
+                <option value="/notes/privacy_policy/en_au.html">English (Australia)</option>
+                <option value="/notes/privacy_policy/ru.html">Русский</option>
+                <option value="/notes/privacy_policy/ar.html">العربية</option>
+                <option value="/notes/privacy_policy/ur.html">اردو</option>
+                <option value="/notes/privacy_policy/hi.html">हिंदी</option>
+                <option value="/notes/privacy_policy/bn.html">বাংলা</option>
+                <option value="/notes/privacy_policy/te.html">తెలుగు</option>
+                <option value="/notes/privacy_policy/mr.html">मराठी</option>
+                <option value="/notes/privacy_policy/ta.html">தமிழ்</option>
+                <option value="/notes/privacy_policy/es.html">Español</option>
+                <option value="/notes/privacy_policy/pt_br.html">Português (Brasil)</option>
+                <option value="/notes/privacy_policy/fr.html">Français</option>
+                <option value="/notes/privacy_policy/de.html">Deutsch</option>
+                <option value="/notes/privacy_policy/id.html">Bahasa Indonesia</option>
+                <option value="/notes/privacy_policy/it.html">Italiano</option>
+                <option value="/notes/privacy_policy/ja.html">日本語</option>
+                <option value="/notes/privacy_policy/ko.html">한국어</option>
+                <option value="/notes/privacy_policy/tr.html">Türkçe</option>
+                <option value="/notes/privacy_policy/vi.html" selected>Tiếng Việt</option>
+                <option value="/notes/privacy_policy/zh.html">中文 (简体)</option>
+                <option value="/notes/privacy_policy/ha.html">Hausa</option>
+                <option value="/notes/privacy_policy/sw.html">Kiswahili</option>
+                <option value="/notes/privacy_policy/gu.html">ગુજરાતી</option>
+                <option value="/notes/privacy_policy/kn.html">ಕನ್ನಡ</option>
+                <option value="/notes/privacy_policy/od.html">ଓଡ଼ିଆ</option>
+                <option value="/notes/privacy_policy/fa.html">فارسی</option>
+              </select>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="legal-header"><h1 style="color: #059669;">Chính Sách Bảo Mật</h1><p>Notes</p></div>
+      <div class="legal-body-container">
+        <div class="legal-card">
+          <h2>1. Kiến trúc ưu tiên quyền riêng tư</h2>
+          <p>Chính sách Bảo mật này áp dụng cho ứng dụng di động <strong>Notes App</strong> ("Ứng dụng", "Dịch vụ"), do <strong>Mohan MRKS</strong> ("Nhà phát triển") phát triển. Notes App được xây dựng với phương châm "Quyền riêng tư là trên hết".</p>
+          <h2>2. Chính sách xử lý dữ liệu và quyền truy cập</h2>
+          <p>Notes App hoạt động cục bộ trên thiết bị của bạn dưới dạng tiện ích ngoại tuyến. Chi tiết quyền truy cập:</p>
+          <ul>
+          <li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Được cấp cục bộ trên thiết bị của bạn để mở, đọc, chỉnh sửa và lưu tệp. Các tệp cá nhân của bạn không bao giờ được tải lên bất kỳ máy chủ bên ngoài nào.</li>
+          </ul>
+          <h2>3. Đảm bảo lưu trữ cục bộ &amp; bảo mật</h2>
+          <p>Tất cả các hoạt động xử lý cốt lõi của Notes App được thực hiện 100% cục bộ trên phần cứng thiết bị của bạn.</p>
+          <h2>4. Quảng cáo của bên thứ ba và dữ liệu đo từ xa</h2>
+          <p>Ứng dụng tích hợp <strong>Google AdMob</strong> (do Google LLC cung cấp) để phân phát quảng cáo. Google AdMob có thể xử lý các mã nhận dạng thiết bị để phân phát quảng cáo và ngăn ngừa gian lận.</p>
+          <h2>5. Quyền riêng tư của trẻ em (Tuân thủ COPPA)</h2>
+          <p>Ứng dụng không cố ý thu thập thông tin nhận dạng cá nhân từ trẻ em dưới 13 tuổi. Google AdMob được cấu hình để tuân thủ các quy định bảo vệ trẻ em.</p>
+          <h2>6. Cập nhật chính sách và thông tin liên hệ</h2>
+          <p>Chúng tôi có quyền cập nhật chính sách này định kỳ. Nếu bạn có câu hỏi, vui lòng liên hệ với chúng tôi theo địa chỉ:</p>
+          <p>
+          <strong>Nhà phát triển:</strong> Mohan MRKS<br/>
+          <strong>Email hỗ trợ:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+          <strong>Trang web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+          </p>
+          <hr class="legal-divider"/>
+          <div class="legal-meta-footer">
+            <p>This legal agreement is officially issued and governed by Mohan MRKS.</p>
+            <a class="btn btn-secondary btn-sm" href="/notes/terms_of_service/vi.html">View Điều Khoản Dịch Vụ →</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container footer-container">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/vi/index.html">
+                <div class="logo-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <span>Mohan Apps</span>
+              </a>
+              <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+            </div>
+          </div>
+          <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

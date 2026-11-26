@@ -1,13 +1,113 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kebijakan Privasi - Spin Strike</title>
-    <meta name="description" content="Kebijakan Privasi untuk Spin Strike." />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
+    <title>Privacy Policy - Spin Strike</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <div class="legal-view-container" style="--primary: #06b6d4; --primary-dark: #0891b2;">
+      <header>
+        <div class="container nav-container">
+          <a class="logo" href="/id/index.html">
+            <div class="logo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <span>Mohan Apps</span>
+          </a>
+          <nav class="nav-actions">
+            <a class="nav-back-link" href="/spin_strike/index.html">← Kembali ke Spin Strike</a>
+            <div class="lang-selector">
+              <select onchange="if (this.value) window.location.href = this.value;">
+                <option value="/spin_strike/privacy_policy/en_ru.html">English (Russia)</option>
+                <option value="/spin_strike/privacy_policy/en_us.html">English (US)</option>
+                <option value="/spin_strike/privacy_policy/en_in.html">English (India)</option>
+                <option value="/spin_strike/privacy_policy/en_gb.html">English (UK)</option>
+                <option value="/spin_strike/privacy_policy/en_au.html">English (Australia)</option>
+                <option value="/spin_strike/privacy_policy/ru.html">Русский</option>
+                <option value="/spin_strike/privacy_policy/ar.html">العربية</option>
+                <option value="/spin_strike/privacy_policy/ur.html">اردو</option>
+                <option value="/spin_strike/privacy_policy/hi.html">हिंदी</option>
+                <option value="/spin_strike/privacy_policy/bn.html">বাংলা</option>
+                <option value="/spin_strike/privacy_policy/te.html">తెలుగు</option>
+                <option value="/spin_strike/privacy_policy/mr.html">मराठी</option>
+                <option value="/spin_strike/privacy_policy/ta.html">தமிழ்</option>
+                <option value="/spin_strike/privacy_policy/es.html">Español</option>
+                <option value="/spin_strike/privacy_policy/pt_br.html">Português (Brasil)</option>
+                <option value="/spin_strike/privacy_policy/fr.html">Français</option>
+                <option value="/spin_strike/privacy_policy/de.html">Deutsch</option>
+                <option value="/spin_strike/privacy_policy/id.html" selected>Bahasa Indonesia</option>
+                <option value="/spin_strike/privacy_policy/it.html">Italiano</option>
+                <option value="/spin_strike/privacy_policy/ja.html">日本語</option>
+                <option value="/spin_strike/privacy_policy/ko.html">한국어</option>
+                <option value="/spin_strike/privacy_policy/tr.html">Türkçe</option>
+                <option value="/spin_strike/privacy_policy/vi.html">Tiếng Việt</option>
+                <option value="/spin_strike/privacy_policy/zh.html">中文 (简体)</option>
+                <option value="/spin_strike/privacy_policy/ha.html">Hausa</option>
+                <option value="/spin_strike/privacy_policy/sw.html">Kiswahili</option>
+                <option value="/spin_strike/privacy_policy/gu.html">ગુજરાતી</option>
+                <option value="/spin_strike/privacy_policy/kn.html">ಕನ್ನಡ</option>
+                <option value="/spin_strike/privacy_policy/od.html">ଓଡ଼ିଆ</option>
+                <option value="/spin_strike/privacy_policy/fa.html">فارسی</option>
+              </select>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="legal-header"><h1 style="color: #0891b2;">Kebijakan Privasi</h1><p>Spin Strike</p></div>
+      <div class="legal-body-container">
+        <div class="legal-card">
+          <h2>1. Arsitektur Mengutamakan Privasi</h2>
+          <p>Kebijakan Privasi ini berlaku untuk game mobile <strong>Spin Strike</strong> («Aplikasi», «Game», «Layanan»), yang dikembangkan oleh <strong>Mohan MRKS</strong> («Pengembang»). Spin Strike dibangun dengan filosofi ketat yang memprioritaskan privasi dan permainan offline. Data pribadi dan pencapaian Anda sepenuhnya milik Anda.</p>
+          <h2>2. Penanganan Data &amp; Penyimpanan Lokal</h2>
+          <p>Spin Strike beroperasi sepenuhnya secara lokal di perangkat Anda sebagai game arcade offline. Kami tidak mengumpulkan, melacak, atau menjual informasi pribadi (PII). Seluruh progres permainan—termasuk 100 level tantangan, koin Rubel (₽), koleksi pisau lempar, font kustom, dan statistik akurasi—disimpan 100% secara lokal melalui SharedPreferences.</p>
+          <h2>3. Izin Perangkat &amp; Fitur Perangkat Keras</h2>
+          <p>Spin Strike hanya menggunakan fitur perangkat minimal untuk kebutuhan gameplay:</p>
+          <ul>
+          <li><strong>GETARAN / RESPON HAPTIK:</strong> Digunakan secara lokal untuk memberi efek sentuhan saat bilah menancap pada sasaran. Tidak mengakses data pribadi.</li>
+          <li><strong>PUTAR AUDIO:</strong> Digunakan secara lokal untuk memutar efek lemparan dan musik kemenangan tanpa rekaman mikrofon.</li>
+          <li><strong>NOTIFIKASI LOKAL:</strong> Dijadwalkan langsung di perangkat untuk pengingat tantangan harian opsional tanpa server jarak jauh.</li>
+          </ul>
+          <h2>4. Kontak Pengembang</h2>
+          <p>Pertanyaan mengenai privasi dapat dikirimkan ke:</p>
+          <p>
+          <strong>Pengembang:</strong> Mohan MRKS<br/>
+          <strong>Email:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+          <strong>Situs Web:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+          </p>
+          <hr class="legal-divider"/>
+          <div class="legal-meta-footer">
+            <p>This legal agreement is officially issued and governed by Mohan MRKS.</p>
+            <a class="btn btn-secondary btn-sm" href="/spin_strike/terms_of_service/id.html">View Ketentuan Layanan →</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container footer-container">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/id/index.html">
+                <div class="logo-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <span>Mohan Apps</span>
+              </a>
+              <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+            </div>
+          </div>
+          <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

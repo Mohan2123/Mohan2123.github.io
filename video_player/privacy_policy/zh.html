@@ -1,13 +1,116 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>隐私政策 - Ultra Video Player</title>
-    <meta name="description" content="Ultra Video Player 隐私政策。" />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
+    <title>Privacy Policy - Video Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <div class="legal-view-container" style="--primary: #ea580c; --primary-dark: #c2410c;">
+      <header>
+        <div class="container nav-container">
+          <a class="logo" href="/zh/index.html">
+            <div class="logo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <span>Mohan Apps</span>
+          </a>
+          <nav class="nav-actions">
+            <a class="nav-back-link" href="/video_player/index.html">← 返回 Video Player</a>
+            <div class="lang-selector">
+              <select onchange="if (this.value) window.location.href = this.value;">
+                <option value="/video_player/privacy_policy/en_ru.html">English (Russia)</option>
+                <option value="/video_player/privacy_policy/en_us.html">English (US)</option>
+                <option value="/video_player/privacy_policy/en_in.html">English (India)</option>
+                <option value="/video_player/privacy_policy/en_gb.html">English (UK)</option>
+                <option value="/video_player/privacy_policy/en_au.html">English (Australia)</option>
+                <option value="/video_player/privacy_policy/ru.html">Русский</option>
+                <option value="/video_player/privacy_policy/ar.html">العربية</option>
+                <option value="/video_player/privacy_policy/ur.html">اردو</option>
+                <option value="/video_player/privacy_policy/hi.html">हिंदी</option>
+                <option value="/video_player/privacy_policy/bn.html">বাংলা</option>
+                <option value="/video_player/privacy_policy/te.html">తెలుగు</option>
+                <option value="/video_player/privacy_policy/mr.html">मराठी</option>
+                <option value="/video_player/privacy_policy/ta.html">தமிழ்</option>
+                <option value="/video_player/privacy_policy/es.html">Español</option>
+                <option value="/video_player/privacy_policy/pt_br.html">Português (Brasil)</option>
+                <option value="/video_player/privacy_policy/fr.html">Français</option>
+                <option value="/video_player/privacy_policy/de.html">Deutsch</option>
+                <option value="/video_player/privacy_policy/id.html">Bahasa Indonesia</option>
+                <option value="/video_player/privacy_policy/it.html">Italiano</option>
+                <option value="/video_player/privacy_policy/ja.html">日本語</option>
+                <option value="/video_player/privacy_policy/ko.html">한국어</option>
+                <option value="/video_player/privacy_policy/tr.html">Türkçe</option>
+                <option value="/video_player/privacy_policy/vi.html">Tiếng Việt</option>
+                <option value="/video_player/privacy_policy/zh.html" selected>中文 (简体)</option>
+                <option value="/video_player/privacy_policy/ha.html">Hausa</option>
+                <option value="/video_player/privacy_policy/sw.html">Kiswahili</option>
+                <option value="/video_player/privacy_policy/gu.html">ગુજરાતી</option>
+                <option value="/video_player/privacy_policy/kn.html">ಕನ್ನಡ</option>
+                <option value="/video_player/privacy_policy/od.html">ଓଡ଼ିଆ</option>
+                <option value="/video_player/privacy_policy/fa.html">فارسی</option>
+              </select>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="legal-header"><h1 style="color: #c2410c;">隐私政策</h1><p>Video Player</p></div>
+      <div class="legal-body-container">
+        <div class="legal-card">
+          <h2>1. 隐私优先架构</h2>
+          <p>本隐私政策适用于由 <strong>Mohan MRKS</strong>（以下简称“开发者”）开发的 <strong>Video Player</strong> 移动应用程序。Video Player 采用“隐私优先”理念构建。</p>
+          <h2>2. 数据处理与权限政策</h2>
+          <p>Video Player 作为离线实用工具在客户端设备上本地运行。权限详情：</p>
+          <ul>
+          <li><strong>READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> 在您的设备本地授予，用于打开、读取、编辑和保存文件。您的个人文件绝不会上传到任何外部服务器。</li>
+          <li><strong>POST_NOTIFICATIONS:</strong> 用于在通知栏显示播放控制、录音状态或后台操作进度。</li>
+          </ul>
+          <h2>3. 本地视频解码保证</h2>
+          <p>Video Player 的核心处理和所有计算操作均在客户端硬件上 100% 本地执行。</p>
+          <h2>4. 第三方广告与遥测数据</h2>
+          <p>本应用程序集成了 <strong>Google AdMob</strong>（由 Google LLC 提供）以展示广告。Google AdMob 可能会处理设备标识符以进行广告投放和欺诈防范。</p>
+          <h2>5. 儿童隐私（符合 COPPA）</h2>
+          <p>本应用程序不会故意收集 13 岁以下儿童的个人身份信息。Google AdMob 已配置为符合 COPPA 及相关要求。</p>
+          <h2>6. 政策更新与联系方式</h2>
+          <p>我们保留定期更新本政策的权利。如果您对此有任何疑问，请通过以下方式与我们联系：</p>
+          <p>
+          <strong>开发者:</strong> Mohan MRKS<br/>
+          <strong>支持邮箱:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+          <strong>网站:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+          </p>
+          <hr class="legal-divider"/>
+          <div class="legal-meta-footer">
+            <p>This legal agreement is officially issued and governed by Mohan MRKS.</p>
+            <a class="btn btn-secondary btn-sm" href="/video_player/terms_of_service/zh.html">View 服务条款 →</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container footer-container">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/zh/index.html">
+                <div class="logo-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <span>Mohan Apps</span>
+              </a>
+              <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+            </div>
+          </div>
+          <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

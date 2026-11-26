@@ -1,13 +1,109 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Politique de Confidentialité - Docs</title>
-    <meta name="description" content="Politique de Confidentialité de Docs." />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
+    <title>Privacy Policy - Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <div class="legal-view-container" style="--primary: #2563eb; --primary-dark: #1d4ed8;">
+      <header>
+        <div class="container nav-container">
+          <a class="logo" href="/fr/index.html">
+            <div class="logo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <span>Mohan Apps</span>
+          </a>
+          <nav class="nav-actions">
+            <a class="nav-back-link" href="/docs/index.html">← Retour à Docs</a>
+            <div class="lang-selector">
+              <select onchange="if (this.value) window.location.href = this.value;">
+                <option value="/docs/privacy_policy/en_ru.html">English (Russia)</option>
+                <option value="/docs/privacy_policy/en_us.html">English (US)</option>
+                <option value="/docs/privacy_policy/en_in.html">English (India)</option>
+                <option value="/docs/privacy_policy/en_gb.html">English (UK)</option>
+                <option value="/docs/privacy_policy/en_au.html">English (Australia)</option>
+                <option value="/docs/privacy_policy/ru.html">Русский</option>
+                <option value="/docs/privacy_policy/ar.html">العربية</option>
+                <option value="/docs/privacy_policy/ur.html">اردو</option>
+                <option value="/docs/privacy_policy/hi.html">हिंदी</option>
+                <option value="/docs/privacy_policy/bn.html">বাংলা</option>
+                <option value="/docs/privacy_policy/te.html">తెలుగు</option>
+                <option value="/docs/privacy_policy/mr.html">मराठी</option>
+                <option value="/docs/privacy_policy/ta.html">தமிழ்</option>
+                <option value="/docs/privacy_policy/es.html">Español</option>
+                <option value="/docs/privacy_policy/pt_br.html">Português (Brasil)</option>
+                <option value="/docs/privacy_policy/fr.html" selected>Français</option>
+                <option value="/docs/privacy_policy/de.html">Deutsch</option>
+                <option value="/docs/privacy_policy/id.html">Bahasa Indonesia</option>
+                <option value="/docs/privacy_policy/it.html">Italiano</option>
+                <option value="/docs/privacy_policy/ja.html">日本語</option>
+                <option value="/docs/privacy_policy/ko.html">한국어</option>
+                <option value="/docs/privacy_policy/tr.html">Türkçe</option>
+                <option value="/docs/privacy_policy/vi.html">Tiếng Việt</option>
+                <option value="/docs/privacy_policy/zh.html">中文 (简体)</option>
+                <option value="/docs/privacy_policy/ha.html">Hausa</option>
+                <option value="/docs/privacy_policy/sw.html">Kiswahili</option>
+                <option value="/docs/privacy_policy/gu.html">ગુજરાતી</option>
+                <option value="/docs/privacy_policy/kn.html">ಕನ್ನಡ</option>
+                <option value="/docs/privacy_policy/od.html">ଓଡ଼ିଆ</option>
+                <option value="/docs/privacy_policy/fa.html">فارسی</option>
+              </select>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="legal-header"><h1 style="color: #1d4ed8;">Politique de Confidentialité</h1><p>Docs</p></div>
+      <div class="legal-body-container">
+        <div class="legal-card">
+          <h2>1. À propos de cette politique</h2>
+          <p>La présente politique décrit en détail la manière dont l'application Docs (« Docs » ou l'« Application »), développée par Mohan MRKS, traite et protège vos informations lorsque vous l'utilisez. Docs est spécialement conçue pour gérer et modifier les documents stockés localement sur votre appareil. L'Application ne propose aucun compte utilisateur géré par le développeur ni aucun service de synchronisation de documents sur le cloud.</p>
+          <h2>2. Documents et indexation locale</h2>
+          <p>Vos documents sont lus, modifiés et enregistrés directement sur votre appareil ou aux emplacements de stockage que vous sélectionnez. Docs n'envoie en aucun cas le contenu de vos documents vers un serveur Docs. Afin de lister, rechercher et organiser vos fichiers de façon fluide, l'Application conserve une base de données locale contenant les chemins d'accès aux fichiers, leurs noms, extensions, tailles, dates de modification, statuts favoris et protégés, ainsi que des aperçus textuels extraits pour la recherche rapide. Cette base de données et ces aperçus demeurent exclusivement sur l'appareil et sont supprimés lorsque les données de l'Application sont effacées ou lors de sa désinstallation ; les fichiers enregistrés en dehors de l'espace de stockage privé de l'Application restent préservés sur votre appareil.<br><br>Sur Android, Docs peut solliciter l'accès au stockage (notamment l'accès à tous les fichiers sur les versions Android compatibles) afin de localiser et gérer vos documents. Sur les autres systèmes d'exploitation, l'accès est accordé via les mécanismes natifs de sélection de fichiers et de stockage du système.</p>
+          <h2>3. Documents protégés par mot de passe</h2>
+          <p>Lorsque vous optez pour la fonction « Protéger et Enregistrer », Docs chiffre le document exporté à l'aide de l'algorithme robuste AES-256-GCM et d'une clé de chiffrement dérivée de votre mot de passe via PBKDF2-HMAC-SHA-256. Ce mot de passe n'est jamais transmis ni stocké sur les serveurs du développeur. Veillez à le conserver en lieu sûr : aucun mot de passe oublié ne peut être récupéré par le développeur, et son oubli rendra le fichier protégé définitivement inaccessible.</p>
+          <h2>4. Diagnostics et rapports d'erreur</h2>
+          <p>À des fins de dépannage et d'amélioration technique, Docs enregistre les détails des erreurs d'application (tels que les messages d'erreur et les traces de pile) dans un fichier journal de diagnostic situé dans l'espace de stockage local privé de l'Application. Ces rapports ne sont jamais transmis automatiquement par Docs sur le réseau. Le fichier fait l'objet d'une rotation locale au fur et à mesure qu'il grandit. Les détails d'erreur pouvant contenir des éléments de contexte, évitez de partager ces fichiers de diagnostic à moins de les avoir préalablement examinés.</p>
+          <h2>5. Réseau et services tiers</h2>
+          <p>Certaines actions que vous initiez de manière délibérée peuvent interagir avec des services externes à Docs, notamment le téléchargement d'un fichier depuis une URL, l'ouverture d'un site web dans le navigateur intégré, le partage d'un fichier via les fonctionnalités du système d'exploitation, ou la prise de contact par e-mail avec l'assistance. Ces services externes peuvent recevoir des informations techniques telles que votre adresse IP, l'URL demandée ou le contenu que vous choisissez de partager. Leurs propres politiques de confidentialité s'appliquent alors pleinement. Docs n'exerce aucun contrôle sur ces services tiers.</p>
+          <h2>6. Vos choix sur les données et contact</h2>
+          <p>Vous pouvez à tout moment gérer, modifier ou supprimer vos documents à l'aide de Docs et des outils de gestion de fichiers de votre appareil. L'effacement des données de l'Application supprime l'index local et les journaux de diagnostic, mais ne supprime pas nécessairement les documents stockés dans les autres dossiers de votre appareil. Pour toute question ou préoccupation relative à la confidentialité, vous pouvez nous écrire à l'adresse suivante : <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a>.</p>
+          <h2>7. Modifications de la politique</h2>
+          <p>La présente politique peut faire l'objet de mises à jour au fur et à mesure que Docs évolue et intègre de nouvelles fonctionnalités. Cette politique peut être révisée périodiquement.</p>
+          <hr class="legal-divider"/>
+          <div class="legal-meta-footer">
+            <p>This legal agreement is officially issued and governed by Mohan MRKS.</p>
+            <a class="btn btn-secondary btn-sm" href="/docs/terms_of_service/fr.html">View Conditions d'Utilisation →</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container footer-container">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/fr/index.html">
+                <div class="logo-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <span>Mohan Apps</span>
+              </a>
+              <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+            </div>
+          </div>
+          <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

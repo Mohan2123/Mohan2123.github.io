@@ -1,13 +1,100 @@
 <!DOCTYPE html>
-<html lang="ta">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>சேவை விதிமுறைகள் - Launcher</title>
-    <meta name="description" content="Launcher க்கான சேவை விதிமுறைகள்." />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
+    <title>Terms of Service - Launcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <div class="legal-view-container" style="--primary: #6366f1; --primary-dark: #4f46e5;">
+      <header>
+        <div class="container nav-container">
+          <a class="logo" href="/ta/index.html">
+            <div class="logo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <span>Mohan Apps</span>
+          </a>
+          <nav class="nav-actions">
+            <a class="nav-back-link" href="/">← Launcher க்குத் திரும்பு</a>
+            <div class="lang-selector">
+              <select onchange="if (this.value) window.location.href = this.value;">
+                <option value="/launcher/terms_of_service/en_ru.html">English (Russia)</option>
+                <option value="/launcher/terms_of_service/en_us.html">English (US)</option>
+                <option value="/launcher/terms_of_service/en_in.html">English (India)</option>
+                <option value="/launcher/terms_of_service/en_gb.html">English (UK)</option>
+                <option value="/launcher/terms_of_service/en_au.html">English (Australia)</option>
+                <option value="/launcher/terms_of_service/ru.html">Русский</option>
+                <option value="/launcher/terms_of_service/ar.html">العربية</option>
+                <option value="/launcher/terms_of_service/ur.html">اردو</option>
+                <option value="/launcher/terms_of_service/hi.html">हिंदी</option>
+                <option value="/launcher/terms_of_service/bn.html">বাংলা</option>
+                <option value="/launcher/terms_of_service/te.html">తెలుగు</option>
+                <option value="/launcher/terms_of_service/mr.html">मराठी</option>
+                <option value="/launcher/terms_of_service/ta.html" selected>தமிழ்</option>
+                <option value="/launcher/terms_of_service/es.html">Español</option>
+                <option value="/launcher/terms_of_service/pt_br.html">Português (Brasil)</option>
+                <option value="/launcher/terms_of_service/fr.html">Français</option>
+                <option value="/launcher/terms_of_service/de.html">Deutsch</option>
+                <option value="/launcher/terms_of_service/id.html">Bahasa Indonesia</option>
+                <option value="/launcher/terms_of_service/it.html">Italiano</option>
+                <option value="/launcher/terms_of_service/ja.html">日本語</option>
+                <option value="/launcher/terms_of_service/ko.html">한국어</option>
+                <option value="/launcher/terms_of_service/tr.html">Türkçe</option>
+                <option value="/launcher/terms_of_service/vi.html">Tiếng Việt</option>
+                <option value="/launcher/terms_of_service/zh.html">中文 (简体)</option>
+                <option value="/launcher/terms_of_service/ha.html">Hausa</option>
+                <option value="/launcher/terms_of_service/sw.html">Kiswahili</option>
+                <option value="/launcher/terms_of_service/gu.html">ગુજરાતી</option>
+                <option value="/launcher/terms_of_service/kn.html">ಕನ್ನಡ</option>
+                <option value="/launcher/terms_of_service/od.html">ଓଡ଼ିଆ</option>
+                <option value="/launcher/terms_of_service/fa.html">فارسی</option>
+              </select>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="legal-header"><h1 style="color: #4f46e5;">சேவை விதிமுறைகள்</h1><p>Launcher</p></div>
+      <div class="legal-body-container">
+        <div class="legal-card">
+          <h2>1. ஒப்புதல் மற்றும் பயன்பாடு</h2><p>இந்த விதிமுறைகள் Mohan MRKS உருவாக்கிய Launcher-க்கு பொருந்தும். நிறுவுவதன் அல்லது பயன்படுத்துவதன் மூலம் சட்டப்படி மற்றும் இந்த விதிமுறைகளின்படி பயன்படுத்த ஒப்புக்கொள்கிறீர்கள். ஒப்புக்கொள்ளாவிட்டால் பயன்பாட்டை நிறுத்தவும்.</p>
+          <h2>2. உங்கள் சாதனமும் தகவலும்</h2><p>உங்கள் சாதனம், நிறுவிய பயன்பாடுகள், அனுமதிகள் மற்றும் Launcher-ல் நீங்கள் செய்யும் தேர்வுகளுக்கு நீங்களே பொறுப்பு. சாதனத்தைப் பாதுகாத்து, தனியாக காப்புப்பிரதி எடுக்கவும். ஏற்றுமதி செய்த காப்புப்பிரதிகளை எங்கு சேமிப்பது அல்லது பகிர்வது என்பது உங்கள் பொறுப்பு.</p>
+          <h2>3. அம்சங்களும் மூன்றாம் தரப்புகளும்</h2><p>சில அம்சங்களுக்கு Android அனுமதி அல்லது சாதன ஆதரவு தேவை; எல்லா சாதனங்களிலும் அவை இயங்காமல் இருக்கலாம். தேடல், இணையதளங்கள் மற்றும் பிற பயன்பாடுகள் அவற்றின் வழங்குநர் விதிமுறைகள் மற்றும் தனியுரிமைக் கொள்கைகளுக்கு உட்பட்டவை. மூன்றாம் தரப்பு சேவைகள் அல்லது உள்ளடக்கத்திற்கு Launcher பொறுப்பல்ல.</p>
+          <h2>4. கிடைப்பும் உத்தரவாதமும்</h2><p>Launcher “உள்ளபடியே” வழங்கப்படுகிறது; மாறலாம் அல்லது கிடைக்காமல் போகலாம். சட்டம் அனுமதிக்கும் வரையில் தடையற்ற அல்லது பிழையற்ற செயல்பாடு மற்றும் குறிப்பிட்ட நோக்கத்திற்கான பொருத்தம் உறுதி செய்யப்படாது. அவசர அல்லது பாதுகாப்பு முக்கியமான பணிகளுக்கு Launcher-ஐ நம்ப வேண்டாம்.</p>
+          <h2>5. பொறுப்பும் மாற்றங்களும்</h2><p>சட்டம் அனுமதிக்கும் வரையில் உள்ளூர் தகவல் இழப்பு உள்ளிட்ட மறைமுக இழப்புகளுக்கு உருவாக்குநர் பொறுப்பல்ல. சட்டப்படி விலக்க முடியாத உரிமைகளை இந்த விதிமுறைகள் கட்டுப்படுத்தாது. புதிய வெளியீடுகளுடன் விதிமுறைகள் மாறலாம். தொடர்பு: <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a></p>
+          <hr class="legal-divider"/>
+          <div class="legal-meta-footer">
+            <p>This legal agreement is officially issued and governed by Mohan MRKS.</p>
+            <a class="btn btn-secondary btn-sm" href="/launcher/privacy_policy/ta.html">View தனியுரிமைக் கொள்கை →</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container footer-container">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/ta/index.html">
+                <div class="logo-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <span>Mohan Apps</span>
+              </a>
+              <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+            </div>
+          </div>
+          <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

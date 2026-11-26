@@ -1,13 +1,116 @@
 <!DOCTYPE html>
-<html lang="de">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Datenschutzerklärung - QR &amp; Barcode Scanner</title>
-    <meta name="description" content="Datenschutzerklärung für QR &amp; Barcode Scanner." />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
+    <title>Privacy Policy - QR Scanner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <div class="legal-view-container" style="--primary: #0284c7; --primary-dark: #0369a1;">
+      <header>
+        <div class="container nav-container">
+          <a class="logo" href="/de/index.html">
+            <div class="logo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <span>Mohan Apps</span>
+          </a>
+          <nav class="nav-actions">
+            <a class="nav-back-link" href="/qr_scanner/index.html">← Zurück zu QR Scanner</a>
+            <div class="lang-selector">
+              <select onchange="if (this.value) window.location.href = this.value;">
+                <option value="/qr_scanner/privacy_policy/en_ru.html">English (Russia)</option>
+                <option value="/qr_scanner/privacy_policy/en_us.html">English (US)</option>
+                <option value="/qr_scanner/privacy_policy/en_in.html">English (India)</option>
+                <option value="/qr_scanner/privacy_policy/en_gb.html">English (UK)</option>
+                <option value="/qr_scanner/privacy_policy/en_au.html">English (Australia)</option>
+                <option value="/qr_scanner/privacy_policy/ru.html">Русский</option>
+                <option value="/qr_scanner/privacy_policy/ar.html">العربية</option>
+                <option value="/qr_scanner/privacy_policy/ur.html">اردو</option>
+                <option value="/qr_scanner/privacy_policy/hi.html">हिंदी</option>
+                <option value="/qr_scanner/privacy_policy/bn.html">বাংলা</option>
+                <option value="/qr_scanner/privacy_policy/te.html">తెలుగు</option>
+                <option value="/qr_scanner/privacy_policy/mr.html">मराठी</option>
+                <option value="/qr_scanner/privacy_policy/ta.html">தமிழ்</option>
+                <option value="/qr_scanner/privacy_policy/es.html">Español</option>
+                <option value="/qr_scanner/privacy_policy/pt_br.html">Português (Brasil)</option>
+                <option value="/qr_scanner/privacy_policy/fr.html">Français</option>
+                <option value="/qr_scanner/privacy_policy/de.html" selected>Deutsch</option>
+                <option value="/qr_scanner/privacy_policy/id.html">Bahasa Indonesia</option>
+                <option value="/qr_scanner/privacy_policy/it.html">Italiano</option>
+                <option value="/qr_scanner/privacy_policy/ja.html">日本語</option>
+                <option value="/qr_scanner/privacy_policy/ko.html">한국어</option>
+                <option value="/qr_scanner/privacy_policy/tr.html">Türkçe</option>
+                <option value="/qr_scanner/privacy_policy/vi.html">Tiếng Việt</option>
+                <option value="/qr_scanner/privacy_policy/zh.html">中文 (简体)</option>
+                <option value="/qr_scanner/privacy_policy/ha.html">Hausa</option>
+                <option value="/qr_scanner/privacy_policy/sw.html">Kiswahili</option>
+                <option value="/qr_scanner/privacy_policy/gu.html">ગુજરાતી</option>
+                <option value="/qr_scanner/privacy_policy/kn.html">ಕನ್ನಡ</option>
+                <option value="/qr_scanner/privacy_policy/od.html">ଓଡ଼ିଆ</option>
+                <option value="/qr_scanner/privacy_policy/fa.html">فارسی</option>
+              </select>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="legal-header"><h1 style="color: #0369a1;">Datenschutzerklärung</h1><p>QR Scanner</p></div>
+      <div class="legal-body-container">
+        <div class="legal-card">
+          <h2>1. Privacy-First-Architektur</h2>
+          <p>Diese Datenschutzerklärung gilt für die mobile Anwendung <strong>QR Scanner</strong> ("Anwendung", "Dienst"), entwickelt von <strong>Mohan MRKS</strong> ("Entwickler"). QR Scanner basiert auf einem "Privacy First"-Ansatz.</p>
+          <h2>2. Richtlinie zur Datenverarbeitung und Berechtigungen</h2>
+          <p>QR Scanner wird lokal auf Ihrem Gerät als Offline-Dienstprogramm ausgeführt. Berechtigungsdetails:</p>
+          <ul>
+          <li><strong>CAMERA:</strong> Wird lokal erteilt, um Fotos aufzunehmen oder Codes zu scannen. Kamerabilder werden ausschließlich im Speicher verarbeitet.</li>
+          <li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE:</strong> Wird lokal auf Ihrem Gerät erteilt, um Dateien zu öffnen, zu lesen, zu bearbeiten und zu speichern. Ihre Dateien werden niemals auf externe Server hochgeladen.</li>
+          </ul>
+          <h2>3. Garantie für lokale Codeverarbeitung</h2>
+          <p>Alle Kernverarbeitungen und Operationen von QR Scanner werden zu 100 % lokal auf der Client-Hardware ausgeführt.</p>
+          <h2>4. Werbung Dritter und Telemetriedaten</h2>
+          <p>Die Anwendung integriert <strong>Google AdMob</strong> (bereitgestellt von Google LLC), um Werbung anzuzeigen. Google AdMob kann Gerätekennungen (Werbe-ID, IP-Adresse) für die Anzeigenschaltung und Betrugsprävention verarbeiten.</p>
+          <h2>5. Schutz der Privatsphäre von Kindern (COPPA-Konformität)</h2>
+          <p>Die Anwendung sammelt wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Google AdMob ist so konfiguriert, dass die COPPA-Richtlinien eingehalten werden.</p>
+          <h2>6. Richtlinienaktualisierungen und Kontaktinformationen</h2>
+          <p>Wir behalten uns das Recht vor, diese Richtlinie regelmäßig zu aktualisieren. Wenn Sie Fragen haben, kontaktieren Sie uns bitte unter:</p>
+          <p>
+          <strong>Entwickler:</strong> Mohan MRKS<br/>
+          <strong>Support-E-Mail:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+          <strong>Webseite:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+          </p>
+          <hr class="legal-divider"/>
+          <div class="legal-meta-footer">
+            <p>This legal agreement is officially issued and governed by Mohan MRKS.</p>
+            <a class="btn btn-secondary btn-sm" href="/qr_scanner/terms_of_service/de.html">View Nutzungsbedingungen →</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container footer-container">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/de/index.html">
+                <div class="logo-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <span>Mohan Apps</span>
+              </a>
+              <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+            </div>
+          </div>
+          <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,13 +1,115 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>プライバシーポリシー - Photos Gallery</title>
-    <meta name="description" content="Photos Gallery のプライバシーポリシー。" />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
+    <title>Privacy Policy - Photos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <div class="legal-view-container" style="--primary: #8b5cf6; --primary-dark: #7c3aed;">
+      <header>
+        <div class="container nav-container">
+          <a class="logo" href="/ja/index.html">
+            <div class="logo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <span>Mohan Apps</span>
+          </a>
+          <nav class="nav-actions">
+            <a class="nav-back-link" href="/photos/index.html">← Photos に戻る</a>
+            <div class="lang-selector">
+              <select onchange="if (this.value) window.location.href = this.value;">
+                <option value="/photos/privacy_policy/en_ru.html">English (Russia)</option>
+                <option value="/photos/privacy_policy/en_us.html">English (US)</option>
+                <option value="/photos/privacy_policy/en_in.html">English (India)</option>
+                <option value="/photos/privacy_policy/en_gb.html">English (UK)</option>
+                <option value="/photos/privacy_policy/en_au.html">English (Australia)</option>
+                <option value="/photos/privacy_policy/ru.html">Русский</option>
+                <option value="/photos/privacy_policy/ar.html">العربية</option>
+                <option value="/photos/privacy_policy/ur.html">اردو</option>
+                <option value="/photos/privacy_policy/hi.html">हिंदी</option>
+                <option value="/photos/privacy_policy/bn.html">বাংলা</option>
+                <option value="/photos/privacy_policy/te.html">తెలుగు</option>
+                <option value="/photos/privacy_policy/mr.html">मराठी</option>
+                <option value="/photos/privacy_policy/ta.html">தமிழ்</option>
+                <option value="/photos/privacy_policy/es.html">Español</option>
+                <option value="/photos/privacy_policy/pt_br.html">Português (Brasil)</option>
+                <option value="/photos/privacy_policy/fr.html">Français</option>
+                <option value="/photos/privacy_policy/de.html">Deutsch</option>
+                <option value="/photos/privacy_policy/id.html">Bahasa Indonesia</option>
+                <option value="/photos/privacy_policy/it.html">Italiano</option>
+                <option value="/photos/privacy_policy/ja.html" selected>日本語</option>
+                <option value="/photos/privacy_policy/ko.html">한국어</option>
+                <option value="/photos/privacy_policy/tr.html">Türkçe</option>
+                <option value="/photos/privacy_policy/vi.html">Tiếng Việt</option>
+                <option value="/photos/privacy_policy/zh.html">中文 (简体)</option>
+                <option value="/photos/privacy_policy/ha.html">Hausa</option>
+                <option value="/photos/privacy_policy/sw.html">Kiswahili</option>
+                <option value="/photos/privacy_policy/gu.html">ગુજરાતી</option>
+                <option value="/photos/privacy_policy/kn.html">ಕನ್ನಡ</option>
+                <option value="/photos/privacy_policy/od.html">ଓଡ଼ିଆ</option>
+                <option value="/photos/privacy_policy/fa.html">فارسی</option>
+              </select>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="legal-header"><h1 style="color: #7c3aed;">プライバシーポリシー</h1><p>Photos</p></div>
+      <div class="legal-body-container">
+        <div class="legal-card">
+          <h2>1. プライバシー最優先の設計</h2>
+          <p>本プライバシーポリシーは、<strong>Mohan MRKS</strong>（以下「開発者」）が開発した <strong>Photos App</strong> モバイルアプリケーションに適用されます。Photos App は「プライバシー最優先」のアプローチで構築されています。</p>
+          <h2>2. データ処理および権限ポリシー</h2>
+          <p>Photos App は、オフラインユーティリティとしてクライアントデバイス上でローカルに動作します。権限の詳細：</p>
+          <ul>
+          <li><strong>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> ファイルを開き、読み取り、編集し、保存するためにデバイス上でローカルに付与されます。個人ファイルが外部サーバーにアップロードされることはありません。</li>
+          </ul>
+          <h2>3. ローカルメディア処理の保証</h2>
+          <p>Photos App のコア処理および操作は、クライアントハードウェア上で100％ローカルに実行されます。</p>
+          <h2>4. サードパーティ広告およびテレメトリデータ</h2>
+          <p>本アプリケーションは、広告を配信するために <strong>Google AdMob</strong>（Google LLC 提供）を統合しています。Google AdMob は広告配信および不正防止のためにデバイス識別子を処理する場合があります。</p>
+          <h2>5. お子様のプライバシー（COPPA準拠）</h2>
+          <p>本アプリケーションは、13歳未満のお子様から個人情報を故意に収集することはありません。Google AdMob は関連する児童保護基準に準拠するように構成されています。</p>
+          <h2>6. ポリシーの更新と連絡先情報</h2>
+          <p>当方は本ポリシーを定期的に更新する権利を留保します。ご質問やお問い合わせがございましたら、以下までご連絡ください：</p>
+          <p>
+          <strong>開発者:</strong> Mohan MRKS<br/>
+          <strong>サポートメール:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+          <strong>ウェブサイト:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+          </p>
+          <hr class="legal-divider"/>
+          <div class="legal-meta-footer">
+            <p>This legal agreement is officially issued and governed by Mohan MRKS.</p>
+            <a class="btn btn-secondary btn-sm" href="/photos/terms_of_service/ja.html">View 利用規約 →</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container footer-container">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/ja/index.html">
+                <div class="logo-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <span>Mohan Apps</span>
+              </a>
+              <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+            </div>
+          </div>
+          <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

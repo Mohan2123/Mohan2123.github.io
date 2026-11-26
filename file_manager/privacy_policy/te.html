@@ -1,13 +1,117 @@
 <!DOCTYPE html>
-<html lang="te">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>గోప్యతా విధానం - File Manager</title>
-    <meta name="description" content="File Manager కొరకు గోప్యతా విధానం." />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
+    <title>Privacy Policy - File Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <div class="legal-view-container" style="--primary: #1a73e8; --primary-dark: #1557b0;">
+      <header>
+        <div class="container nav-container">
+          <a class="logo" href="/te/index.html">
+            <div class="logo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <span>Mohan Apps</span>
+          </a>
+          <nav class="nav-actions">
+            <a class="nav-back-link" href="/file_manager/index.html">← File Manager కి తిరిగి వెళ్ళండి</a>
+            <div class="lang-selector">
+              <select onchange="if (this.value) window.location.href = this.value;">
+                <option value="/file_manager/privacy_policy/en_ru.html">English (Russia)</option>
+                <option value="/file_manager/privacy_policy/en_us.html">English (US)</option>
+                <option value="/file_manager/privacy_policy/en_in.html">English (India)</option>
+                <option value="/file_manager/privacy_policy/en_gb.html">English (UK)</option>
+                <option value="/file_manager/privacy_policy/en_au.html">English (Australia)</option>
+                <option value="/file_manager/privacy_policy/ru.html">Русский</option>
+                <option value="/file_manager/privacy_policy/ar.html">العربية</option>
+                <option value="/file_manager/privacy_policy/ur.html">اردو</option>
+                <option value="/file_manager/privacy_policy/hi.html">हिंदी</option>
+                <option value="/file_manager/privacy_policy/bn.html">বাংলা</option>
+                <option value="/file_manager/privacy_policy/te.html" selected>తెలుగు</option>
+                <option value="/file_manager/privacy_policy/mr.html">मराठी</option>
+                <option value="/file_manager/privacy_policy/ta.html">தமிழ்</option>
+                <option value="/file_manager/privacy_policy/es.html">Español</option>
+                <option value="/file_manager/privacy_policy/pt_br.html">Português (Brasil)</option>
+                <option value="/file_manager/privacy_policy/fr.html">Français</option>
+                <option value="/file_manager/privacy_policy/de.html">Deutsch</option>
+                <option value="/file_manager/privacy_policy/id.html">Bahasa Indonesia</option>
+                <option value="/file_manager/privacy_policy/it.html">Italiano</option>
+                <option value="/file_manager/privacy_policy/ja.html">日本語</option>
+                <option value="/file_manager/privacy_policy/ko.html">한국어</option>
+                <option value="/file_manager/privacy_policy/tr.html">Türkçe</option>
+                <option value="/file_manager/privacy_policy/vi.html">Tiếng Việt</option>
+                <option value="/file_manager/privacy_policy/zh.html">中文 (简体)</option>
+                <option value="/file_manager/privacy_policy/ha.html">Hausa</option>
+                <option value="/file_manager/privacy_policy/sw.html">Kiswahili</option>
+                <option value="/file_manager/privacy_policy/gu.html">ગુજરાતી</option>
+                <option value="/file_manager/privacy_policy/kn.html">ಕನ್ನಡ</option>
+                <option value="/file_manager/privacy_policy/od.html">ଓଡ଼ିଆ</option>
+                <option value="/file_manager/privacy_policy/fa.html">فارسی</option>
+              </select>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="legal-header"><h1 style="color: #1557b0;">గోప్యతా విధానం</h1><p>File Manager</p></div>
+      <div class="legal-body-container">
+        <div class="legal-card">
+          <h2>1. గోప్యత ప్రథమ ఆర్కిటెక్చర్</h2>
+          <p>ఈ గోప్యతా విధానం <strong>Mohan MRKS</strong> ("డెవలపర్") అభివృద్ధి చేసిన <strong>File Manager</strong> మొబైల్ అప్లికేషన్‌కు వర్తిస్తుంది. File Manager "గోప్యత మొదటిది" విధానంతో రూపొందించబడింది.</p>
+          <h2>2. డేటా హ్యాండ్లింగ్ మరియు అనుమతుల విధానం</h2>
+          <p>File Manager మీ పరికరంలో ఆఫ్‌లైన్ యుటిలిటీగా స్థానికంగా పనిచేస్తుంది. అనుమతుల వివరాలు:</p>
+          <ul>
+          <li><strong>MANAGE_EXTERNAL_STORAGE / READ_EXTERNAL_STORAGE:</strong> ఫైల్‌లను తెరవడానికి, చదవడానికి, సవరించడానికి మరియు సేవ్ చేయడానికి మీ పరికరంలో స్థానికంగా ఇవ్వబడింది. మీ వ్యక్తిగత ఫైల్‌లు బాహ్య సర్వర్‌లకు ఎప్పటికీ అప్‌లోడ్ చేయబడవు.</li>
+          <li><strong>CAMERA:</strong> ఫోటోలు తీయడానికి లేదా కోడ్‌లను స్కాన్ చేయడానికి స్థానికంగా ఇవ్వబడింది. కెమెరా ఫ్రేమ్‌లు మెమరీలో మాత్రమే ప్రాసెస్ చేయబడతాయి.</li>
+          <li><strong>POST_NOTIFICATIONS:</strong> ప్లేబ్యాక్ నియంత్రణలు లేదా బ్యాక్‌గ్రౌండ్ ఆపరేషన్ స్థితిని ప్రదర్శించడానికి ఇవ్వబడింది.</li>
+          </ul>
+          <h2>3. ఆఫ్‌లైన్ మరియు స్థానిక ప్రాసెసింగ్ హామీ</h2>
+          <p>File Manager యొక్క అన్ని ప్రధాన ప్రాసెసింగ్ మరియు కార్యకలాపాలు 100% స్థానికంగా మీ పరికరంలోనే జరుగుతాయి.</p>
+          <h2>4. మూడవ పక్ష ప్రకటనలు మరియు టెలిమెట్రీ డేటా</h2>
+          <p>ఈ అప్లికేషన్ ప్రకటనలను ప్రదర్శించడానికి <strong>Google AdMob</strong> (Google LLC అందించినది) ని అనుసంధానిస్తుంది. ప్రకటనల డెలివరీ కోసం Google AdMob పరికర గుర్తింపుదారులను ప్రాసెస్ చేయవచ్చు.</p>
+          <h2>5. పిల్లల గోప్యత (COPPA వర్తింపు)</h2>
+          <p>ఈ అప్లికేషన్ 13 సంవత్సరాల కంటే తక్కువ వయస్సు ఉన్న పిల్లల నుండి వ్యక్తిగత డేటాను సేకరించదు. Google AdMob పిల్లల భద్రతా నిబంధనలకు అనుగుణంగా కాన్ఫిగర్ చేయబడింది.</p>
+          <h2>6. విధాన నవీకరణలు మరియు సంప్రదింపు సమాచారం</h2>
+          <p>మేము ఈ విధానాన్ని క్రమానుగతంగా నవీకరించే హక్కును కలిగి ఉన్నాము. మీకు ఏవైనా ప్రశ్నలు ఉంటే, దయచేసి మమ్మల్ని సంప్రదించండి:</p>
+          <p>
+          <strong>డెవలపర్:</strong> Mohan MRKS<br/>
+          <strong>మద్దతు ఇమెయిల్:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+          <strong>వెబ్‌సైట్:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+          </p>
+          <hr class="legal-divider"/>
+          <div class="legal-meta-footer">
+            <p>This legal agreement is officially issued and governed by Mohan MRKS.</p>
+            <a class="btn btn-secondary btn-sm" href="/file_manager/terms_of_service/te.html">View సేవా నిబంధనలు →</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container footer-container">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/te/index.html">
+                <div class="logo-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <span>Mohan Apps</span>
+              </a>
+              <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+            </div>
+          </div>
+          <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,13 +1,115 @@
 <!DOCTYPE html>
-<html lang="sw">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sera ya Faragha - Photos Gallery</title>
-    <meta name="description" content="Sera ya Faragha ya Photos Gallery." />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
+    <title>Privacy Policy - Photos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <div class="legal-view-container" style="--primary: #8b5cf6; --primary-dark: #7c3aed;">
+      <header>
+        <div class="container nav-container">
+          <a class="logo" href="/sw/index.html">
+            <div class="logo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+            <span>Mohan Apps</span>
+          </a>
+          <nav class="nav-actions">
+            <a class="nav-back-link" href="/photos/index.html">← Rudi kwenye Photos</a>
+            <div class="lang-selector">
+              <select onchange="if (this.value) window.location.href = this.value;">
+                <option value="/photos/privacy_policy/en_ru.html">English (Russia)</option>
+                <option value="/photos/privacy_policy/en_us.html">English (US)</option>
+                <option value="/photos/privacy_policy/en_in.html">English (India)</option>
+                <option value="/photos/privacy_policy/en_gb.html">English (UK)</option>
+                <option value="/photos/privacy_policy/en_au.html">English (Australia)</option>
+                <option value="/photos/privacy_policy/ru.html">Русский</option>
+                <option value="/photos/privacy_policy/ar.html">العربية</option>
+                <option value="/photos/privacy_policy/ur.html">اردو</option>
+                <option value="/photos/privacy_policy/hi.html">हिंदी</option>
+                <option value="/photos/privacy_policy/bn.html">বাংলা</option>
+                <option value="/photos/privacy_policy/te.html">తెలుగు</option>
+                <option value="/photos/privacy_policy/mr.html">मराठी</option>
+                <option value="/photos/privacy_policy/ta.html">தமிழ்</option>
+                <option value="/photos/privacy_policy/es.html">Español</option>
+                <option value="/photos/privacy_policy/pt_br.html">Português (Brasil)</option>
+                <option value="/photos/privacy_policy/fr.html">Français</option>
+                <option value="/photos/privacy_policy/de.html">Deutsch</option>
+                <option value="/photos/privacy_policy/id.html">Bahasa Indonesia</option>
+                <option value="/photos/privacy_policy/it.html">Italiano</option>
+                <option value="/photos/privacy_policy/ja.html">日本語</option>
+                <option value="/photos/privacy_policy/ko.html">한국어</option>
+                <option value="/photos/privacy_policy/tr.html">Türkçe</option>
+                <option value="/photos/privacy_policy/vi.html">Tiếng Việt</option>
+                <option value="/photos/privacy_policy/zh.html">中文 (简体)</option>
+                <option value="/photos/privacy_policy/ha.html">Hausa</option>
+                <option value="/photos/privacy_policy/sw.html" selected>Kiswahili</option>
+                <option value="/photos/privacy_policy/gu.html">ગુજરાતી</option>
+                <option value="/photos/privacy_policy/kn.html">ಕನ್ನಡ</option>
+                <option value="/photos/privacy_policy/od.html">ଓଡ଼ିଆ</option>
+                <option value="/photos/privacy_policy/fa.html">فارسی</option>
+              </select>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="legal-header"><h1 style="color: #7c3aed;">Sera ya Faragha</h1><p>Photos</p></div>
+      <div class="legal-body-container">
+        <div class="legal-card">
+          <h2>1. Muundo wa Kuweka Faragha Mbele</h2>
+          <p>Sera hii ya Faragha inatumika kwa programu ya simu ya <strong>Photos App</strong> ("Programu", "Huduma"), iliyotengenezwa na <strong>Mohan MRKS</strong> ("Msanidi"). Photos App imeundwa kwa mtazamo wa "Faragha Kwanza".</p>
+          <h2>2. Sera ya Ushughulikiaji wa Data na Ruhusa</h2>
+          <p>Photos App inafanya kazi ndani ya kifaa chako kama zana ya nje ya mtandao. Maelezo ya ruhusa:</p>
+          <ul>
+          <li><strong>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO / READ_EXTERNAL_STORAGE:</strong> Imetolewa ndani ya kifaa chako ili kufungua, kusoma, kuhariri, na kuhifadhi faili. Faili zako binafsi hazipakiwi kwenye seva yoyote ya nje.</li>
+          </ul>
+          <h2>3. Dhamana ya Uchakataji wa Vyombo vya Habari Ndani</h2>
+          <p>Uchakataji na shughuli zote za Photos App hufanywa 100% ndani ya maunzi ya kifaa chako.</p>
+          <h2>4. Matangazo ya Wengine na Data ya Telemetri</h2>
+          <p>Programu hii inajumuisha <strong>Google AdMob</strong> (inayotolewa na Google LLC) kuonyesha matangazo. Google AdMob inaweza kuchakata vitambulisho vya kifaa kwa ajili ya kutoa matangazo na kuzuia ulaghai.</p>
+          <h2>5. Faragha ya Watoto (Kuzingatia COPPA)</h2>
+          <p>Programu hii haikusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya umri wa miaka 13. Google AdMob imesanidiwa kufuata miongozo ya COPPA.</p>
+          <h2>6. Masasisho ya Sera na Maelezo ya Mawasiliano</h2>
+          <p>Tuna haki ya kusasisha sera hii mara kwa mara. Ikiwa una maswali, tafadhali wasiliana nasi kwa:</p>
+          <p>
+          <strong>Msanidi Programu:</strong> Mohan MRKS<br/>
+          <strong>Barua pepe ya Usaidizi:</strong> <a href="mailto:mohanmrks@yandex.com">mohanmrks@yandex.com</a><br/>
+          <strong>Tovuti:</strong> <a href="https://mohan2123.github.io" rel="noopener noreferrer" target="_blank">mohan2123.github.io</a>
+          </p>
+          <hr class="legal-divider"/>
+          <div class="legal-meta-footer">
+            <p>This legal agreement is officially issued and governed by Mohan MRKS.</p>
+            <a class="btn btn-secondary btn-sm" href="/photos/terms_of_service/sw.html">View Masharti ya Huduma →</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container footer-container">
+          <div class="footer-main">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/sw/index.html">
+                <div class="logo-badge">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                  </svg>
+                </div>
+                <span>Mohan Apps</span>
+              </a>
+              <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+            </div>
+          </div>
+          <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,13 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <link href="/styles.css" rel="stylesheet"/>
+    <link href="/icons/file_manager.svg" rel="icon" type="image/svg+xml"/>
+    <!--$-->
     <title>Messages | Mohan Apps</title>
-    <meta name="description" content="A clean, private SMS and MMS app for sending, scheduling, and organizing messages with dual-SIM support, pinned chats, starred messages, spam blocking, and offline database storage." />
-    <script type="module" crossorigin src="/assets-react/route-loader.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Explore Mohan's ecosystem of multiple OS supported applications."/>
+    <!--/-->
   </head>
   <body>
-    <div id="root"></div>
+    <header>
+      <div class="container nav-container">
+        <a class="logo" href="/">
+          <div class="logo-badge">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+          </div>
+          <span>Mohan Apps</span>
+        </a>
+        <nav class="nav-actions">
+          <a class="nav-back-link" href="/">← All Applications</a>
+          <div class="lang-selector">
+            <select onchange="if (this.value) window.location.href = this.value;">
+              <option value="/en_ru/messages/index.html">English (Russia)</option>
+              <option value="/messages/index.html">English (US)</option>
+              <option value="/en_in/messages/index.html">English (India)</option>
+              <option value="/en_gb/messages/index.html">English (UK)</option>
+              <option value="/en_au/messages/index.html">English (Australia)</option>
+              <option value="/ru/messages/index.html">Русский</option>
+              <option value="/ar/messages/index.html">العربية</option>
+              <option value="/ur/messages/index.html">اردو</option>
+              <option value="/hi/messages/index.html">हिंदी</option>
+              <option value="/bn/messages/index.html">বাংলা</option>
+              <option value="/te/messages/index.html">తెలుగు</option>
+              <option value="/mr/messages/index.html">मराठी</option>
+              <option value="/ta/messages/index.html">தமிழ்</option>
+              <option value="/es/messages/index.html">Español</option>
+              <option value="/pt_br/messages/index.html">Português (Brasil)</option>
+              <option value="/fr/messages/index.html">Français</option>
+              <option value="/de/messages/index.html">Deutsch</option>
+              <option value="/id/messages/index.html">Bahasa Indonesia</option>
+              <option value="/it/messages/index.html">Italiano</option>
+              <option value="/ja/messages/index.html">日本語</option>
+              <option value="/ko/messages/index.html">한국어</option>
+              <option value="/tr/messages/index.html">Türkçe</option>
+              <option value="/vi/messages/index.html">Tiếng Việt</option>
+              <option value="/zh/messages/index.html">中文 (简体)</option>
+              <option value="/ha/messages/index.html">Hausa</option>
+              <option value="/sw/messages/index.html">Kiswahili</option>
+              <option value="/gu/messages/index.html">ગુજરાતી</option>
+              <option value="/kn/messages/index.html">ಕನ್ನಡ</option>
+              <option value="/od/messages/index.html">ଓଡ଼ିଆ</option>
+              <option value="/fa/messages/index.html">فارسی</option>
+            </select>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="app-hero">
+        <div class="container">
+          <nav class="breadcrumb">
+            <a href="/">Home</a>
+            <span>/</span>
+            <span>Utilities &amp; Tools</span>
+            <span>/</span>
+            <span style="color: var(--text-main);">Messages</span>
+          </nav>
+          <div class="hero-layout">
+            <div class="app-detail-icon-wrapper"><img class="app-detail-icon-img" alt="Messages Icon" src="/assets/icons/messages.png"/></div>
+            <div class="app-detail-header">
+              <h1>Messages</h1>
+              <div class="app-tagline">Fast, Clean &amp; Spam-Free SMS &amp; MMS Messaging App</div>
+              <div class="app-spec-badges">
+                <span class="spec-badge">Category: Utilities &amp; Tools</span>
+                <span class="spec-badge">Package ID: com.mohan.messages</span>
+              </div>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.mohan.messages" target="_blank">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                  </svg>
+                  <span>Available on Google Play</span>
+                </a>
+                <a class="btn btn-secondary" href="https://www.rustore.ru/catalog/app/com.mohan.messages" target="_blank">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                  </svg>
+                  <span>Available on RuStore</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container app-content-section">
+        <div class="content-grid">
+          <div class="main-details">
+            <div class="card">
+              <h2>Key Features &amp; Capabilities</h2>
+              <div class="features-vertical-list">
+                <div class="feature-box">
+                  <div class="feature-box-title">Smart Categories</div>
+                  <div class="feature-box-desc">Automatically separates Personal chats, OTPs, Transactions, and Offers.</div>
+                </div>
+                <div class="feature-box">
+                  <div class="feature-box-title">Spam Filter</div>
+                  <div class="feature-box-desc">Block unwanted promotional SMS and fraud numbers with offline keyword rules.</div>
+                </div>
+                <div class="feature-box">
+                  <div class="feature-box-title">Scheduled Messages</div>
+                  <div class="feature-box-desc">Write messages ahead of time and schedule them to send automatically.</div>
+                </div>
+                <div class="feature-box">
+                  <div class="feature-box-title">Dual SIM Support</div>
+                  <div class="feature-box-desc">Seamless switching between SIM cards with distinct color themes.</div>
+                </div>
+                <div class="feature-box">
+                  <div class="feature-box-title">Backup &amp; Restore</div>
+                  <div class="feature-box-desc">Export messages as XML/JSON for safe device migration.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <a class="footer-logo" href="/">
+              <div class="logo-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+              </div>
+              <span>Mohan Apps</span>
+            </a>
+            <p class="footer-desc">Engineered with sovereign, privacy-respecting technology.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Legal &amp; Compliance</h4>
+            <ul class="footer-links">
+              <li><a href="/messages/privacy_policy/en.html">Privacy Policy</a></li>
+              <li><a href="/messages/terms_of_service/en.html">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 Mohan Apps. All rights reserved.</p></div>
+      </div>
+    </footer>
   </body>
 </html>
