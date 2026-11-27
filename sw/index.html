@@ -25,8 +25,8 @@
         <nav class="nav-actions">
           <div class="lang-selector">
             <select onchange="if (this.value) window.location.href = this.value;">
-              <option value="/en_ru/index.html">English (Russia)</option>
-              <option value="/">English (US)</option>
+              <option value="/">English (Russia)</option>
+              <option value="/en_us/index.html">English (US)</option>
               <option value="/en_in/index.html">English (India)</option>
               <option value="/en_gb/index.html">English (UK)</option>
               <option value="/en_au/index.html">English (Australia)</option>
@@ -75,297 +75,483 @@
           </div>
         </div>
       </section>
-      <section class="container catalogue-section">
+      <section id="catalogue" class="container catalogue-section">
         <div class="catalogue-header"><div><h2 class="section-heading">Orodha ya Programu</h2></div></div>
         <div class="apps-grid">
-          <div class="app-card" style="--card-primary: #1a73e8;">
+          <article class="app-card" data-category="utility">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="File Manager icon" src="/assets/icons/file_manager.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Utilities &amp; Tools</span>
-                <h3 class="app-card-name">File Manager</h3>
+              <div class="app-icon-wrapper">
+                <img class="app-icon-img" loading="lazy" alt="File Manager Icon" src="/assets/icons/file_manager.png"/>
               </div>
+              <div><span class="category-badge">Utilities &amp; Tools</span><h3 class="app-title">File Manager</h3></div>
             </div>
-            <p class="app-card-desc">Fast, Clean &amp; Powerful File Explorer with Built-in Media Tools</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Dual-Pane &amp; Tabbed Navigation</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Secure Vault</span></div>
+            <p class="app-desc">
+              A full-featured file manager with multi-tab browsing, fast search, archive compression/extraction (ZIP, 7z, RAR), encrypted safe vault, and built-in media players.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/file_manager/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.filemanager" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.filemanager" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer">
-              <a class="app-card-btn" href="/sw/file_manager/index.html"><span>File Manager</span><span> →</span></a>
-            </div>
-          </div>
-          <div class="app-card" style="--card-primary: #0284c7;">
+          </article>
+          <article class="app-card" data-category="utility">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="QR Scanner icon" src="/assets/icons/qr_scanner.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Utilities &amp; Tools</span>
-                <h3 class="app-card-name">QR Scanner</h3>
+              <div class="app-icon-wrapper"><img class="app-icon-img" loading="lazy" alt="QR Scanner Icon" src="/assets/icons/qr_scanner.png"/></div>
+              <div><span class="category-badge">Utilities &amp; Tools</span><h3 class="app-title">QR Scanner</h3></div>
+            </div>
+            <p class="app-desc">
+              Lightning-fast camera scanner and code generator supporting all 1D/2D formats (QR, Barcode, Data Matrix, Aztec, PDF417).
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/qr_scanner/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.qrscanner" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.qrscanner" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
+            </div>
+          </article>
+          <article class="app-card" data-category="media">
+            <div class="app-card-header">
+              <div class="app-icon-wrapper">
+                <img class="app-icon-img" loading="lazy" alt="Music Player Icon" src="/assets/icons/music_player.png"/>
               </div>
+              <div><span class="category-badge">Media &amp; Entertainment</span><h3 class="app-title">Music Player</h3></div>
             </div>
-            <p class="app-card-desc">Instant QR &amp; Barcode Scanner with Batch Mode and Generator</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Zero-Lag Scanning</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Batch Scanning Mode</span></div>
+            <p class="app-desc">
+              Audiophile-grade music player with offline playback, lossless audio support (FLAC, ALAC, WAV, DSD), dynamic themes, and synced lyrics.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/music_player/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.musicplayer" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.musicplayer" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer"><a class="app-card-btn" href="/sw/qr_scanner/index.html"><span>QR Scanner</span><span> →</span></a></div>
-          </div>
-          <div class="app-card" style="--card-primary: #10b981;">
+          </article>
+          <article class="app-card" data-category="media">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Music Player icon" src="/assets/icons/music_player.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Media &amp; Entertainment</span>
-                <h3 class="app-card-name">Music Player</h3>
+              <div class="app-icon-wrapper"><img class="app-icon-img" loading="lazy" alt="Photos Icon" src="/assets/icons/photos.png"/></div>
+              <div><span class="category-badge">Media &amp; Entertainment</span><h3 class="app-title">Photos</h3></div>
+            </div>
+            <p class="app-desc">
+              Blazing fast media gallery with facial clustering, smart albums, encrypted hidden vault, and complete offline privacy.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/photos/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.photos" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.photos" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
+            </div>
+          </article>
+          <article class="app-card" data-category="productivity">
+            <div class="app-card-header">
+              <div class="app-icon-wrapper">
+                <img class="app-icon-img" loading="lazy" alt="eBook Reader Icon" src="/assets/icons/ebook_reader.png"/>
               </div>
+              <div><span class="category-badge">Productivity &amp; Office</span><h3 class="app-title">eBook Reader</h3></div>
             </div>
-            <p class="app-card-desc">Hi-Res Audio Player with 10-Band Equalizer &amp; Synchronized Lyrics</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Lossless Audio Engine</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>10-Band EQ &amp; Bass Boost</span></div>
+            <p class="app-desc">
+              Distraction-free reading experience with paper-like typography, customizable margins, bilingual dictionaries, and text-to-speech audio narration.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/ebook_reader/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.ebookreader" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.ebookreader" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer">
-              <a class="app-card-btn" href="/sw/music_player/index.html"><span>Music Player</span><span> →</span></a>
-            </div>
-          </div>
-          <div class="app-card" style="--card-primary: #8b5cf6;">
+          </article>
+          <article class="app-card" data-category="productivity">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Photos icon" src="/assets/icons/photos.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Media &amp; Entertainment</span>
-                <h3 class="app-card-name">Photos</h3>
+              <div class="app-icon-wrapper"><img class="app-icon-img" loading="lazy" alt="PDF Reader Icon" src="/assets/icons/pdf_reader.png"/></div>
+              <div><span class="category-badge">Productivity &amp; Office</span><h3 class="app-title">PDF Reader</h3></div>
+            </div>
+            <p class="app-desc">
+              Smooth PDF rendering with instant search, interactive form filling, digital signatures, bookmarks, and night mode.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/pdf_reader/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.pdfreader" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.pdfreader" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
+            </div>
+          </article>
+          <article class="app-card" data-category="productivity">
+            <div class="app-card-header">
+              <div class="app-icon-wrapper"><img class="app-icon-img" loading="lazy" alt="Notes Icon" src="/assets/icons/notes.png"/></div>
+              <div><span class="category-badge">Productivity &amp; Office</span><h3 class="app-title">Notes</h3></div>
+            </div>
+            <p class="app-desc">
+              Clean, fast markdown notes and rich-text checklists with nested folders, biometric lock, tags, and attachments.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/notes/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.notes" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.notes" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
+            </div>
+          </article>
+          <article class="app-card" data-category="productivity">
+            <div class="app-card-header">
+              <div class="app-icon-wrapper"><img class="app-icon-img" loading="lazy" alt="Sheets Icon" src="/assets/icons/sheets.png"/></div>
+              <div><span class="category-badge">Productivity &amp; Office</span><h3 class="app-title">Sheets</h3></div>
+            </div>
+            <p class="app-desc">
+              Full-featured spreadsheet app with mathematical formulas, charts, sorting, filtering, and cross-platform XLSX compatibility.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/sheets/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.sheets" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.sheets" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
+            </div>
+          </article>
+          <article class="app-card" data-category="media">
+            <div class="app-card-header">
+              <div class="app-icon-wrapper">
+                <img class="app-icon-img" loading="lazy" alt="Video Player Icon" src="/assets/icons/video_player.png"/>
               </div>
+              <div><span class="category-badge">Media &amp; Entertainment</span><h3 class="app-title">Video Player</h3></div>
             </div>
-            <p class="app-card-desc">Intelligent Offline Gallery with Photo Editor &amp; Story Timelines</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Instant Scrolling</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Pro Photo Editor</span></div>
+            <p class="app-desc">
+              Universal video player supporting MKV, MP4, AVI, MOV, WebM with gesture controls, background audio playback, and floating picture-in-picture.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/video_player/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.videoplayer" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.videoplayer" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer"><a class="app-card-btn" href="/sw/photos/index.html"><span>Photos</span><span> →</span></a></div>
-          </div>
-          <div class="app-card" style="--card-primary: #0284c7;">
+          </article>
+          <article class="app-card" data-category="utility">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="eBook Reader icon" src="/assets/icons/ebook_reader.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Productivity &amp; Office</span>
-                <h3 class="app-card-name">eBook Reader</h3>
+              <div class="app-icon-wrapper">
+                <img class="app-icon-img" loading="lazy" alt="Voice Recorder Icon" src="/assets/icons/voice_recorder.png"/>
               </div>
+              <div><span class="category-badge">Utilities &amp; Tools</span><h3 class="app-title">Voice Recorder</h3></div>
             </div>
-            <p class="app-card-desc">Comfortable Reader for EPUB, MOBI, FB2, and TXT with TTS</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Universal Format Support</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Text-to-Speech (TTS)</span></div>
+            <p class="app-desc">
+              High-fidelity voice recorder with noise suppression, gain control, real-time waveform visualization, and audio trimming tools.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/voice_recorder/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.voicerecorder" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.voicerecorder" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer">
-              <a class="app-card-btn" href="/sw/ebook_reader/index.html"><span>eBook Reader</span><span> →</span></a>
-            </div>
-          </div>
-          <div class="app-card" style="--card-primary: #dc2626;">
+          </article>
+          <article class="app-card" data-category="utility">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="PDF Reader icon" src="/assets/icons/pdf_reader.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Productivity &amp; Office</span>
-                <h3 class="app-card-name">PDF Reader</h3>
+              <div class="app-icon-wrapper">
+                <img class="app-icon-img" loading="lazy" alt="Torch Light Icon" src="/assets/icons/torch_light.png"/>
               </div>
+              <div><span class="category-badge">Utilities &amp; Tools</span><h3 class="app-title">Torch Light</h3></div>
             </div>
-            <p class="app-card-desc">High-Performance PDF Viewer, Form Filler &amp; Annotation Suite</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Ultra-Fast Rendering</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Fill &amp; Sign Forms</span></div>
+            <p class="app-desc">
+              Instant flashlight with zero delay, multi-speed strobe frequency, Morse code SOS beacon, and warm screen lighting.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/torch_light/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.torchlight" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.torchlight" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer"><a class="app-card-btn" href="/sw/pdf_reader/index.html"><span>PDF Reader</span><span> →</span></a></div>
-          </div>
-          <div class="app-card" style="--card-primary: #10b981;">
+          </article>
+          <article class="app-card" data-category="utility">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Notes icon" src="/assets/icons/notes.png"/></div>
-              <div class="app-card-title-group"><span class="app-card-category">Productivity &amp; Office</span><h3 class="app-card-name">Notes</h3></div>
+              <div class="app-icon-wrapper"><img class="app-icon-img" loading="lazy" alt="Messages Icon" src="/assets/icons/messages.png"/></div>
+              <div><span class="category-badge">Utilities &amp; Tools</span><h3 class="app-title">Messages</h3></div>
             </div>
-            <p class="app-card-desc">Minimalist Markdown Notes with Tags, Checklists &amp; Offline Sync</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Rich Markdown Editor</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Biometric Note Lock</span></div>
+            <p class="app-desc">
+              Modern SMS/MMS client with smart OTP categorization, spam blocking, scheduled texts, and backup &amp; restore.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/messages/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.messages" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.messages" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer"><a class="app-card-btn" href="/sw/notes/index.html"><span>Notes</span><span> →</span></a></div>
-          </div>
-          <div class="app-card" style="--card-primary: #059669;">
+          </article>
+          <article class="app-card" data-category="productivity">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Sheets icon" src="/assets/icons/sheets.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Productivity &amp; Office</span>
-                <h3 class="app-card-name">Sheets</h3>
+              <div class="app-icon-wrapper"><img class="app-icon-img" loading="lazy" alt="Docs Icon" src="/assets/icons/docs.png"/></div>
+              <div><span class="category-badge">Productivity &amp; Office</span><h3 class="app-title">Docs</h3></div>
+            </div>
+            <p class="app-desc">
+              Streamlined document editor for reading and writing DOCX, DOC, and RTF documents with paragraph styling, tables, and PDF export.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/docs/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.docs" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.docs" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
+            </div>
+          </article>
+          <article class="app-card" data-category="productivity">
+            <div class="app-card-header">
+              <div class="app-icon-wrapper"><img class="app-icon-img" loading="lazy" alt="DocuPulse Icon" src="/assets/icons/docupulse.png"/></div>
+              <div><span class="category-badge">Productivity &amp; Office</span><h3 class="app-title">DocuPulse</h3></div>
+            </div>
+            <p class="app-desc">
+              Pocket scanner turning receipts, contracts, IDs, and whiteboards into crisp PDFs with edge detection, shadow removal, and offline OCR.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/docupulse/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.docupulse" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.docupulse" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
+            </div>
+          </article>
+          <article class="app-card" data-category="game">
+            <div class="app-card-header">
+              <div class="app-icon-wrapper"><img class="app-icon-img" loading="lazy" alt="Ludo Icon" src="/assets/icons/ludo.png"/></div>
+              <div><span class="category-badge">Games &amp; Entertainment</span><h3 class="app-title">Ludo</h3></div>
+            </div>
+            <p class="app-desc">
+              The beloved traditional board game reimagined with smooth physics, offline pass &amp; play, challenging AI opponents, and custom rules.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/ludo/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.ludo" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.ludo" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
+            </div>
+          </article>
+          <article class="app-card" data-category="game">
+            <div class="app-card-header">
+              <div class="app-icon-wrapper">
+                <img class="app-icon-img" loading="lazy" alt="Spin Strike Icon" src="/assets/icons/spin_strike.png"/>
               </div>
+              <div><span class="category-badge">Games &amp; Entertainment</span><h3 class="app-title">Spin Strike</h3></div>
             </div>
-            <p class="app-card-desc">Powerful Spreadsheet Editor for XLSX, XLS, and CSV Files</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Formula Engine</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Interactive Charts</span></div>
+            <p class="app-desc">
+              Dynamic spinning combat arcade game where strategy and precision collisions collide in neon battle arenas.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/spin_strike/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.spinstrike" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.spinstrike" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer"><a class="app-card-btn" href="/sw/sheets/index.html"><span>Sheets</span><span> →</span></a></div>
-          </div>
-          <div class="app-card" style="--card-primary: #ea580c;">
+          </article>
+          <article class="app-card" data-category="game">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Video Player icon" src="/assets/icons/video_player.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Media &amp; Entertainment</span>
-                <h3 class="app-card-name">Video Player</h3>
+              <div class="app-icon-wrapper">
+                <img class="app-icon-img" loading="lazy" alt="Block Blast Icon" src="/assets/icons/block_blast.png"/>
               </div>
+              <div><span class="category-badge">Games &amp; Entertainment</span><h3 class="app-title">Block Blast</h3></div>
             </div>
-            <p class="app-card-desc">Hardware Accelerated 4K/8K Video Player with Subtitles &amp; PIP</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Hardware Decoding</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Picture-in-Picture (PIP)</span></div>
+            <p class="app-desc">
+              Addictive puzzle game blending spatial strategy and block placement to clear lines, trigger combos, and beat high scores.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/block_blast/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.blockblast" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.blockblast" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer">
-              <a class="app-card-btn" href="/sw/video_player/index.html"><span>Video Player</span><span> →</span></a>
-            </div>
-          </div>
-          <div class="app-card" style="--card-primary: #e11d48;">
+          </article>
+          <article class="app-card" data-category="game">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Voice Recorder icon" src="/assets/icons/voice_recorder.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Utilities &amp; Tools</span>
-                <h3 class="app-card-name">Voice Recorder</h3>
+              <div class="app-icon-wrapper">
+                <img class="app-icon-img" loading="lazy" alt="Fruit Cutter Icon" src="/assets/icons/fruit_cutter.png"/>
               </div>
+              <div><span class="category-badge">Games &amp; Entertainment</span><h3 class="app-title">Fruit Cutter</h3></div>
             </div>
-            <p class="app-card-desc">Studio Quality Audio Recorder with Waveform Visualizer &amp; Trimmer</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Lossless Formats</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Noise Reduction &amp; AGC</span></div>
+            <p class="app-desc">
+              Swipe and slice flying fruit in spectacular neon splashes while dodging bombs in classic, arcade, and zen game modes.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/fruit_cutter/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.fruitcutter" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.fruitcutter" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer">
-              <a class="app-card-btn" href="/sw/voice_recorder/index.html"><span>Voice Recorder</span><span> →</span></a>
-            </div>
-          </div>
-          <div class="app-card" style="--card-primary: #eab308;">
+          </article>
+          <article class="app-card" data-category="utility">
             <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Torch Light icon" src="/assets/icons/torch_light.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Utilities &amp; Tools</span>
-                <h3 class="app-card-name">Torch Light</h3>
-              </div>
+              <div class="app-icon-wrapper"><img class="app-icon-img" loading="lazy" alt="Launcher Icon" src="/assets/icons/launcher.png"/></div>
+              <div><span class="category-badge">Utilities &amp; Tools</span><h3 class="app-title">Launcher</h3></div>
             </div>
-            <p class="app-card-desc">Ultra Bright Flashlight with Strobe, SOS, and Screen Light</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Instant On</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Adjustable Strobe</span></div>
+            <p class="app-desc">
+              Minimalist, battery-friendly home launcher with smart app drawer, icon pack support, gesture navigation, and hidden app vault.
+            </p>
+            <div class="app-card-actions">
+              <a class="btn btn-secondary btn-sm" style="flex: 1 1 100%;" href="/sw/launcher/index.html"><span>Angalia Maelezo &amp; Kisheria</span></a>
+              <a class="btn btn-primary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://play.google.com/store/apps/details?id=com.mohan.launcher" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M3.609 1.814L13.793 12 3.61 22.186a2.27 2.27 0 0 1-.61-1.614V3.428c0-.624.23-1.2.609-1.614zm11.603 11.605l2.257 2.257-11.83 6.76 9.573-9.017zm2.257-2.838l-2.257 2.257-9.573-9.018 11.83 6.761zm1.488 1.488l2.94 1.68c1.07.611 1.07 1.61 0 2.22l-2.94 1.68-2.074-2.79 2.074-2.79z"/>
+                </svg>
+                <span>Google Play</span>
+              </a>
+              <a class="btn btn-secondary btn-sm" rel="noopener noreferrer" style="flex: 1 1 calc(50% - 0.35rem);" href="https://www.rustore.ru/catalog/app/com.mohan.launcher" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#005BFF"/><path d="M6.5 7h4.8c2.2 0 3.7 1.2 3.7 3.1 0 1.4-.9 2.4-2.1 2.8l2.6 4.1h-2.5l-2.3-3.8h-2.2v3.8h-2V7zm2 4.4h2.7c1 0 1.7-.5 1.7-1.3s-.7-1.3-1.7-1.3H8.5v2.6z" fill="#fff"/>
+                </svg>
+                <span>RuStore</span>
+              </a>
             </div>
-            <div class="app-card-footer">
-              <a class="app-card-btn" href="/sw/torch_light/index.html"><span>Torch Light</span><span> →</span></a>
-            </div>
-          </div>
-          <div class="app-card" style="--card-primary: #0284c7;">
-            <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Messages icon" src="/assets/icons/messages.png"/></div>
-              <div class="app-card-title-group"><span class="app-card-category">Utilities &amp; Tools</span><h3 class="app-card-name">Messages</h3></div>
-            </div>
-            <p class="app-card-desc">Fast, Clean &amp; Spam-Free SMS &amp; MMS Messaging App</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Smart Categories</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Spam Filter</span></div>
-            </div>
-            <div class="app-card-footer"><a class="app-card-btn" href="/sw/messages/index.html"><span>Messages</span><span> →</span></a></div>
-          </div>
-          <div class="app-card" style="--card-primary: #2563eb;">
-            <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Docs icon" src="/assets/icons/docs.png"/></div>
-              <div class="app-card-title-group"><span class="app-card-category">Productivity &amp; Office</span><h3 class="app-card-name">Docs</h3></div>
-            </div>
-            <p class="app-card-desc">Fast Word Processor for DOCX, DOC, ODT, and Rich Text</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>DOCX Fidelity</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Rich Typography</span></div>
-            </div>
-            <div class="app-card-footer"><a class="app-card-btn" href="/sw/docs/index.html"><span>Docs</span><span> →</span></a></div>
-          </div>
-          <div class="app-card" style="--card-primary: #7c3aed;">
-            <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="DocuPulse icon" src="/assets/icons/docupulse.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Productivity &amp; Office</span>
-                <h3 class="app-card-name">DocuPulse</h3>
-              </div>
-            </div>
-            <p class="app-card-desc">Smart Document Scanner, OCR Text Extractor &amp; PDF Organizer</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Auto Edge Detection</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Magic Filters</span></div>
-            </div>
-            <div class="app-card-footer"><a class="app-card-btn" href="/sw/docupulse/index.html"><span>DocuPulse</span><span> →</span></a></div>
-          </div>
-          <div class="app-card" style="--card-primary: #ea580c;">
-            <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Ludo icon" src="/assets/icons/ludo.png"/></div>
-              <div class="app-card-title-group"><span class="app-card-category">Games &amp; Entertainment</span><h3 class="app-card-name">Ludo</h3></div>
-            </div>
-            <p class="app-card-desc">Classic Multiplayer Board Game with Smart AI and Pass &amp; Play</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Pass &amp; Play Multiplayer</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Smart AI Opponents</span></div>
-            </div>
-            <div class="app-card-footer"><a class="app-card-btn" href="/sw/ludo/index.html"><span>Ludo</span><span> →</span></a></div>
-          </div>
-          <div class="app-card" style="--card-primary: #06b6d4;">
-            <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Spin Strike icon" src="/assets/icons/spin_strike.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Games &amp; Entertainment</span>
-                <h3 class="app-card-name">Spin Strike</h3>
-              </div>
-            </div>
-            <p class="app-card-desc">Fast-Paced Spinning Arcade Action with Physics-Based Combat</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Physics Combat</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Unique Arenas</span></div>
-            </div>
-            <div class="app-card-footer">
-              <a class="app-card-btn" href="/sw/spin_strike/index.html"><span>Spin Strike</span><span> →</span></a>
-            </div>
-          </div>
-          <div class="app-card" style="--card-primary: #3b82f6;">
-            <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Block Blast icon" src="/assets/icons/block_blast.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Games &amp; Entertainment</span>
-                <h3 class="app-card-name">Block Blast</h3>
-              </div>
-            </div>
-            <p class="app-card-desc">Satisfying Block Puzzle &amp; Combo Strategy Game</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Combo Mechanics</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>No Time Limit</span></div>
-            </div>
-            <div class="app-card-footer">
-              <a class="app-card-btn" href="/sw/block_blast/index.html"><span>Block Blast</span><span> →</span></a>
-            </div>
-          </div>
-          <div class="app-card" style="--card-primary: #84cc16;">
-            <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Fruit Cutter icon" src="/assets/icons/fruit_cutter.png"/></div>
-              <div class="app-card-title-group">
-                <span class="app-card-category">Games &amp; Entertainment</span>
-                <h3 class="app-card-name">Fruit Cutter</h3>
-              </div>
-            </div>
-            <p class="app-card-desc">Juicy Arcade Slicing Action with Blade Trails &amp; Combos</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Responsive Slicing</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Multiple Game Modes</span></div>
-            </div>
-            <div class="app-card-footer">
-              <a class="app-card-btn" href="/sw/fruit_cutter/index.html"><span>Fruit Cutter</span><span> →</span></a>
-            </div>
-          </div>
-          <div class="app-card" style="--card-primary: #6366f1;">
-            <div class="app-card-header">
-              <div class="app-card-icon"><img class="app-card-icon-img" alt="Launcher icon" src="/assets/icons/launcher.png"/></div>
-              <div class="app-card-title-group"><span class="app-card-category">Utilities &amp; Tools</span><h3 class="app-card-name">Launcher</h3></div>
-            </div>
-            <p class="app-card-desc">Ultra-Fast, Clean &amp; Private Android Home Screen Replacement</p>
-            <div class="app-card-features">
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Zero Bloat</span></div>
-              <div class="app-card-feature-item"><span class="app-card-feature-bullet">•</span><span>Icon Pack Support</span></div>
-            </div>
-            <div class="app-card-footer"><a class="app-card-btn" href="/sw/launcher/index.html"><span>Launcher</span><span> →</span></a></div>
-          </div>
+          </article>
         </div>
       </section>
     </main>
